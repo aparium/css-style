@@ -373,7 +373,7 @@ a:hover {
 .secondary,
 .small {
   color: #e8e828;
-  font: 14px/16px Khand,sans-serif;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   display: inline-block
 }
 .button,
@@ -401,7 +401,7 @@ button {
   justify-content: center;
   letter-spacing: .1em!important;
   line-height: 100%;
-  padding: 1.1rem 1.75rem 1rem;
+  padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -413,7 +413,7 @@ button {
   border-radius: 0!important;
   border: 5px solid #000!important;
   color: #fff;
-  text-decoration: none
+  text-decoration: none padding: 1rem 1.75rem
 }
 .button:hover {
   -webkit-backface-visibility: visible;
@@ -425,7 +425,7 @@ button {
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
-  text-decoration: none
+  text-decoration: none padding: 1rem 1.75rem
 }
 .button.outline:hover {
   -webkit-backface-visibility: visible;
