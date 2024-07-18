@@ -133,6 +133,11 @@ p {
 .center {
   padding: 2rem
 }
+.middle {
+  margin: auto;
+  width: 0%;
+  padding: 10px;
+}
 .inline {
   flex-wrap: wrap;
   align-content: center;
