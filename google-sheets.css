@@ -138,6 +138,11 @@ p {
 .inline {
   display: inline-block
 }
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
 .inline + .inline {
   margin-left: 12px
 }
@@ -300,7 +305,7 @@ h6 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
 }
 h8 {
   color: #000;
