@@ -141,9 +141,10 @@ p {
   padding: 2rem
 }
 .middle {
-  margin: auto;
-  width: 0%;
-  padding: 10px
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .inline {
   display: flex;
