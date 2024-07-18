@@ -146,9 +146,10 @@ p {
   padding: 10px
 }
 .inline {
-  flex-wrap: wrap;
+  display: flex;
+  /* flex-wrap: nowrap; */
   align-content: center;
-  justify-content: center
+  justify-content: center;
 }
 .top,
 .top-left {
