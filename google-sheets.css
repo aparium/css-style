@@ -376,8 +376,7 @@ a:hover {
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   display: inline-block
 }
-.button,
-button {
+.button {
   -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
@@ -408,7 +407,7 @@ button {
   transition: all .2s;
   transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 }
-.button.outline {
+.button .outline {
   background-color: #000;
   border-radius: 0!important;
   border: 5px solid #000!important;
@@ -427,7 +426,7 @@ button {
   transform-origin: 50%;
   text-decoration: none padding: 1rem 1.75rem
 }
-.button.outline:hover {
+.button .outline:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: 000;
@@ -446,7 +445,7 @@ button {
   filter: brightness(110%);
   text-decoration: none
 }
-.button.outline:active {
+.button .outline:active {
   border: 3px solid #fff;
   border-color: #fff;
   border-width: 3px;
