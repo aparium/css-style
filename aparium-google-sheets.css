@@ -197,7 +197,7 @@ h1 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -209,7 +209,7 @@ h2 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -221,7 +221,7 @@ h3 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -233,7 +233,7 @@ h4 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -245,7 +245,7 @@ h5 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -257,7 +257,7 @@ h6 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-end: 0px;
   margin-block-start: 0px;
@@ -270,7 +270,7 @@ h7 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -283,7 +283,7 @@ h8 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -439,17 +439,15 @@ button,
   text-decoration: none
 }
 .button:active {
-  border: 3px solid #f8f8f8;
-  border-color: #f8f8f8;
-  border-width: 3px;
-  color: #e6e6e6;
+  border: 5px solid #000;
+  border-color: #000;
+  color: #fff;
   filter: brightness(110%);
   text-decoration: none
 }
 .button .outline:active {
-  border: 3px solid #fff;
-  border-color: #fff;
-  border-width: 3px;
+  border: 5px solid #000;
+  border-color: #000;
   color: #fff;
   filter: brightness(100%);
   text-decoration: none
