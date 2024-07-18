@@ -130,9 +130,8 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
-
 .block {
   display: block
 }
@@ -196,7 +195,7 @@ p {
 }
 h1 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 5rem;
   font-weight: 600;
   line-height: 100%;
@@ -208,11 +207,11 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h2 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 100%;
@@ -224,11 +223,11 @@ h2 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h3 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4rem;
   font-weight: 700;
   line-height: 100%;
@@ -240,11 +239,11 @@ h3 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h4 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 100%;
@@ -256,11 +255,11 @@ h4 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h5 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: 100%;
@@ -272,11 +271,11 @@ h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h6 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 2rem;
   font-weight: 400;
   line-height: 100%;
@@ -289,9 +288,7 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-h7 {
-  color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 100%;
@@ -303,11 +300,11 @@ h7 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 h8 {
   color: #000;
-  font-family: 'freight-big','playfair display',Georgia,'Times New Roman',serif;
+  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 100%;
@@ -319,12 +316,11 @@ h8 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
-
 message {
   color: #000;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 100%;
@@ -337,11 +333,11 @@ message {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 message.bold {
   color: #828282;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 100%;
@@ -353,11 +349,11 @@ message.bold {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 r1 {
   color: #828282;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 100%;
@@ -369,11 +365,11 @@ r1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility
 }
 r2 {
   color: #828282;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 100%;
@@ -381,148 +377,90 @@ r2 {
   margin-block-end: 0px;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  text-align: left;
+  text-align: left
 }
 .logo {
   font-family: Barlow,sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 100%;
-  margin: 0;
+  margin: 0
 }
 a {
   color: #000;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline
 }
 .current {
   color: #000;
   font-weight: 700
 }
 .error {
-  color: #f02;
+  color: #f02
 }
 .gray,
 .grey {
-  color: #828282;
+  color: #828282
 }
 .secondary,
 .small {
   color: #e8e828;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
-  display: inline-block;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  display: inline-block
 }
 .button,
 button {
-  -moz-tran align-content: center;
-  color: #000;
-  -moz-tran align-content: center;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
-  -o-transition: all .2s;
-  -webkit-transition: all .2s;
-  -webkit-transition: all .2s;
-  align-items: center;
-  align-items: stretch;
-  align-self: auto;
-  all.2sborder: 2px solid transparent;
-  background-color: #fff;
-  border-radius: 0;
-  border: 5px solid #000;
-  color: #000;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: 2;
-  font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
-  font-size: 1.33rem;
-  font-weight: 400;
-  justify-content: center;
-  line-height: 100%;
-  padding: 1.1rem 1.75rem 1rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-transform: uppercase;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  font-family: freight-sans,sans-serif!important;
+  font-style: normal!important;
+  font-weight: 600;
+  text-transform: uppercase!important;
+  letter-spacing: .1em!important;
+  border-radius: 0!important;
+  background: 0 0!important;
+  transition: .1s background-color linear,.1s color linear!important;
+  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 }
 .button .outline {
-  background-color: #fff;
-  border: 5px solid #000;
-  color: #000;
-  -moz-tran align-content: center;
-  transition: all .2s;
-   -moz-transition: all .2s;
-   -ms-transition: all .2s;
-   -ms-transition: all .2s;
-   -o-transition: all .2s;
-   -o-transition: all .2s;
-   -webkit-transition: all .2s;
-   -webkit-transition: all .2s;
-   align-items: center;
-   align-items: stretch;
-   align-self: auto;
-   all.2sborder: 2px solid transparent;
-   background-color: #fff;
-   border-radius: 0;
-   border: 5px solid #000;
-   color: #000;
-   cursor: pointer;
-   display: inline-flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   flex: 2;
-   font-family: 'freight-sans','Helvetica Neue',Arial,sans-serif;
-   font-size: 1.33rem;
-   font-weight: 400;
-   justify-content: center;
-   line-height: 100%;
-   padding: 1.1rem 1.75rem 1rem;
-   text-align: center;
-   text-decoration: none;
-   text-transform: uppercase;
-   text-transform: uppercase;
-   transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  font-family: freight-sans,sans-serif!important;
+  font-style: normal!important;
+  font-weight: 600;
+  text-transform: uppercase!important;
+  letter-spacing: .1em!important;
+  border-radius: 0!important;
+  background: 0 0!important;
+  transition: .1s background-color linear,.1s color linear!important;
+  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 }
 .button:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #000!important;
-  box-shadow: 1px 1px 10px #e6e6e6;
-  color: #fff!important;
-  border: 5px solid #000!important;
-  text-decoration: none;
-  transform-origin: 50%;
-  font-weight: 500
+  letter-spacing: .1em!important;
+  border: 2px solid #000!important;
+  border-radius: 0!important
 }
 .button .outline:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #000!important;
-  box-shadow: 1px 1px 10px #e6e6e6;
-  color: #fff!important;
-  border: 5px solid #000!important;
-  text-decoration: none;
-  transform-origin: 50%;
-  font-weight: 500
+  letter-spacing: .1em!important;
+  border: 2px solid #000!important;
+  border-radius: 0!important
 }
 .button:active {
-  border: 5px solid #f8f8f8;
-  border-color: #f8f8f8;
-  color: #e6e6e6;
-  filter: brightness(110%)
+  letter-spacing: .1em!important;
+  border: 2px solid #000!important;
+  border-radius: 0!important
 }
 .button.outline:active {
-  border: 5px solid #f8f8f8;
-  border-color: #fff;
-  color: #fff;
-  filter: brightness(100%)
+  letter-spacing: .1em!important;
+  border: 2px solid #000!important;
+  border-radius: 0!important
 }
 .link {
   border: none;
@@ -547,7 +485,8 @@ button {
   border: none;
   border-color: transparent;
   color: #204;
-  filter: brightness(120%)
+  filter: brightness(120%);
+  -webkit-filter: brightness(120%)
 }
 .link-save {
   border-color: transparent;
