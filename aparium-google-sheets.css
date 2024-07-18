@@ -376,6 +376,7 @@ a:hover {
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   display: inline-block
 }
+button,
 .button {
   -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
@@ -456,33 +457,34 @@ a:hover {
 .link {
   border: none;
   border-color: transparent;
-  color: #682848;
+  color: #000;
   cursor: pointer;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 100%;
   text-align: left;
+  text-transform: uppercase;
   text-decoration: none;
   transition: all .2s
 }
 .link:hover {
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   font-weight: 500
 }
 .link:active {
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   filter: brightness(120%)
 }
 .link-save {
   border-color: transparent;
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   cursor: pointer;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
