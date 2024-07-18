@@ -131,15 +131,17 @@ p {
   display: block
 }
 .center {
+  padding: 2rem
+}
+.middle {
   margin: auto;
-  width: 50%;
-  padding: 10px
+  width: 0%;
+  padding: 10px;
 }
 .inline {
-  display: inline-block
-}
-.inline + .inline {
-  margin-left: 12px
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center
 }
 .top,
 .top-left {
@@ -197,7 +199,7 @@ h1 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -209,7 +211,7 @@ h2 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -221,7 +223,7 @@ h3 {
   color: #000;
   font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -233,7 +235,7 @@ h4 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -245,7 +247,7 @@ h5 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -257,7 +259,7 @@ h6 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-end: 0px;
   margin-block-start: 0px;
@@ -270,7 +272,7 @@ h7 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -283,7 +285,7 @@ h8 {
   color: #000;
   font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 100%;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -376,7 +378,8 @@ a:hover {
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   display: inline-block
 }
-.button {
+.button,
+button {
   -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
@@ -393,10 +396,11 @@ a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   flex: 2;
+  width: 13rem;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
   font-style: normal!important;
-  font-weight: 500;
+  font-weight: 600;
   justify-content: center;
   letter-spacing: .1em!important;
   line-height: 100%;
@@ -438,17 +442,15 @@ a:hover {
   text-decoration: none
 }
 .button:active {
-  border: 3px solid #f8f8f8;
-  border-color: #f8f8f8;
-  border-width: 3px;
-  color: #e6e6e6;
+  border: 5px solid #000;
+  border-color: #000;
+  color: #fff;
   filter: brightness(110%);
   text-decoration: none
 }
 .button .outline:active {
-  border: 3px solid #fff;
-  border-color: #fff;
-  border-width: 3px;
+  border: 5px solid #000;
+  border-color: #000;
   color: #fff;
   filter: brightness(100%);
   text-decoration: none
@@ -456,33 +458,34 @@ a:hover {
 .link {
   border: none;
   border-color: transparent;
-  color: #682848;
+  color: #000;
   cursor: pointer;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 100%;
   text-align: left;
+  text-transform: uppercase;
   text-decoration: none;
   transition: all .2s
 }
 .link:hover {
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   font-weight: 500
 }
 .link:active {
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   filter: brightness(120%)
 }
 .link-save {
   border-color: transparent;
   border: none;
   border-color: transparent;
-  color: #204;
+  color: #682848;
   cursor: pointer;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
