@@ -567,7 +567,7 @@ button,
     align-items: stretch;
     align-self: auto;
     background-color: #fff;
-    border: 2px solid #000 !important;
+    border: 3px solid #000 !important;
     color: #000;
     cursor: pointer;
     display: inline-flex;
@@ -588,7 +588,7 @@ button,
 
 .button.outline {
     background-color: #FFFFFF;
-    border: 2px solid #000 !important;
+    border: 3px solid #000 !important;
     color: #000;
 }
 
@@ -615,7 +615,7 @@ button,
 }
 
 .button:active {
-    border: 3px solid #f8f8f8;
+    border: 4px solid #f8f8f8;
     border-color: #f8f8f8;
     border-width: 3px;
     color: #e6e6e6;
