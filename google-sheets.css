@@ -382,7 +382,6 @@ r2 {
 .logo {
   font-family: Barlow,sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
   line-height: 100%;
   margin: 0
 }
@@ -413,10 +412,12 @@ a:hover {
 }
 .button,
 button {
+  color: #000;
+  background-color: #fff;
   font-family: freight-sans,sans-serif!important;
   font-style: normal!important;
   font-weight: 600;
-  text-transform: uppercase!important;
+  border: 5px solid #000!important;
   letter-spacing: .1em!important;
   border-radius: 0!important;
   background: 0 0!important;
@@ -428,10 +429,12 @@ button {
   transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 }
 .button .outline {
+  color: #000;
+  background-color: #fff;
   font-family: freight-sans,sans-serif!important;
   font-style: normal!important;
   font-weight: 600;
-  text-transform: uppercase!important;
+  border: 5px solid #000!important;
   letter-spacing: .1em!important;
   border-radius: 0!important;
   background: 0 0!important;
@@ -443,23 +446,35 @@ button {
   transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 }
 .button:hover {
+  color: #fff;
+  background-color: #000;
   letter-spacing: .1em!important;
-  border: 2px solid #000!important;
+  border: 6px solid #000!important;
   border-radius: 0!important
 }
 .button .outline:hover {
+  color: #fff;
+  background-color: #000;
   letter-spacing: .1em!important;
-  border: 2px solid #000!important;
+  border: 6px solid #000!important;
   border-radius: 0!important
 }
 .button:active {
+  color: #fff;
+  background-color: #000;
   letter-spacing: .1em!important;
-  border: 2px solid #000!important;
-  border-radius: 0!important
+  border: 6px solid #000!important;
+  border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -ms-border-radius: 0!important;
+  -o-border-radius: 0!important
 }
 .button.outline:active {
+  color: #fff;
+  background-color: #000;
   letter-spacing: .1em!important;
-  border: 2px solid #000!important;
+  border: 6px solid #000!important;
   border-radius: 0!important
 }
 .link {
