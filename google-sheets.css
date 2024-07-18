@@ -139,9 +139,8 @@ p {
   display: inline-block
 }
 .center {
+    display: inline-block
     margin: auto;
-    width: 50%;
-    padding: 10px;
   }
 .inline + .inline {
   margin-left: 12px
@@ -449,14 +448,24 @@ button {
   background-color: #000;
   letter-spacing: .1em!important;
   border: 6px solid #000!important;
-  border-radius: 0!important
+  border-radius: 0!important;
+  box-shadow: none;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -ms-border-radius: 0!important;
+  -o-border-radius: 0!important;
 }
 .button .outline:hover {
   color: #fff;
   background-color: #000;
+  box-shadow: none;
   letter-spacing: .1em!important;
   border: 6px solid #000!important;
-  border-radius: 0!important
+  border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -ms-border-radius: 0!important;
+  -o-border-radius: 0!important;
 }
 .button:active {
   color: #fff;
