@@ -131,15 +131,12 @@ p {
   display: block
 }
 .center {
-  margin: auto;
-  width: 50%;
-  padding: 10px
+  padding: 2rem
 }
 .inline {
-  display: inline-block
-}
-.inline + .inline {
-  margin-left: 12px
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center
 }
 .top,
 .top-left {
@@ -376,8 +373,8 @@ a:hover {
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   display: inline-block
 }
-button,
-.button {
+.button,
+button {
   -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
   -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
@@ -394,10 +391,11 @@ button,
   flex-direction: column;
   flex-wrap: wrap;
   flex: 2;
+  width: 13rem;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
   font-style: normal!important;
-  font-weight: 500;
+  font-weight: 600;
   justify-content: center;
   letter-spacing: .1em!important;
   line-height: 100%;
