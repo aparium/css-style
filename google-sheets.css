@@ -553,7 +553,7 @@ a:hover {
 .secondary,
 .small {
     color: #E8E828;
-    font: 14px/16px 'Khand', sans-serif;
+    font: 14px/16px  'freight-sans', 'Helvetica Neue', Arial, sans-serif;
     display: inline-block;
 }
 
@@ -589,7 +589,6 @@ button,
 .button.outline {
     background-color: #FFFFFF;
     border: 2px solid #000 !important;
-    border-width: 3px;
     color: #000;
 }
 
@@ -607,10 +606,10 @@ button,
 .button.outline:hover {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
-    background-color: #fff;
+    background-color: #fff!important;
     box-shadow: 1px 1px 10px rgb(230, 230, 230);
-    color: #000;
-    border: 2px solid #000;
+    color: #000!important;
+    border: 2px solid #000!important;
     text-decoration: none;
     transform-origin: 50%;
 }
