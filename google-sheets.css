@@ -410,12 +410,9 @@ a:hover {
 }
 .secondary,
 .small {
-  color: #e8e828;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
-  display: inline-block
 }
-.button,
-button {
+.button {
   color: #000;
   background-color: #fff;
   font-family: freight-sans,sans-serif!important;
@@ -424,6 +421,14 @@ button {
   border: 5px solid #000!important;
   letter-spacing: .1em!important;
   border-radius: 0!important;
+  letter-spacing: .1em!important;
+  border-radius: 0!important;
+  transition: .1s background-color linear,.1s color linear!important;
+  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
 
 }
 .button .outline {
@@ -478,7 +483,7 @@ button {
   -ms-border-radius: 0!important;
   -o-border-radius: 0!important
 }
-.button.outline:active {
+.button .outline:active {
   color: #fff;
   background-color: #000;
   letter-spacing: .1em!important;
@@ -488,13 +493,13 @@ button {
 .link {
   border: none;
   border-color: transparent;
-  color: #682848;
+  color: #0000;
   cursor: pointer;
   font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
   font-size: 1.33rem;
   font-weight: 400;
   line-height: 100%;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   transition: all .2s
 }
