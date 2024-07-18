@@ -420,13 +420,7 @@ button {
   border: 5px solid #000!important;
   letter-spacing: .1em!important;
   border-radius: 0!important;
-  background: 0 0!important;
-  transition: .1s background-color linear,.1s color linear!important;
-  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
+
 }
 .button .outline {
   color: #000;
