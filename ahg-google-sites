@@ -398,7 +398,7 @@ button {
   align-self: auto;
   background-color: #fff;
   border-radius: 0!important;
-  border: 5px solid #000!important;
+  border: 3px solid #000!important;
   color: #000;
   cursor: pointer;
   display: inline-flex;
@@ -423,7 +423,7 @@ button {
 .button .outline {
   background-color: #000;
   border-radius: 0!important;
-  border: 5px solid #000!important;
+  border: 3px solid #000!important;
   color: #fff;
   text-decoration: none padding: 1rem 1.75rem
 }
@@ -433,7 +433,7 @@ button {
   background-color: #000;
   border-radius: 0!important;
   color: #fff;
-  border: 5px solid #000!important;
+  border: 3px solid #000!important;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
@@ -444,21 +444,21 @@ button {
   backface-visibility: visible;
   background-color: 000;
   color: #fff;
-  border: 5px solid #000!important;
+  border: 3px solid #000!important;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
   text-decoration: none
 }
 .button:active {
-  border: 5px solid #000;
+  border: 3px solid #000;
   border-color: #000;
   color: #fff;
   filter: brightness(110%);
   text-decoration: none
 }
 .button .outline:active {
-  border: 5px solid #000;
+  border: 3px solid #000;
   border-color: #000;
   color: #fff;
   filter: brightness(100%);
