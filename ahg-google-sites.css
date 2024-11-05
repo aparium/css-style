@@ -1,134 +1,779 @@
+/*
+<!-- 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-fonts.css">
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/aparium/fonts/main/ahg-fonts.css">
+
+-->
+*/
+
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+*/
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* APH |  APARIUM OFFICIAL BRAND FREIGHT FONTS                                                                      */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* Freight-Big    */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+
+/* freight-big-light */
 @font-face {
   font-display: swap;
-  font-family: freight-big;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf') format('truetype'),
+}
+
+/* freight-big-book */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
 }
+
+
+/* freight-big-medium */
 @font-face {
   font-display: swap;
-  font-family: freight-big;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
   font-style: normal;
   font-stretch: normal;
   font-weight: 500;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
 }
+
+/* freight-big-semibold */
 @font-face {
   font-display: swap;
-  font-family: freight-big;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
   font-style: normal;
   font-stretch: normal;
   font-weight: 600;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
 }
+
+/* freight-big-bold */
 @font-face {
   font-display: swap;
-  font-family: freight-big;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
   font-style: normal;
   font-stretch: normal;
   font-weight: 700;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
 }
+
+/* freight-big-black */
 @font-face {
   font-display: swap;
-  font-family: freight-big;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Big';
   font-style: normal;
   font-stretch: normal;
   font-weight: 900;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
 }
+
+
+/* Freight-Big */
+
+
+.freight-big-light {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.freight-big-regular {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.freight-big-mediumn {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.freight-big-semibold {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.freight-big-bold {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.freight-big-black {
+  font-family: "Freight Big", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/*  Freight-Sans    */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* freight-sans-thin */
 @font-face {
   font-display: swap;
-  font-family: freight-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 100;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf') format('truetype'),
+}
+
+/* freight-sans-light */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
   font-style: normal;
   font-stretch: normal;
   font-weight: 300;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
 }
+
+/* freight-sans-book */
 @font-face {
   font-display: swap;
-  font-family: freight-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
 }
+
+
+/* freight-sans-medium */
 @font-face {
   font-display: swap;
-  font-family: freight-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
   font-style: normal;
   font-stretch: normal;
   font-weight: 500;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
 }
+
+/* freight-sans-semibold */
 @font-face {
   font-display: swap;
-  font-family: freight-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
   font-style: normal;
   font-stretch: normal;
   font-weight: 600;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
 }
+
+/* freight-sans-bold */
 @font-face {
   font-display: swap;
-  font-family: freight-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
   font-style: normal;
   font-stretch: normal;
   font-weight: 700;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
 }
+
+/* freight-sans-black */
 @font-face {
   font-display: swap;
-  font-family: open-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf') format('truetype'),
+}
+
+
+/* Freight-Sans */
+
+
+.freight-sans-thin {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.freight-sans-light {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.freight-sans-regular {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.freight-sans-mediumn {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.freight-sans-semibold {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.freight-sans-bold {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.freight-sans-black {
+  font-family: "Freight Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* APH |  ALTERNATIVES BRAND FONTS */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* Alternative to Freight-Big    */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* playfair-display-regular */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* playfair-display-500 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* playfair-display-600 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* playfair-display-700 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* playfair-display-800 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* playfair-display-900 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+
+
+/* Playfair-Display */
+
+.playfair-display-regular {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-mediumn {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playfair-display-semibold {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.playfair-display-bold {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-extrabold {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.playfair-display-black {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* Alternative to Freight-Sans    */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* open-sans-regular */
+/* open-sans-300 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans') format('svg')
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans') format('svg');
+  /* Legacy iOS */
 }
+
+/* open-sans-regular */
 @font-face {
   font-display: swap;
-  font-family: open-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans') format('svg')
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans') format('svg');
+  /* Legacy iOS */
 }
+
+/* open-sans-500 */
 @font-face {
   font-display: swap;
-  font-family: open-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans') format('svg')
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans') format('svg');
+  /* Legacy iOS */
 }
+
+/* open-sans-600 */
 @font-face {
   font-display: swap;
-  font-family: open-sans;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans') format('svg')
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans') format('svg');
+  /* Legacy iOS */
 }
-body,
-p {
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+
+/* open-sans-700 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-800 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+/* Open-Sans */
+
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  line-height: 100%;
-  text-align: left
+  font-style: normal;
 }
+
+.open-sans-mediumn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.open-sans-semibold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans-extrabold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p {
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
+p {
+  white-space: pre-wrap
+}
+
+h1 {
+  margin: .67em 0;
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h1 a:hover {
+  border-color: rgba(26, 26, 26, .15);
+  color: rgba(26, 26, 26, .6)
+}
+
+h2 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-rendering: optimizeLegibility
+}
+
+h3 a {
+  border-bottom: 1px solid rgba(26, 26, 26, .3);
+  padding-bottom: .05em;
+  transition: border-color .15s ease-out, color .15s ease-out
+}
+
+h3 a:hover {
+  border-color: rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6)
+}
+
+h3+h3 {
+  margin-top: 15px
+}
+
+h4 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+h5 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+h6 {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h7 {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h8 {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a:visited {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out
+}
+
+
 .modal-dialog-title-text {
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif!important;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400!important;
   line-height: 100%!important;
   text-align: center!important;
@@ -206,7 +851,7 @@ p {
 }
 h1 {
   color: #000;
-  font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 5rem;
   font-weight: 500;
   line-height: 100%;
@@ -218,7 +863,7 @@ h1 {
 }
 h2 {
   color: #000;
-  font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 4.5rem;
   font-weight: 500;
   line-height: 100%;
@@ -230,7 +875,7 @@ h2 {
 }
 h3 {
   color: #000;
-  font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 4rem;
   font-weight: 500;
   line-height: 100%;
@@ -242,7 +887,7 @@ h3 {
 }
 h4 {
   color: #000;
-  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 100%;
@@ -254,7 +899,7 @@ h4 {
 }
 h5 {
   color: #000;
-  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 3rem;
   font-weight: 500;
   line-height: 100%;
@@ -266,7 +911,7 @@ h5 {
 }
 h6 {
   color: #000;
-  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 100%;
@@ -279,7 +924,7 @@ h6 {
 }
 h7 {
   color: #000;
-  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 100%;
@@ -292,7 +937,7 @@ h7 {
 }
 h8 {
   color: #000;
-  font-family: freight-big,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 100%;
@@ -304,11 +949,11 @@ h8 {
   text-transform: uppercase
 }
 body {
-  font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
 }
 message {
   color: #000;
-  font-family: freight-big-bold,'playfair display',Georgia,'Times New Roman',serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 100%;
@@ -333,7 +978,7 @@ message.bold {
 }
 r1 {
   color: #828282;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 100%;
@@ -345,7 +990,7 @@ r1 {
 }
 r2 {
   color: #828282;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 100%;
@@ -355,13 +1000,7 @@ r2 {
   margin-inline-end: 0;
   text-align: left
 }
-.logo {
-  font-family: Barlow,sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 100%;
-  margin: 0
-}
+
 a {
   color: #000;
   cursor: pointer;
@@ -384,7 +1023,7 @@ a:hover {
 .secondary,
 .small {
   color: #e8e828;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline-block
 }
 .button,
@@ -406,7 +1045,7 @@ button {
   flex-wrap: wrap;
   flex: 2;
   width: 13rem;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-style: normal!important;
   font-weight: 600;
@@ -469,7 +1108,7 @@ button {
   border-color: transparent;
   color: #000;
   cursor: pointer;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-weight: 500;
   line-height: 100%;
@@ -496,7 +1135,7 @@ button {
   border-color: transparent;
   color: #682848;
   cursor: pointer;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-weight: 700;
   line-height: 100%;
@@ -524,7 +1163,7 @@ textarea {
   border-radius: 0;
   box-sizing: border-box;
   color: #fff;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: .5rem;
   font-weight: 700;
   margin: 0;
@@ -538,7 +1177,7 @@ textarea {
 input[type=action] {
   color: #fff;
   cursor: pointer;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: .5rem;
   font-weight: 700;
   line-height: 100%;
@@ -585,7 +1224,7 @@ textarea {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #000;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin: 0;
