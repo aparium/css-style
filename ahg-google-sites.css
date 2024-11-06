@@ -799,6 +799,28 @@ h8 {
   text-transform: uppercase;
 }
 
+hotelname {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+    text-rendering: optimizeLegibility
+}
+hotelname a {
+  border-bottom: 1px solid rgba(26, 26, 26, .3);
+  padding-bottom: .05em;
+  transition: border-color .15s ease-out, color .15s ease-out
+}
+
+hotelname a:hover {
+  border-color: rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6)
+}
+
+hotelname+hotelname {
+  margin-top: 15px
+}
+
+
 a:hover {
   text-decoration: underline
 }
