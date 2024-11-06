@@ -683,6 +683,7 @@ h1 {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   text-transform: uppercase;
+    text-rendering: optimizeLegibility
 }
 
 h1 a:hover {
@@ -695,6 +696,7 @@ h2 {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   text-transform: uppercase;
+    text-rendering: optimizeLegibility
 }
 
 h3 {
@@ -702,11 +704,9 @@ h3 {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   text-transform: uppercase;
+    text-rendering: optimizeLegibility
 }
 
-h3 {
-  text-rendering: optimizeLegibility
-}
 
 h3 a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
@@ -727,21 +727,64 @@ h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+    text-rendering: optimizeLegibility
+}
+h4 a {
+  border-bottom: 1px solid rgba(26, 26, 26, .3);
+  padding-bottom: .05em;
+  transition: border-color .15s ease-out, color .15s ease-out
+}
+
+h4 a:hover {
+  border-color: rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6)
+}
+
+h4+h4 {
+  margin-top: 15px
 }
 
 h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+    text-rendering: optimizeLegibility
+}
+h5 a {
+  border-bottom: 1px solid rgba(26, 26, 26, .3);
+  padding-bottom: .05em;
+  transition: border-color .15s ease-out, color .15s ease-out
 }
 
+h5 a:hover {
+  border-color: rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6)
+}
+
+h5+h5 {
+  margin-top: 15px
+}
 h6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+    text-rendering: optimizeLegibility
+}
+h6 a {
+  border-bottom: 1px solid rgba(26, 26, 26, .3);
+  padding-bottom: .05em;
+  transition: border-color .15s ease-out, color .15s ease-out
 }
 
+h6 a:hover {
+  border-color: rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6)
+}
+
+h6+h6 {
+  margin-top: 15px
+}
 h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
