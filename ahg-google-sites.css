@@ -677,34 +677,36 @@ p {
   white-space: pre-wrap
 }
 
-h1 {
-  margin: .67em 0;
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  font-size: 5rem; /* Default for desktop */
-}
 
-/* Tablet (font-size: 3rem) */
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
+    h1 {
+      margin: .67em 0;
+      color: #000;
+      font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-rendering: optimizeLegibility;
+      font-size: 5vw; /* Responsive size based on viewport width */
+    }
 
-/* Mobile (font-size: 2rem) */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
+    /* Tablet (font-size: 3rem) */
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 3rem !important;
+      }
+    }
 
-h1 a:hover {
-  border-color: rgba(26, 26, 26, .15);
-  color: rgba(26, 26, 26, .6)
-}
+    /* Mobile (font-size: 2rem) */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem !important;
+      }
+    }
+
+    h1 a:hover {
+      border-color: rgba(26, 26, 26, .15);
+      color: rgba(26, 26, 26, .6);
+    }
+
 
 h2 {
   color: #000;
