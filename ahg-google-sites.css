@@ -683,7 +683,22 @@ h1 {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   text-transform: uppercase;
-    text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  font-size: 5rem; /* Default for desktop */
+}
+
+/* Tablet (font-size: 3rem) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Mobile (font-size: 2rem) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 h1 a:hover {
