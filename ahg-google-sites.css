@@ -716,6 +716,13 @@ h2 {
     text-rendering: optimizeLegibility
 }
 
+t2 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-rendering: optimizeLegibility
+}
+
 h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -740,11 +747,23 @@ h3+h3 {
   margin-top: 15px
 }
 
+
+t3 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-rendering: optimizeLegibility
+}
+
+
+
+
 h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-    text-rendering: optimizeLegibility
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
 }
 h4 a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
@@ -761,10 +780,20 @@ h4+h4 {
   margin-top: 15px
 }
 
+
+t4 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+    text-rendering: optimizeLegibility
+}
+
+
 h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+    text-transform: uppercase;
     text-rendering: optimizeLegibility
 }
 h5 a {
@@ -781,6 +810,16 @@ h5 a:hover {
 h5+h5 {
   margin-top: 15px
 }
+
+t5 {
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility
+}
+
+
 h6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -802,6 +841,16 @@ h6 a:hover {
 h6+h6 {
   margin-top: 15px
 }
+
+t6 {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility
+}
+
+
+
 h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
