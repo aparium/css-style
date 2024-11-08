@@ -668,14 +668,16 @@
 body {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 
 body::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 
@@ -689,51 +691,52 @@ p {
 }
 
 
-    h1 {
-      margin: .67em 0;
-      color: #000;
-      font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-      font-weight: 500;
-      text-transform: uppercase;
-        font-size: 4rem;
-      text-rendering: optimizeLegibility;
-      font-size: 5vw; /* Responsive size based on viewport width */
-    }
+h1 {
+  margin: .67em 0;
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-rendering: optimizeLegibility;
+  font-size: 5vw;
+  /* Responsive size based on viewport width */
+}
 
-    /* Tablet (font-size: 3rem) */
-    @media (max-width: 1024px) {
-      h1 {
-        font-size: 3rem !important;
-      }
-    }
+/* Tablet (font-size: 3rem) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+}
 
-    /* Mobile (font-size: 2rem) */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2rem !important;
-      }
-    }
+/* Mobile (font-size: 2rem) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+}
 
-    h1 a:hover {
-      border-color: rgba(26, 26, 26, .15);
-      color: rgba(26, 26, 26, .6);
-    }
+h1 a:hover {
+  border-color: rgba(26, 26, 26, .15);
+  color: rgba(26, 26, 26, .6);
+}
 
 
 h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-    font-size: 3.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
-    text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility
 }
 
 t2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-      font-size: 3.5rem;
+  font-size: 3.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -741,9 +744,9 @@ h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-      font-size: 3rem;
+  font-size: 3rem;
   text-transform: uppercase;
-    text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility
 }
 
 
@@ -767,7 +770,7 @@ t3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-        font-size: 2.5rem;
+  font-size: 2.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -778,10 +781,11 @@ h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-         font-size: 2.5rem;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
+
 h4 a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
   padding-bottom: .05em;
@@ -802,8 +806,8 @@ t4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-        font-size: 2.5rem;
-    text-rendering: optimizeLegibility
+  font-size: 2.5rem;
+  text-rendering: optimizeLegibility
 }
 
 
@@ -811,10 +815,11 @@ h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-         font-size: 2rem;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility
 }
+
 h5 a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
   padding-bottom: .05em;
@@ -834,7 +839,7 @@ t5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-           font-size: 2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility
 }
@@ -844,10 +849,11 @@ h6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-           font-size: 1.5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-    text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility
 }
+
 h6 a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
   padding-bottom: .05em;
@@ -867,7 +873,7 @@ t6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-          font-size: 1.5rem;
+  font-size: 1.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -877,7 +883,7 @@ h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-          font-size: 1rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -892,8 +898,9 @@ hotelname {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-    text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility
 }
+
 hotelname a {
   border-bottom: 1px solid rgba(26, 26, 26, .3);
   padding-bottom: .05em;
@@ -928,81 +935,100 @@ a:visited {
 
 .modal-dialog-title-text {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400!important;
-  line-height: 100%!important;
-  text-align: center!important;
-  font-size: 10px!important
+  font-weight: 400 !important;
+  line-height: 100% !important;
+  text-align: center !important;
+  font-size: 10px !important
 }
+
 .block {
   display: block
 }
+
 .center {
   padding: 2rem
 }
+
 .middle {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .inline {
   display: flex;
   /* flex-wrap: nowrap; */
   align-content: center;
   justify-content: center;
 }
+
 .top,
 .top-left {
   top: 0;
   position: absolute
 }
+
 .top-right {
   top: 0;
   position: absolute;
   right: 0
 }
+
 .margin-top-s {
   padding-top: .75rem
 }
+
 .margin-top-m {
   padding-top: 1rem
 }
+
 .margin-top-l {
   padding-top: 2rem
 }
+
 .margin-top-xl {
   padding-top: 3rem
 }
+
 .margin-top-xxl {
   padding-top: 4rem
 }
+
 .margin-bottom-s {
   padding-bottom: .75rem
 }
+
 .margin-bottom-m {
   padding-bottom: 1rem
 }
+
 .margin-bottom-l {
   padding-bottom: 2rem
 }
+
 .margin-bottom-xl {
   padding-bottom: 3rem
 }
+
 .margin-bottom-xxl {
   padding-bottom: 4rem
 }
+
 .bottom,
 .bottom-left,
 .button-bar {
   bottom: 0;
   position: absolute
 }
+
 .bottom-right,
 .button-bar-right {
   bottom: 0;
   position: absolute;
   right: 0
 }
+
 h1 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1015,6 +1041,7 @@ h1 {
   margin-inline-end: 0;
   text-align: left
 }
+
 h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1027,6 +1054,7 @@ h2 {
   margin-inline-end: 0;
   text-align: left
 }
+
 h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1039,6 +1067,7 @@ h3 {
   margin-inline-end: 0;
   text-align: left
 }
+
 h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1051,6 +1080,7 @@ h4 {
   margin-inline-end: 0;
   text-align: left
 }
+
 h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1063,6 +1093,7 @@ h5 {
   margin-inline-end: 0;
   text-align: left
 }
+
 h6 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1076,6 +1107,7 @@ h6 {
   text-align: left;
   text-transform: uppercase
 }
+
 h7 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1089,6 +1121,7 @@ h7 {
   text-align: left;
   text-transform: uppercase
 }
+
 h8 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -1116,9 +1149,10 @@ message {
   text-align: left;
   text-transform: uppercase
 }
+
 message.bold {
   color: #828282;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+  font-family: freight-sans, 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
   font-weight: 600;
   line-height: 100%;
@@ -1128,6 +1162,7 @@ message.bold {
   margin-inline-end: 0;
   text-align: left
 }
+
 r1 {
   color: #828282;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -1140,6 +1175,7 @@ r1 {
   margin-inline-end: 0;
   text-align: left
 }
+
 r2 {
   color: #828282;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -1158,38 +1194,44 @@ a {
   cursor: pointer;
   text-decoration: none
 }
+
 a:hover {
   text-decoration: underline
 }
+
 .current {
   color: #000;
   font-weight: 700
 }
+
 .error {
   color: #f02
 }
+
 .gray,
 .grey {
   color: #828282
 }
+
 .secondary,
 .small {
   color: #e8e828;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline-block
 }
+
 .button,
 button {
-  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
   align-content: center;
   align-items: stretch;
   align-self: auto;
   background-color: #fff;
-  border-radius: 0!important;
-  border: 3px solid #000!important;
+  border-radius: 0 !important;
+  border: 3px solid #000 !important;
   color: #000;
   cursor: pointer;
   display: inline-flex;
@@ -1199,48 +1241,52 @@ button {
   width: 13rem;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
-  font-style: normal!important;
+  font-style: normal !important;
   font-weight: 600;
   justify-content: center;
-  letter-spacing: .1em!important;
+  letter-spacing: .1em !important;
   line-height: 100%;
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important
 }
+
 .button .outline {
   background-color: #000;
-  border-radius: 0!important;
-  border: 3px solid #000!important;
+  border-radius: 0 !important;
+  border: 3px solid #000 !important;
   color: #fff;
   text-decoration: none padding: 1rem 1.75rem
 }
+
 .button:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: #000;
-  border-radius: 0!important;
+  border-radius: 0 !important;
   color: #fff;
-  border: 3px solid #000!important;
+  border: 3px solid #000 !important;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
   text-decoration: none padding: 1rem 1.75rem
 }
+
 .button .outline:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: 000;
   color: #fff;
-  border: 3px solid #000!important;
+  border: 3px solid #000 !important;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
   text-decoration: none
 }
+
 .button:active {
   border: 3px solid #000;
   border-color: #000;
@@ -1248,6 +1294,7 @@ button {
   filter: brightness(110%);
   text-decoration: none
 }
+
 .button .outline:active {
   border: 3px solid #000;
   border-color: #000;
@@ -1255,6 +1302,7 @@ button {
   filter: brightness(100%);
   text-decoration: none
 }
+
 .link {
   border: none;
   border-color: transparent;
@@ -1269,18 +1317,21 @@ button {
   text-decoration: none;
   transition: all .2s
 }
+
 .link:hover {
   border: none;
   border-color: transparent;
   color: #682848;
   font-weight: 500
 }
+
 .link:active {
   border: none;
   border-color: transparent;
   color: #682848;
   filter: brightness(120%)
 }
+
 .link-save {
   border-color: transparent;
   border: none;
@@ -1295,19 +1346,22 @@ button {
   text-decoration: none;
   transition: all .2s
 }
-.form-group action + select,
-.form-group action + textarea .form-group reset + input,
-.form-group label + input,
-.form-group label + select,
-.form-group label + textarea .form-group action + input,
-.form-group reset + select,
-.form-group reset + textarea {
+
+.form-group action+select,
+.form-group action+textarea .form-group reset+input,
+.form-group label+input,
+.form-group label+select,
+.form-group label+textarea .form-group action+input,
+.form-group reset+select,
+.form-group reset+textarea {
   display: block
 }
+
 fieldset {
   border: 1px solid #ebebeb;
   margin: 0
 }
+
 input[type=action],
 select[multiple],
 select[size],
@@ -1326,6 +1380,7 @@ textarea {
   -ms-border-radius: 0px;
   -o-border-radius: 0
 }
+
 input[type=action] {
   color: #fff;
   cursor: pointer;
@@ -1338,6 +1393,7 @@ input[type=action] {
   text-decoration: none;
   transition: all .2s
 }
+
 input[type=action]:focus,
 input[type=action]:hover,
 input[type=reset]:focus,
@@ -1351,6 +1407,7 @@ textarea:hover {
   color: #000;
   transform-origin: 50%
 }
+
 input[type=date],
 input[type=datetime-local],
 input[type=datetime],
@@ -1385,6 +1442,7 @@ textarea {
   -ms-border-radius: 0px;
   -o-border-radius: 0
 }
+
 input[type=date],
 input[type=datetime-local],
 input[type=datetime],
@@ -1400,6 +1458,7 @@ input[type=url],
 input[type=week] {
   height: 25px
 }
+
 input[type=date]:focus,
 input[type=date]:hover,
 input[type=datetime-local]:focus,
@@ -1432,25 +1491,30 @@ select[size]:focus,
 textarea:focus,
 textarea:hover {
   border: 2px solid #1c447f;
-  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.3)
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3)
 }
+
 select[multiple],
 select[size] {
   height: auto;
   padding: 0
 }
+
 select[multiple]:disabled select[size]: disabled {
   background: #fff;
   opacity: 1
 }
+
 textarea {
   resize: vertical
 }
+
 .space {
   height: 30px
 }
+
 .line {
   border-bottom: 2px solid #000
 }
