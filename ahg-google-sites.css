@@ -666,6 +666,7 @@
 /* Hide scrollbar for IE, Edge and Firefox */
 
 body {
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -1089,9 +1090,7 @@ h8 {
   text-align: left;
   text-transform: uppercase
 }
-body {
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-}
+
 message {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
