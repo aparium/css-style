@@ -695,6 +695,7 @@ p {
       font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
       font-weight: 500;
       text-transform: uppercase;
+        font-size: 4rem;
       text-rendering: optimizeLegibility;
       font-size: 5vw; /* Responsive size based on viewport width */
     }
@@ -723,6 +724,7 @@ h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+    font-size: 3.5rem;
   text-transform: uppercase;
     text-rendering: optimizeLegibility
 }
@@ -731,6 +733,7 @@ t2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+      font-size: 3.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -738,6 +741,7 @@ h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+      font-size: 3rem;
   text-transform: uppercase;
     text-rendering: optimizeLegibility
 }
@@ -763,6 +767,7 @@ t3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+        font-size: 2.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -773,6 +778,7 @@ h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+         font-size: 2.5rem;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
 }
@@ -796,6 +802,7 @@ t4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+        font-size: 2.5rem;
     text-rendering: optimizeLegibility
 }
 
@@ -804,6 +811,7 @@ h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+         font-size: 2rem;
     text-transform: uppercase;
     text-rendering: optimizeLegibility
 }
@@ -826,6 +834,7 @@ t5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
+           font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility
 }
@@ -835,6 +844,7 @@ h6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
+           font-size: 1.5rem;
   text-transform: uppercase;
     text-rendering: optimizeLegibility
 }
@@ -857,6 +867,7 @@ t6 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
+          font-size: 1.5rem;
   text-rendering: optimizeLegibility
 }
 
@@ -866,6 +877,7 @@ h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
+          font-size: 1rem;
   text-transform: uppercase;
 }
 
