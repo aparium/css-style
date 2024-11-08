@@ -1213,11 +1213,57 @@ a:hover {
   color: #828282
 }
 
-.secondary,
-.small {
+.secondar {
   color: #e8e828;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline-block
+}
+
+
+.small,
+small {
+  border: 2px solid #000;
+  flex: 2;
+  width: 10rem;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  padding: .5rem 1rem;
+
+}
+
+button {
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  align-content: center;
+  align-items: stretch;
+  align-self: auto;
+  background-color: #fff;
+  border-radius: 0 !important;
+  border: 3px solid #000 !important;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 2;
+  width: 13rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-style: normal !important;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: .1em !important;
+  line-height: 100%;
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important
 }
 
 .button,
