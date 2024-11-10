@@ -356,9 +356,9 @@ h1 {
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 5rem;
   text-rendering: optimizeLegibility;
-  font-size: 5vw
+
 }
 @media (max-width:1024px) {
   h1 {
@@ -378,7 +378,7 @@ h2 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3.5;
   text-transform: uppercase;
   text-rendering: optimizeLegibility
 }
@@ -399,16 +399,13 @@ h3 {
 }
 h3 a {
   border-bottom: 1px solid rgba(26,26,26,.3);
-  padding-bottom: .05em;
   transition: border-color .15s ease-out,color .15s ease-out
 }
 h3 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
 }
-h3 + h3 {
-  margin-top: 15px
-}
+
 t3 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -416,7 +413,6 @@ t3 {
   font-size: 2.5rem;
   text-rendering: optimizeLegibility
 }
-<<<<<<< Updated upstream
 
 c3 {
   color: #000;
@@ -427,16 +423,6 @@ c3 {
   text-rendering: optimizeLegibility;
 }
 
-=======
-c3 {
-  color: #000;
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-weight: 500;
-  font-size: 2.5rem;
-  text-align: center;
-  text-rendering: optimizeLegibility
-}
->>>>>>> Stashed changes
 h4 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -447,16 +433,13 @@ h4 {
 }
 h4 a {
   border-bottom: 1px solid rgba(26,26,26,.3);
-  padding-bottom: .05em;
   transition: border-color .15s ease-out,color .15s ease-out
 }
 h4 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
 }
-h4 + h4 {
-  margin-top: 15px
-}
+
 t4 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -474,16 +457,13 @@ h5 {
 }
 h5 a {
   border-bottom: 1px solid rgba(26,26,26,.3);
-  padding-bottom: .05em;
   transition: border-color .15s ease-out,color .15s ease-out
 }
 h5 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
 }
-h5 + h5 {
-  margin-top: 15px
-}
+
 t5 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -502,16 +482,13 @@ h6 {
 }
 h6 a {
   border-bottom: 1px solid rgba(26,26,26,.3);
-  padding-bottom: .05em;
   transition: border-color .15s ease-out,color .15s ease-out
 }
 h6 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
 }
-h6 + h6 {
-  margin-top: 15px
-}
+
 t6 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -536,19 +513,26 @@ hotelname {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
-  text-rendering: optimizeLegibility
+  font-size: 4rem;
+  text-rendering: optimizeLegibility;
+}
+@media (max-width:1024px) {
+  hotelname {
+    font-size: 3rem!important;
+  }
+}
+@media (max-width:768px) {
+  hotelname {
+    font-size: 2rem!important;
+  }
 }
 hotelname a {
   border-bottom: 1px solid rgba(26,26,26,.3);
-  padding-bottom: .05em;
-  transition: border-color .15s ease-out,color .15s ease-out
+  transition: border-color .15s ease-out,color .15s ease-out;
 }
 hotelname a:hover {
   border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
-}
-hotelname + hotelname {
-  margin-top: 15px
+  color: rgba(0,0,0,.6);
 }
 
 
