@@ -673,12 +673,12 @@ a:visited {
 }
 .bottom,
 .bottom-left,
-.button-bar {
+.-bar {
   bottom: 0;
   position: absolute
 }
 .bottom-right,
-.button-bar-right {
+.-bar-right {
   bottom: 0;
   position: absolute;
   right: 0
@@ -756,11 +756,104 @@ a:hover {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   display: inline-block
 }
+
+.button.outline,
+button.outline {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  
+  /* Centering and button styling */
+  background-color: #fff;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  width: 10rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1; /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+}
+
+/* Hover state for .button */
+.button.outline:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button */
+.button.outline:active {
+  border: 3px solid #000;
+  color: #fff;
+  filter: brightness(110%);
+  text-decoration: none;
+}
+
+
+/* Base button style */
+.button {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  
+  /* Centering and button styling */
+  background-color: #000;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 10rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1; /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+}
+
+/* Hover state for .button .outline */
+.button:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff; 
+  color: #000;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button .outline */
+.button:active {
+  border: 3px solid #fff;
+  color: #000;
+  filter: brightness(100%);
+  text-decoration: none;
+}
+
 .small,
 small {
-  border: 2px solid #000;
-  flex: 2;
-  width: 8rem;
+  border: 3px solid #000;
+  width: 6rem;
   font-size: .75rem;
   font-style: normal;
   font-weight: 600;
@@ -768,83 +861,20 @@ small {
   line-height: 100%;
   padding: .5rem 1rem
 }
-.button,
-button {
-  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
-  align-content: center;
-  align-items: stretch;
-  align-self: auto;
-  background-color: #fff;
-  border-radius: 0;
+
+.small.outline,
+small.outine {
   border: 3px solid #000;
-  color: #000;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: 2;
-  width: 10rem;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-size: 1.33rem;
+  width: 6rem;
+  font-size: .75rem;
   font-style: normal;
   font-weight: 600;
-  justify-content: center;
-  letter-spacing: .1em;
+  font-size: 1rem;
   line-height: 100%;
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+  padding: .5rem 1rem
 }
-.button .outline {
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #fff;
-  text-decoration: none padding: 1rem 1.75rem
-}
-.button:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #000;
-  border-radius: 0;
-  color: #fff;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  text-decoration: none;
-  transform-origin: 50%;
-  text-decoration: none padding: 1rem 1.75rem
-}
-.button .outline:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: 000;
-  color: #fff;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  text-decoration: none;
-  transform-origin: 50%;
-  text-decoration: none
-}
-.button:active {
-  border: 3px solid #000;
-  border-color: #000;
-  color: #fff;
-  filter: brightness(110%);
-  text-decoration: none
-}
-.button .outline:active {
-  border: 3px solid #000;
-  border-color: #000;
-  color: #fff;
-  filter: brightness(100%);
-  text-decoration: none
-}
+
+
 .link {
   border: none;
   border-color: transparent;
