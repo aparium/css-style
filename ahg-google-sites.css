@@ -997,3 +997,7 @@ textarea {
 .line {
   border-bottom: 2px solid #000
 }
+
+.white-text {
+  color: #FFFFFF
+}
