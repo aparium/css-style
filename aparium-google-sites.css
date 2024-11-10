@@ -1,0 +1,999 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
+}
+.freight-big-light {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 300;
+  font-style: normal
+}
+.freight-big-regular {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.freight-big-mediumn {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 500;
+  font-style: normal
+}
+.freight-big-semibold {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 600;
+  font-style: normal
+}
+.freight-big-bold {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 700;
+  font-style: normal
+}
+.freight-big-black {
+  font-family: "Freight Big",sans-serif;
+  font-weight: 900;
+  font-style: normal
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 100;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf') format('truetype'),
+}
+.freight-sans-thin {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 100;
+  font-style: normal
+}
+.freight-sans-light {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 300;
+  font-style: normal
+}
+.freight-sans-regular {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.freight-sans-mediumn {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 500;
+  font-style: normal
+}
+.freight-sans-semibold {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 600;
+  font-style: normal
+}
+.freight-sans-bold {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 700;
+  font-style: normal
+}
+.freight-sans-black {
+  font-family: "Freight Sans",sans-serif;
+  font-weight: 900;
+  font-style: normal
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.svg#PlayfairDisplay') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.svg#PlayfairDisplay') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.svg#PlayfairDisplay') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.svg#PlayfairDisplay') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.svg#PlayfairDisplay') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.svg#PlayfairDisplay') format('svg')
+}
+.playfair-display-regular {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.playfair-display-mediumn {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 500;
+  font-style: normal
+}
+.playfair-display-semibold {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 600;
+  font-style: normal
+}
+.playfair-display-bold {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 700;
+  font-style: normal
+}
+.playfair-display-extrabold {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 800;
+  font-style: normal
+}
+.playfair-display-black {
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 800;
+  font-style: normal
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.svg#OpenSans') format('svg')
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.svg#OpenSans') format('svg')
+}
+.open-sans-light {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  font-style: normal
+}
+.open-sans-regular {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.open-sans-mediumn {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 500;
+  font-style: normal
+}
+.open-sans-semibold {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 600;
+  font-style: normal
+}
+.open-sans-bold {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 700;
+  font-style: normal
+}
+.open-sans-extrabold {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 800;
+  font-style: normal
+}
+
+body {
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+
+body::-webkit-scrollbar {
+  display: none
+}
+
+p {
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  white-space: pre-wrap;
+}
+
+h1 {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+@media (max-width:1024px) {
+  h1 {
+    font-size: 3rem!important
+  }
+}
+@media (max-width:768px) {
+  h1 {
+    font-size: 2rem!important
+  }
+}
+
+h1 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
+}
+
+h2 {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  font-size: 3.5;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h2.center {
+  text-align: center;
+}
+
+h2.lowercase {
+  text-align: center;
+    text-transform: none;
+}
+
+h3 {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h3 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
+}
+
+
+h4 {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h4 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
+}
+
+
+h5 {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h5 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+   transition: border-color .15s ease-out,color .15s ease-out
+}
+
+h6 {
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h6 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
+}
+
+
+h7 {
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+h8 {
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+.hotelname,
+hotelname {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight: 400;
+  font-size: 4rem;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+@media (max-width:1024px) {
+  hotelname {
+    font-size: 3rem!important;
+  }
+}
+
+@media (max-width:768px) {
+  hotelname {
+    font-size: 2rem!important;
+  }
+}
+
+.hotelname a:hover,
+hotelname a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out;
+}
+
+.foldername
+foldername {
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 95%;
+  text-rendering: optimizeLegibility;
+  line-height: 1
+}
+
+.foldername a:hover
+foldername a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out;
+}
+
+a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a:visited {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none!important;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out
+}
+
+.modal-dialog-title-text {
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+.block {
+  display: block
+}
+
+.lowercase {
+  text-transform: unset;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.inline {
+  display: flex;
+  align-content: center;
+  justify-content: center
+}
+
+.center{
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center
+}
+
+top,
+top-left {
+  top: 0;
+  position: absolute
+}
+top-right {
+  top: 0;
+  position: absolute;
+  right: 0
+}
+margin-top-s {
+  padding-top: .75rem
+}
+margin-top-m {
+  padding-top: 1rem
+}
+margin-top-l {
+  padding-top: 2rem
+}
+margin-top-xl {
+  padding-top: 3rem
+}
+margin-top-xxl {
+  padding-top: 4rem
+}
+margin-bottom-s {
+  padding-bottom: .75rem
+}
+margin-bottom-m {
+  padding-bottom: 1rem
+}
+margin-bottom-l {
+  padding-bottom: 2rem
+}
+margin-bottom-xl {
+  padding-bottom: 3rem
+}
+margin-bottom-xxl {
+  padding-bottom: 4rem
+}
+
+.bottom,
+.bottom-left,
+.bar {
+  bottom: 0;
+  position: absolute
+}
+
+.bottom-right,
+.bar-right {
+  bottom: 0;
+  position: absolute;
+  right: 0
+}
+
+message {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase
+}
+
+message.bold {
+  font-weight: 600;
+}
+
+.current {
+  color: #000;
+  font-weight: 700
+}
+
+.error {
+  color: #f02
+}
+
+.gray,
+.grey {
+  color: #828282
+}
+
+.secondary {
+  color: #e8e828;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  display: inline-block
+}
+
+.button.outline,
+button.outline {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  
+  /* Centering and button styling */
+  background-color: #fff;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  width: 10rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1; /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+}
+
+/* Hover state for .button */
+.button.outline:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button */
+.button.outline:active {
+  border: 3px solid #000;
+  color: #fff;
+  filter: brightness(110%);
+  text-decoration: none;
+}
+
+/* Base button style */
+.button {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  
+  /* Centering and button styling */
+  background-color: #000;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 10rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1; /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+}
+
+/* Hover state for .button .outline */
+.button:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff; 
+  color: #000;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button .outline */
+.button:active {
+  border: 3px solid #fff;
+  color: #000;
+  filter: brightness(100%);
+  text-decoration: none;
+}
+
+.small,
+small {
+  border: 3px solid #000;
+  width: 6rem;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  padding: .5rem 1rem
+}
+
+.small.outline,
+small.outine {
+  border: 3px solid #000;
+  width: 6rem;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  padding: .5rem 1rem
+}
+
+
+.link {
+  border: none;
+  border-color: transparent;
+  color: #000;
+  cursor: pointer;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: 1.33rem;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .2s
+}
+.link:hover {
+  border: none;
+  border-color: transparent;
+  color: #682848;
+  font-weight: 500
+}
+.link:active {
+  border: none;
+  border-color: transparent;
+  color: #682848;
+  filter: brightness(120%)
+}
+.link-save {
+  border-color: transparent;
+  border: none;
+  border-color: transparent;
+  color: #682848;
+  cursor: pointer;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: 1.33rem;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+  text-decoration: none;
+  transition: all .2s
+}
+
+.form-group action + select,
+.form-group action + textarea .form-group reset + input,
+.form-group label + input,
+.form-group label + select,
+.form-group label + textarea .form-group action + input,
+.form-group reset + select,
+.form-group reset + textarea {
+  display: block
+}
+
+fieldset {
+  border: 1px solid #ebebeb;
+  margin: 0
+}
+
+input[type=action],
+select[multiple],
+select[size],
+textarea {
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: .5rem;
+  font-weight: 700;
+  margin: 0;
+  outline: 0;
+  padding: 5px 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0
+}
+
+input[type=action] {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: .5rem;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 5px 15px;
+  text-align: left;
+  text-decoration: none;
+  transition: all .2s
+}
+
+input[type=action]:focus,
+input[type=action]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+select[multiple]:focus,
+select[size]:focus,
+textarea:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: transparent;
+  color: #000;
+  transform-origin: 50%
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select[multiple],
+select[size],
+textarea {
+  background: #transparent;
+  border: 2px solid #000;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  outline: 0;
+  padding: 4px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: 25px
+}
+
+input[type=date]:focus,
+input[type=date]:hover,
+input[type=datetime-local]:focus,
+input[type=datetime-local]:hover,
+input[type=datetime]:focus,
+input[type=datetime]:hover,
+input[type=email]:focus,
+input[type=email]:hover,
+input[type=month]:focus,
+input[type=month]:hover,
+input[type=number]:focus,
+input[type=number]:hover,
+input[type=password]:focus,
+input[type=password]:hover,
+input[type=search]:focus,
+input[type=search]:hover,
+input[type=tel]:focus,
+input[type=tel]:hover,
+input[type=text]:focus,
+input[type=text]:hover,
+input[type=time]:focus,
+input[type=time]:hover,
+input[type=url]:focus,
+input[type=url]:hover,
+input[type=week]:focus,
+input[type=week]:hover,
+select[multiple]:focus,
+select[multiple]:hover,
+select[size]:focus,
+textarea:focus,
+textarea:hover {
+  border: 2px solid #1c447f;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.3)
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+  padding: 0
+}
+
+select[multiple]:disabled select[size]: disabled {
+  background: #fff;
+  opacity: 1
+}
+
+textarea {
+  resize: vertical
+}
+
+.space {
+  height: 30px
+}
+
+.line {
+  border-bottom: 2px solid #000
+}
