@@ -744,7 +744,7 @@ a:hover {
 .grey {
   color: #828282
 }
-.secondar {
+.secondary {
   color: #e8e828;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   display: inline-block
@@ -753,10 +753,11 @@ a:hover {
 small {
   border: 2px solid #000;
   flex: 2;
-  width: 10rem;
+  width: 8rem;
   font-size: .75rem;
   font-style: normal;
   font-weight: 600;
+  font-size: 1rem;
   line-height: 100%;
   padding: .5rem 1rem
 }
@@ -770,33 +771,33 @@ button {
   align-items: stretch;
   align-self: auto;
   background-color: #fff;
-  border-radius: 0!important;
-  border: 3px solid #000!important;
+  border-radius: 0;
+  border: 3px solid #000;
   color: #000;
   cursor: pointer;
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
   flex: 2;
-  width: 13rem;
+  width: 10rem;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-size: 1.33rem;
-  font-style: normal!important;
+  font-style: normal;
   font-weight: 600;
   justify-content: center;
-  letter-spacing: .1em!important;
+  letter-spacing: .1em;
   line-height: 100%;
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
 }
 .button .outline {
   background-color: #000;
-  border-radius: 0!important;
-  border: 3px solid #000!important;
+  border-radius: 0;
+  border: 3px solid #000;
   color: #fff;
   text-decoration: none padding: 1rem 1.75rem
 }
@@ -804,9 +805,9 @@ button {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: #000;
-  border-radius: 0!important;
+  border-radius: 0;
   color: #fff;
-  border: 3px solid #000!important;
+  border: 3px solid #000;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
@@ -817,7 +818,7 @@ button {
   backface-visibility: visible;
   background-color: 000;
   color: #fff;
-  border: 3px solid #000!important;
+  border: 3px solid #000;
   filter: brightness(110%);
   text-decoration: none;
   transform-origin: 50%;
