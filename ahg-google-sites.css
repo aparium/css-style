@@ -668,6 +668,54 @@ message.bold {
   display: inline-block
 }
 
+.bottom,
+.bottom-left,
+.bar {
+  bottom: 0;
+  position: absolute
+}
+
+.bottom-right,
+.bar-right {
+  bottom: 0;
+  position: absolute;
+  right: 0
+}
+
+message {
+  color: #000;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase
+}
+
+message.bold {
+  font-weight: 600;
+}
+
+.current {
+  color: #000;
+  font-weight: 700
+}
+
+.error {
+  color: #f02
+}
+
+.gray,
+.grey {
+  color: #828282
+}
+
+.secondary {
+  color: #e8e828;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  display: inline-block
+}
+
 .button.outline,
 button.outline {
   /* Smooth transition on color and background color */
@@ -713,6 +761,54 @@ button.outline {
   filter: brightness(110%);
   text-decoration: none;
 }
+
+
+.button.outline.white,
+button.outline.white {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  
+  /* Centering and button styling */
+  background-color: #000;
+  border-radius: 0;
+  border: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 10rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.33rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1; /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+}
+
+/* Hover state for .button */
+.button.outline.white:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button */
+.button.outline.white:active {
+  border: 3px solid #000;
+  color: #000;
+  filter: brightness(110%);
+  text-decoration: none;
+}
+
 
 /* Base button style */
 .button {
@@ -762,7 +858,7 @@ button.outline {
 
 .small,
 small {
-  border: 3px solid #000;
+
   width: 6rem;
   font-size: .75rem;
   font-style: normal;
@@ -772,9 +868,11 @@ small {
   padding: .5rem 1rem
 }
 
+
 .small.outline,
-small.outine {
-  border: 3px solid #000;
+small.outine,
+.small.outline.white,
+small.outine.white {
   width: 6rem;
   font-size: .75rem;
   font-style: normal;
