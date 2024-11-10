@@ -550,9 +550,26 @@ hotelname a:hover {
 hotelname + hotelname {
   margin-top: 15px
 }
+
+
+foldername {
+  color: #000;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 95%;
+  text-rendering: optimizeLegibility;
+}
+foldername a:hover {
+  border-color: rgba(0,0,0,.15);
+  color: rgba(0,0,0,.6)
+}
+
+
 a:hover {
   text-decoration: underline
 }
+
 a:visited {
   color: #000;
   cursor: pointer;
@@ -565,10 +582,10 @@ a:visited {
 }
 .modal-dialog-title-text {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-weight: 400!important;
-  line-height: 100%!important;
-  text-align: center!important;
-  font-size: 10px!important
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  font-size: 10px;
 }
 .block {
   display: block
