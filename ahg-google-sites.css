@@ -355,7 +355,6 @@ p {
 }
 
 h1 {
-  margin: .67em 0;
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 500;
@@ -392,6 +391,10 @@ h2 {
   text-rendering: optimizeLegibility
 }
 
+h2.center {
+  text-align: center;
+}
+
 t2 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -417,6 +420,9 @@ h3 a {
 h3 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
+}
+h3.center {
+  text-align: center;
 }
 
 t3 {
@@ -453,6 +459,10 @@ h4 a:hover {
   color: rgba(0,0,0,.6)
 }
 
+h4.center {
+  text-align: center;
+}
+
 t4 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
@@ -475,6 +485,10 @@ h5 a {
 h5 a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
+}
+
+h5.center {
+  text-align: center;
 }
 
 t5 {
@@ -502,6 +516,10 @@ h6 a:hover {
   color: rgba(0,0,0,.6)
 }
 
+h6.center {
+  text-align: center;
+}
+
 t6 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -516,12 +534,14 @@ h7 {
   font-size: 1rem;
   text-transform: uppercase
 }
+
 h8 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   text-transform: uppercase
 }
+
 hotelname {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -539,10 +559,12 @@ hotelname {
     font-size: 2rem!important;
   }
 }
+
 hotelname a {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out;
 }
+
 hotelname a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6);
@@ -587,11 +609,12 @@ a:visited {
 .block {
   display: block
 }
+
 .center {
-  padding: 2rem
+  text-align: center;
 }
+
 .middle {
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center
