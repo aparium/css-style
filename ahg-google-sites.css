@@ -496,9 +496,9 @@ t5 {
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 400;
   font-size: 2rem;
-  text-transform: uppercase;
   text-rendering: optimizeLegibility
 }
+
 h6 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -525,29 +525,33 @@ t6 {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+}
+
 }
 h7 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  text-transform: uppercase
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
 
 h8 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
-  text-transform: uppercase
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
 
+.hotelname,
 hotelname {
   color: #000;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 400;
   font-size: 4rem;
-  text-rendering: optimizeLegibility;
 }
 @media (max-width:1024px) {
   hotelname {
@@ -560,17 +564,19 @@ hotelname {
   }
 }
 
+.hotelname a,
 hotelname a {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out;
 }
 
+.hotelname a:hover,
 hotelname a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6);
 }
 
-
+.foldername
 foldername {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -579,11 +585,12 @@ foldername {
   line-height: 95%;
   text-rendering: optimizeLegibility;
 }
+
+.foldername a:hover
 foldername a:hover {
   border-color: rgba(0,0,0,.15);
   color: rgba(0,0,0,.6)
 }
-
 
 a:hover {
   text-decoration: underline
