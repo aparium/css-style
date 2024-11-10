@@ -351,7 +351,7 @@ body::-webkit-scrollbar {
 p {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
-  white-space: pre-wrap
+  white-space: pre-wrap;
 }
 
 h1 {
@@ -361,6 +361,7 @@ h1 {
   text-transform: uppercase;
   font-size: 5rem;
   text-rendering: optimizeLegibility;
+  line-height: 1
 }
 @media (max-width:1024px) {
   h1 {
@@ -374,12 +375,8 @@ h1 {
 }
 
 h1 a:hover {
-  border-color: rgba(26,26,26,.15);
-  color: rgba(26,26,26,.6)
-}
-
-h1.center {
-  text-align: center;
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
 }
 
 h2 {
@@ -388,19 +385,17 @@ h2 {
   font-weight: 500;
   font-size: 3.5;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
 
 h2.center {
   text-align: center;
 }
 
-t2 {
-  color: #000;
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-weight: 500;
-  font-size: 3.5rem;
-  text-rendering: optimizeLegibility
+h2.lowercase {
+  text-align: center;
+    text-transform: none;
 }
 
 h3 {
@@ -409,38 +404,15 @@ h3 {
   font-weight: 500;
   font-size: 3rem;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
 
-h3 a {
+h3 a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out
 }
 
-h3 a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
-}
-h3.center {
-  text-align: center;
-}
-
-t3 {
-  color: #000;
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-weight: 400;
-  font-size: 2.5rem;
-  text-rendering: optimizeLegibility
-}
-
-c3 {
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  font-size: 2.5rem;
-  text-align: center;
-  text-rendering: optimizeLegibility;
-}
 
 h4 {
   color: #000;
@@ -448,55 +420,29 @@ h4 {
   font-weight: 500;
   font-size: 2.5rem;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
-h4 a {
+
+h4 a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out
 }
-h4 a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
-}
 
-h4.center {
-  text-align: center;
-}
 
-t4 {
-  color: #000;
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-weight: 400;
-  font-size: 2.5rem;
-  text-rendering: optimizeLegibility
-}
 h5 {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
-h5 a {
-  border-bottom: 1px solid rgba(26,26,26,.3);
-  transition: border-color .15s ease-out,color .15s ease-out
-}
+
 h5 a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
-}
-
-h5.center {
-  text-align: center;
-}
-
-t5 {
-  color: #000;
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-weight: 400;
-  font-size: 2rem;
-  text-rendering: optimizeLegibility
+  border-bottom: 1px solid rgba(26,26,26,.3);
+   transition: border-color .15s ease-out,color .15s ease-out
 }
 
 h6 {
@@ -505,30 +451,16 @@ h6 {
   font-weight: 400;
   font-size: 1.5rem;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
-h6 a {
+
+h6 a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out
 }
-h6 a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
-}
 
-h6.center {
-  text-align: center;
-}
 
-t6 {
-  color: #000;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  text-rendering: optimizeLegibility;
-}
-
-}
 h7 {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -536,6 +468,7 @@ h7 {
   font-size: 1rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  line-height: 1
 }
 
 h8 {
@@ -544,6 +477,7 @@ h8 {
   font-weight: 400;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  line-height: 1
 }
 
 .hotelname,
@@ -552,28 +486,26 @@ hotelname {
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-weight: 400;
   font-size: 4rem;
+  text-rendering: optimizeLegibility;
+  line-height: 1
 }
+
 @media (max-width:1024px) {
   hotelname {
     font-size: 3rem!important;
   }
 }
+
 @media (max-width:768px) {
   hotelname {
     font-size: 2rem!important;
   }
 }
 
-.hotelname a,
-hotelname a {
-  border-bottom: 1px solid rgba(26,26,26,.3);
-  transition: border-color .15s ease-out,color .15s ease-out;
-}
-
 .hotelname a:hover,
 hotelname a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6);
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out;
 }
 
 .foldername
@@ -584,12 +516,19 @@ foldername {
   font-size: 1rem;
   line-height: 95%;
   text-rendering: optimizeLegibility;
+  line-height: 1
 }
 
 .foldername a:hover
 foldername a:hover {
-  border-color: rgba(0,0,0,.15);
-  color: rgba(0,0,0,.6)
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out;
+}
+
+a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none
 }
 
 a:hover {
@@ -606,6 +545,7 @@ a:visited {
   -ms-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out
 }
+
 .modal-dialog-title-text {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
@@ -617,8 +557,8 @@ a:visited {
   display: block
 }
 
-.center {
-  text-align: center;
+.lowercase {
+  text-transform: unset;
 }
 
 .middle {
@@ -631,126 +571,97 @@ a:visited {
   align-content: center;
   justify-content: center
 }
-.top,
-.top-left {
+
+.center{
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center
+}
+
+top,
+top-left {
   top: 0;
   position: absolute
 }
-.top-right {
+top-right {
   top: 0;
   position: absolute;
   right: 0
 }
-.margin-top-s {
+margin-top-s {
   padding-top: .75rem
 }
-.margin-top-m {
+margin-top-m {
   padding-top: 1rem
 }
-.margin-top-l {
+margin-top-l {
   padding-top: 2rem
 }
-.margin-top-xl {
+margin-top-xl {
   padding-top: 3rem
 }
-.margin-top-xxl {
+margin-top-xxl {
   padding-top: 4rem
 }
-.margin-bottom-s {
+margin-bottom-s {
   padding-bottom: .75rem
 }
-.margin-bottom-m {
+margin-bottom-m {
   padding-bottom: 1rem
 }
-.margin-bottom-l {
+margin-bottom-l {
   padding-bottom: 2rem
 }
-.margin-bottom-xl {
+margin-bottom-xl {
   padding-bottom: 3rem
 }
-.margin-bottom-xxl {
+margin-bottom-xxl {
   padding-bottom: 4rem
 }
+
 .bottom,
 .bottom-left,
-.-bar {
+.bar {
   bottom: 0;
   position: absolute
 }
+
 .bottom-right,
-.-bar-right {
+.bar-right {
   bottom: 0;
   position: absolute;
   right: 0
 }
+
 message {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 100%;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
   text-align: left;
   text-transform: uppercase
 }
+
 message.bold {
-  color: #828282;
-  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
-  font-size: 2rem;
   font-weight: 600;
-  line-height: 100%;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  text-align: left
 }
-r1 {
-  color: #828282;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 100%;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  text-align: left
-}
-r2 {
-  color: #828282;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 100%;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  text-align: left
-}
-a {
-  color: #000;
-  cursor: pointer;
-  text-decoration: none
-}
-a:hover {
-  text-decoration: underline
-}
+
 .current {
   color: #000;
   font-weight: 700
 }
+
 .error {
   color: #f02
 }
+
 .gray,
 .grey {
   color: #828282
 }
+
 .secondary {
   color: #e8e828;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -802,7 +713,6 @@ button.outline {
   filter: brightness(110%);
   text-decoration: none;
 }
-
 
 /* Base button style */
 .button {
@@ -915,6 +825,7 @@ small.outine {
   text-decoration: none;
   transition: all .2s
 }
+
 .form-group action + select,
 .form-group action + textarea .form-group reset + input,
 .form-group label + input,
@@ -924,10 +835,12 @@ small.outine {
 .form-group reset + textarea {
   display: block
 }
+
 fieldset {
   border: 1px solid #ebebeb;
   margin: 0
 }
+
 input[type=action],
 select[multiple],
 select[size],
@@ -946,6 +859,7 @@ textarea {
   -ms-border-radius: 0px;
   -o-border-radius: 0
 }
+
 input[type=action] {
   color: #fff;
   cursor: pointer;
@@ -958,6 +872,7 @@ input[type=action] {
   text-decoration: none;
   transition: all .2s
 }
+
 input[type=action]:focus,
 input[type=action]:hover,
 input[type=reset]:focus,
@@ -971,6 +886,7 @@ textarea:hover {
   color: #000;
   transform-origin: 50%
 }
+
 input[type=date],
 input[type=datetime-local],
 input[type=datetime],
@@ -1005,6 +921,7 @@ textarea {
   -ms-border-radius: 0px;
   -o-border-radius: 0
 }
+
 input[type=date],
 input[type=datetime-local],
 input[type=datetime],
@@ -1020,6 +937,7 @@ input[type=url],
 input[type=week] {
   height: 25px
 }
+
 input[type=date]:focus,
 input[type=date]:hover,
 input[type=datetime-local]:focus,
@@ -1056,21 +974,26 @@ textarea:hover {
   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
   box-shadow: inset 0 1px 2px rgba(0,0,0,.3)
 }
+
 select[multiple],
 select[size] {
   height: auto;
   padding: 0
 }
+
 select[multiple]:disabled select[size]: disabled {
   background: #fff;
   opacity: 1
 }
+
 textarea {
   resize: vertical
 }
+
 .space {
   height: 30px
 }
+
 .line {
   border-bottom: 2px solid #000
 }
