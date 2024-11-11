@@ -612,6 +612,10 @@ a:visited {
   justify-content: center
 }
 
+.center-text{
+  text-align: center;
+}
+
 .center{
   display: flex;
   text-align: center;
