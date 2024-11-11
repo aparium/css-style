@@ -355,6 +355,8 @@ p {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   white-space: pre-wrap;
+  text-wrap: pretty;
+}
 }
 
 h1 {
@@ -364,7 +366,9 @@ h1 {
   text-transform: uppercase;
   font-size: 5rem;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
+}
 }
 @media (max-width:1024px) {
   h1 {
@@ -389,7 +393,8 @@ h2 {
   font-size: 3.5;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 @media (max-width:1024px) {
   h1 {
@@ -414,7 +419,8 @@ h3 {
   font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 @media (max-width:1024px) {
@@ -440,7 +446,8 @@ h4 {
   font-size: 2.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 @media (max-width:1024px) {
@@ -466,7 +473,8 @@ h5 {
   font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 @media (max-width:1024px) {
@@ -492,7 +500,8 @@ h6 {
   font-size: 1.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 h6 a:hover {
@@ -508,7 +517,8 @@ h7 {
   font-size: 1rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 h8 {
@@ -517,7 +527,8 @@ h8 {
   font-weight: 400;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 .hotelname,
@@ -527,7 +538,8 @@ hotelname {
   font-weight: 400;
   font-size: 4rem;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 @media (max-width:1024px) {
@@ -556,7 +568,8 @@ foldername {
   font-size: 1rem;
   line-height: 95%;
   text-rendering: optimizeLegibility;
-  line-height: 1
+  line-height: 1;
+  text-wrap: pretty;
 }
 
 .foldername a:hover
