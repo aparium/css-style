@@ -1156,3 +1156,24 @@ textarea {
 .white-text {
   color: #FFFFFF
 }
+
+
+.typebot-container {
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  color: #000000;
+  white-space: pre-wrap;
+  text-wrap: pretty;
+
+}
+
+
+
+
+
+
+
+
+
+
+
