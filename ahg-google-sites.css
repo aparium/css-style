@@ -1,3 +1,6 @@
+
+
+
 @font-face {
   font-display: swap;
   font-family: 'Freight Big';
@@ -365,12 +368,12 @@ h1 {
 }
 @media (max-width:1024px) {
   h1 {
-    font-size: 3rem!important
+    font-size: 3rem
   }
 }
 @media (max-width:768px) {
   h1 {
-    font-size: 2rem!important
+    font-size: 2rem
   }
 }
 
@@ -388,14 +391,20 @@ h2 {
   text-rendering: optimizeLegibility;
   line-height: 1
 }
-
-h2.center {
-  text-align: center;
+@media (max-width:1024px) {
+  h1 {
+    font-size: 2.5rem
+  }
+}
+@media (max-width:768px) {
+  h1 {
+    font-size: 2rem
+  }
 }
 
-h2.lowercase {
-  text-align: center;
-    text-transform: none;
+h2 a:hover {
+  border-bottom: 1px solid rgba(26,26,26,.3);
+  transition: border-color .15s ease-out,color .15s ease-out
 }
 
 h3 {
@@ -408,11 +417,21 @@ h3 {
   line-height: 1
 }
 
+@media (max-width:1024px) {
+  h3 {
+    font-size: 2rem
+  }
+}
+@media (max-width:768px) {
+  h3 {
+    font-size: 1.5rem
+  }
+}
+
 h3 a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out
 }
-
 
 h4 {
   color: #000;
@@ -424,11 +443,21 @@ h4 {
   line-height: 1
 }
 
+@media (max-width:1024px) {
+  h4 {
+    font-size: 2rem
+  }
+}
+@media (max-width:768px) {
+  h4 {
+    font-size: 1.5rem
+  }
+}
+
 h4 a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out
 }
-
 
 h5 {
   color: #000;
@@ -438,6 +467,17 @@ h5 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   line-height: 1
+}
+
+@media (max-width:1024px) {
+  h4 {
+    font-size: 1.5rem
+  }
+}
+@media (max-width:768px) {
+  h4 {
+    font-size: 1rem
+  }
 }
 
 h5 a:hover {
@@ -720,7 +760,6 @@ message.bold {
 button.outline {
   /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  
   /* Centering and button styling */
   background-color: #fff;
   border-radius: 0;
@@ -767,7 +806,6 @@ button.outline {
 button.outline.white {
   /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  
   /* Centering and button styling */
   background-color: #000;
   border-radius: 0;
@@ -858,7 +896,6 @@ button.outline.white {
 
 .small,
 small {
-
   width: 6rem;
   font-size: .75rem;
   font-style: normal;
@@ -897,18 +934,21 @@ small.outine.white {
   text-decoration: none;
   transition: all .2s
 }
+
 .link:hover {
   border: none;
   border-color: transparent;
   color: #682848;
   font-weight: 500
 }
+
 .link:active {
   border: none;
   border-color: transparent;
   color: #682848;
   filter: brightness(120%)
 }
+
 .link-save {
   border-color: transparent;
   border: none;
