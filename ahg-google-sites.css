@@ -794,7 +794,7 @@ button.outline {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-    transition: all .2s;
+  transition: all .2s;
   transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
 }
 
