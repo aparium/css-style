@@ -417,9 +417,10 @@ h1 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  text-transform: uppercase;
   font-size: 5rem;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -457,11 +458,11 @@ h1 a:hover {
 h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
-  font-size: 3.5rem;
+  font-weight: 500;
+  font-size: 4rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -470,7 +471,7 @@ h2 {
 
 @media (max-width: 1024px) {
   h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -499,11 +500,11 @@ h2 a:hover {
 h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 3rem;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -541,7 +542,7 @@ h3 a:hover {
 h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -583,11 +584,11 @@ h4 a:hover {
 h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -618,11 +619,11 @@ h5 a:hover {
 h6 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -647,11 +648,11 @@ h6 a:hover {
 h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -676,11 +677,11 @@ h7 a:hover {
 h8 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
@@ -693,10 +694,10 @@ h8 {
 hotelname {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 4rem;
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
   line-height: 20vh;
