@@ -1,400 +1,407 @@
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Big';
+  font-family: "Freight Big";
   font-style: normal;
   font-stretch: normal;
   font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf") format("truetype");
 }
 
 .freight-big-light {
   font-family: "Freight Big", sans-serif;
   font-weight: 300;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-big-regular {
   font-family: "Freight Big", sans-serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-big-mediumn {
   font-family: "Freight Big", sans-serif;
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-big-semibold {
   font-family: "Freight Big", sans-serif;
   font-weight: 600;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-big-bold {
   font-family: "Freight Big", sans-serif;
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-big-black {
   font-family: "Freight Big", sans-serif;
   font-weight: 900;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 100;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Freight Sans';
+  font-family: "Freight Sans";
   font-style: normal;
   font-stretch: normal;
   font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf') format('truetype'),
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf") format("truetype");
 }
 
 .freight-sans-thin {
   font-family: "Freight Sans", sans-serif;
   font-weight: 100;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-light {
   font-family: "Freight Sans", sans-serif;
   font-weight: 300;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-regular {
   font-family: "Freight Sans", sans-serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-mediumn {
   font-family: "Freight Sans", sans-serif;
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-semibold {
   font-family: "Freight Sans", sans-serif;
   font-weight: 600;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-bold {
   font-family: "Freight Sans", sans-serif;
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
 
 .freight-sans-black {
   font-family: "Freight Sans", sans-serif;
   font-weight: 900;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 800;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.svg#PlayfairDisplay') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.svg#PlayfairDisplay") format("svg");
 }
 
 .playfair-display-regular {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 
 .playfair-display-mediumn {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 .playfair-display-semibold {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 600;
-  font-style: normal
+  font-style: normal;
 }
 
 .playfair-display-bold {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
 
 .playfair-display-extrabold {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 800;
-  font-style: normal
+  font-style: normal;
 }
 
 .playfair-display-black {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 800;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.svg#OpenSans") format("svg");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.svg#OpenSans') format('svg')
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.ttf") format("truetype"),
+    url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.svg#OpenSans") format("svg");
 }
 
 .open-sans-light {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-style: normal
+  font-style: normal;
 }
 
 .open-sans-regular {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 
 .open-sans-mediumn {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 .open-sans-semibold {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-style: normal
+  font-style: normal;
 }
 
 .open-sans-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
 
 .open-sans-extrabold {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-style: normal
+  font-style: normal;
 }
 
 body {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -ms-overflow-style: none;
-  scrollbar-width: none
+  scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
-  display: none
+  display: none;
 }
 
 p {
@@ -404,11 +411,12 @@ p {
   text-wrap: pretty;
 }
 
+/** START H1  */
 
 h1 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 5rem;
   text-rendering: optimizeLegibility;
@@ -418,27 +426,38 @@ h1 {
   display: contents;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   h1 {
-    font-size: 3rem
+    font-size: 4rem;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 2rem
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 h1 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
+
+/** END H1  */
+/** START H2  */
 
 h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 3.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -449,27 +468,38 @@ h2 {
   display: contents;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   h2 {
-    font-size: 2.5rem
+    font-size: 3rem;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   h2 {
-    font-size: 2rem
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 h2 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
+
+/** END H2  */
+/** START H3  */
 
 h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -480,27 +510,38 @@ h3 {
   display: contents;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   h3 {
-    font-size: 2rem
+    font-size: 2.5rem;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   h3 {
-    font-size: 1.5rem
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 h3 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
+
+/** END H3  */
+/** START H3  */
 
 h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -511,27 +552,38 @@ h4 {
   display: contents;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   h4 {
-    font-size: 2rem
+    font-size: 2rem;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   h4 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h4 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 h4 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
+
+/** END H4  */
+/** START H4  */
 
 h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -542,26 +594,30 @@ h5 {
   display: contents;
 }
 
-@media (max-width:1024px) {
-  h4 {
-    font-size: 1.5rem
+@media (max-width: 1024px) {
+  h5 {
+    font-size: 1.5rem;
   }
 }
 
-@media (max-width:768px) {
-  h4 {
-    font-size: 1rem
+@media (max-width: 768px) {
+  h5 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 h5 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
+
+/** END H5  */
+/** START H6  */
 
 h6 {
   color: #000;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 400;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -573,13 +629,51 @@ h6 {
   display: contents;
 }
 
-h6 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out
+@media (max-width: 768px) {
+  h6 {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
+h6 a:hover {
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
+}
+
+/** END H6  */
+/** START H7  */
 
 h7 {
+  color: #000;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
+}
+
+@media (max-width: 768px) {
+  h7 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+h7 a:hover {
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
+}
+
+/** END H7  */
+/** START H8  */
+
+h8 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
@@ -593,18 +687,7 @@ h7 {
   display: contents;
 }
 
-h8 {
-  color: #000;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  line-height: 1;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  line-height: 20vh;
-  display: contents;
-}
+/** END H8  */
 
 .hotelname,
 hotelname {
@@ -615,27 +698,37 @@ hotelname {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   hotelname {
     font-size: 3rem !important;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   hotelname {
     font-size: 2rem !important;
   }
 }
 
-.hotelname a:hover,
-hotelname a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out;
+@media (max-width: 768px) {
+  hotelname {
+    font-size: 1rem !important;
+  }
 }
 
-.foldername foldername {
+.hotelname a:hover,
+hotelname a:hover {
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
+}
+
+.foldername,
+foldername {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
@@ -644,11 +737,14 @@ hotelname a:hover {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 .foldername a:hover foldername a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, .3);
-  transition: border-color .15s ease-out, color .15s ease-out;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
 
 a {
@@ -665,11 +761,11 @@ a:visited {
   color: #000;
   cursor: pointer;
   text-decoration: none !important;
-  transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -ms-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
 }
 
 .modal-dialog-title-text {
@@ -681,7 +777,7 @@ a:visited {
 }
 
 .block {
-  display: block
+  display: block;
 }
 
 .lowercase {
@@ -691,13 +787,13 @@ a:visited {
 .middle {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center
+  justify-content: center;
 }
 
 .inline {
   display: flex;
   align-content: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .center-text {
@@ -708,73 +804,73 @@ a:visited {
   display: flex;
   text-align: center;
   align-content: center;
-  justify-content: center
+  justify-content: center;
 }
 
 top,
 top-left {
   top: 0;
-  position: absolute
+  position: absolute;
 }
 
 top-right {
   top: 0;
   position: absolute;
-  right: 0
+  right: 0;
 }
 
 margin-top-s {
-  padding-top: .75rem
+  padding-top: 0.75rem;
 }
 
 margin-top-m {
-  padding-top: 1rem
+  padding-top: 1rem;
 }
 
 margin-top-l {
-  padding-top: 2rem
+  padding-top: 2rem;
 }
 
 margin-top-xl {
-  padding-top: 3rem
+  padding-top: 3rem;
 }
 
 margin-top-xxl {
-  padding-top: 4rem
+  padding-top: 4rem;
 }
 
 margin-bottom-s {
-  padding-bottom: .75rem
+  padding-bottom: 0.75rem;
 }
 
 margin-bottom-m {
-  padding-bottom: 1rem
+  padding-bottom: 1rem;
 }
 
 margin-bottom-l {
-  padding-bottom: 2rem
+  padding-bottom: 2rem;
 }
 
 margin-bottom-xl {
-  padding-bottom: 3rem
+  padding-bottom: 3rem;
 }
 
 margin-bottom-xxl {
-  padding-bottom: 4rem
+  padding-bottom: 4rem;
 }
 
 .bottom,
 .bottom-left,
 .bar {
   bottom: 0;
-  position: absolute
+  position: absolute;
 }
 
 .bottom-right,
 .bar-right {
   bottom: 0;
   position: absolute;
-  right: 0
+  right: 0;
 }
 
 message {
@@ -784,7 +880,7 @@ message {
   font-weight: 500;
   line-height: 100%;
   text-align: left;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 message.bold {
@@ -793,36 +889,36 @@ message.bold {
 
 .current {
   color: #000;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .error {
-  color: #f02
+  color: #f02;
 }
 
 .gray,
 .grey {
-  color: #828282
+  color: #828282;
 }
 
 .secondary {
   color: #e8e828;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  display: inline-block
+  display: inline-block;
 }
 
 .bottom,
 .bottom-left,
 .bar {
   bottom: 0;
-  position: absolute
+  position: absolute;
 }
 
 .bottom-right,
 .bar-right {
   bottom: 0;
   position: absolute;
-  right: 0
+  right: 0;
 }
 
 message {
@@ -832,7 +928,7 @@ message {
   font-weight: 500;
   line-height: 100%;
   text-align: left;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 message.bold {
@@ -841,22 +937,22 @@ message.bold {
 
 .current {
   color: #000;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .error {
-  color: #f02
+  color: #f02;
 }
 
 .gray,
 .grey {
-  color: #828282
+  color: #828282;
 }
 
 .secondary {
   color: #e8e828;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  display: inline-block
+  display: inline-block;
 }
 
 .button.outline,
@@ -874,14 +970,14 @@ button.outline {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 }
 
@@ -905,7 +1001,6 @@ button.outline {
   text-decoration: none;
 }
 
-
 .button.outline.white,
 button.outline.white {
   /*Smoothtransitiononcolorandbackgroundcolor*/
@@ -920,14 +1015,14 @@ button.outline.white {
   /*width: 10rem;*/
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   /*Updatedfrom100%toensurebettercompatibility*/
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
   -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
   -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
@@ -955,7 +1050,6 @@ button.outline.white {
   text-decoration: none;
 }
 
-
 /* Base button style */
 button,
 .button {
@@ -972,14 +1066,14 @@ button,
   /*width: 10rem; */
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 }
 
@@ -1008,28 +1102,26 @@ button:active,
 .small,
 small {
   width: 6rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
   line-height: 100%;
-  padding: .5rem 1rem
+  padding: 0.5rem 1rem;
 }
-
 
 .small.outline,
 small.outine,
 .small.outline.white,
 small.outine.white {
   width: 6rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
   line-height: 100%;
-  padding: .5rem 1rem
+  padding: 0.5rem 1rem;
 }
-
 
 .link {
   border: none;
@@ -1043,21 +1135,21 @@ small.outine.white {
   text-align: left;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all .2s
+  transition: all 0.2s;
 }
 
 .link:hover {
   border: none;
   border-color: transparent;
   color: #682848;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .link:active {
   border: none;
   border-color: transparent;
   color: #682848;
-  filter: brightness(120%)
+  filter: brightness(120%);
 }
 
 .link-save {
@@ -1072,28 +1164,25 @@ small.outine.white {
   line-height: 100%;
   text-align: left;
   text-decoration: none;
-  transition: all .2s
+  transition: all 0.2s;
 }
 
-.form-group action+select,
-.form-group action+textarea .form-group reset+input,
-.form-group label+input,
-.form-group label+select,
-.form-group label+textarea .form-group action+input,
-.form-group reset+select,
-.form-group reset+textarea {
-  display: block
+.form-group action + select,
+.form-group action + textarea .form-group reset + input,
+.form-group label + input,
+.form-group label + select,
+.form-group label + textarea .form-group action + input,
+.form-group reset + select,
+.form-group reset + textarea {
+  display: block;
 }
 
 fieldset {
   border: 1px solid #ebebeb;
-  margin: 0
+  margin: 0;
 }
 
-
-input:is([type="button"],
-  [type="submit"],
-  [type="reset"]):active {
+input:is([type="button"], [type="submit"], [type="reset"]):active {
   /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
   /* Centering and button styling */
@@ -1106,18 +1195,19 @@ input:is([type="button"],
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 }
 
-input[type="file"]::file-selector-button:active, button:active {
+input[type="file"]::file-selector-button:active,
+button:active {
   /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
   /* Centering and button styling */
@@ -1130,20 +1220,18 @@ input[type="file"]::file-selector-button:active, button:active {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-
 }
 
-
-input[type=action],
+input[type="action"],
 select[multiple],
 select[size],
 textarea {
@@ -1151,7 +1239,7 @@ textarea {
   box-sizing: border-box;
   color: #fff;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: .5rem;
+  font-size: 0.5rem;
   font-weight: 700;
   margin: 0;
   outline: 0;
@@ -1159,26 +1247,26 @@ textarea {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0;
   -ms-border-radius: 0px;
-  -o-border-radius: 0
+  -o-border-radius: 0;
 }
 
-input[type=action] {
+input[type="action"] {
   color: #fff;
   cursor: pointer;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: .5rem;
+  font-size: 0.5rem;
   font-weight: 700;
   line-height: 100%;
   padding: 5px 15px;
   text-align: left;
   text-decoration: none;
-  transition: all .2s
+  transition: all 0.2s;
 }
 
-input[type=action]:focus,
-input[type=action]:hover,
-input[type=reset]:focus,
-input[type=reset]:hover,
+input[type="action"]:focus,
+input[type="action"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
 select[multiple]:focus,
 select[size]:focus,
 textarea:hover {
@@ -1186,22 +1274,22 @@ textarea:hover {
   backface-visibility: visible;
   background-color: transparent;
   color: #000;
-  transform-origin: 50%
+  transform-origin: 50%;
 }
 
-input[type=date],
-input[type=datetime-local],
-input[type=datetime],
-input[type=email],
-input[type=month],
-input[type=number],
-input[type=password],
-input[type=search],
-input[type=tel],
-input[type=text],
-input[type=time],
-input[type=url],
-input[type=week],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
 select[multiple],
 select[size],
 textarea {
@@ -1217,55 +1305,55 @@ textarea {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: .25rem 0rem;
+  margin: 0.25rem 0rem;
   outline: 0;
   padding: 1rem 1.25rem;
   -ms-border-radius: 0px;
-  -o-border-radius: 0
+  -o-border-radius: 0;
 }
 
-input[type=date],
-input[type=datetime-local],
-input[type=datetime],
-input[type=email],
-input[type=month],
-input[type=number],
-input[type=password],
-input[type=search],
-input[type=tel],
-input[type=text],
-input[type=time],
-input[type=url],
-input[type=week] {
-  height: 25px
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  height: 25px;
 }
 
-input[type=date]:focus,
-input[type=date]:hover,
-input[type=datetime-local]:focus,
-input[type=datetime-local]:hover,
-input[type=datetime]:focus,
-input[type=datetime]:hover,
-input[type=email]:focus,
-input[type=email]:hover,
-input[type=month]:focus,
-input[type=month]:hover,
-input[type=number]:focus,
-input[type=number]:hover,
-input[type=password]:focus,
-input[type=password]:hover,
-input[type=search]:focus,
-input[type=search]:hover,
-input[type=tel]:focus,
-input[type=tel]:hover,
-input[type=text]:focus,
-input[type=text]:hover,
-input[type=time]:focus,
-input[type=time]:hover,
-input[type=url]:focus,
-input[type=url]:hover,
-input[type=week]:focus,
-input[type=week]:hover,
+input[type="date"]:focus,
+input[type="date"]:hover,
+input[type="datetime-local"]:focus,
+input[type="datetime-local"]:hover,
+input[type="datetime"]:focus,
+input[type="datetime"]:hover,
+input[type="email"]:focus,
+input[type="email"]:hover,
+input[type="month"]:focus,
+input[type="month"]:hover,
+input[type="number"]:focus,
+input[type="number"]:hover,
+input[type="password"]:focus,
+input[type="password"]:hover,
+input[type="search"]:focus,
+input[type="search"]:hover,
+input[type="tel"]:focus,
+input[type="tel"]:hover,
+input[type="text"]:focus,
+input[type="text"]:hover,
+input[type="time"]:focus,
+input[type="time"]:hover,
+input[type="url"]:focus,
+input[type="url"]:hover,
+input[type="week"]:focus,
+input[type="week"]:hover,
 select[multiple]:focus,
 select[multiple]:hover,
 select[size]:focus,
@@ -1277,12 +1365,12 @@ textarea:hover {
 select[multiple],
 select[size] {
   height: auto;
-  padding: 0
+  padding: 0;
 }
 
 select[multiple]:disabled select[size]: disabled {
   background: #fff;
-  opacity: 1
+  opacity: 1;
 }
 
 .form-select {
@@ -1298,29 +1386,28 @@ select[multiple]:disabled select[size]: disabled {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: .25rem 0rem;
+  margin: 0.25rem 0rem;
   outline: 0;
   padding: 1rem 1.25rem;
   -ms-border-radius: 0px;
-  -o-border-radius: 0
+  -o-border-radius: 0;
 }
 
 textarea {
-  resize: vertical
+  resize: vertical;
 }
 
 .space {
-  height: 30px
+  height: 30px;
 }
 
 .line {
-  border-bottom: 1px solid #E8E8E8
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .white-text {
-  color: #FFFFFF
+  color: #ffffff;
 }
-
 
 .typebot-container {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -1328,11 +1415,9 @@ textarea {
   color: #000000;
   white-space: pre-wrap;
   text-wrap: pretty;
-
 }
 
 .d-flex {
   padding-top: 1rem;
   padding-botttom: 1rem;
-
 }
