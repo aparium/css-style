@@ -393,6 +393,25 @@
   font-style: normal;
 }
 
+
+:root {
+  --vh-factor: 2; /* Default line-height factor for desktop */
+  --font-scale-tablet: 0.85; /* Scale for tablets */
+  --font-scale-mobile-large: 0.7; /* Scale for large mobile devices */
+  --font-scale-mobile-small: 0.5; /* Scale for small mobile devices */
+
+  --h1-size: 6rem; 
+  --h2-size: 5rem; 
+  --h3-size: 4.5rem; 
+  --h4-size: 4rem; 
+  --h5-size: 3.5rem; 
+  --h6-size: 3rem;
+
+  --h7-size: 2.5rem; 
+  --h8-size: 1.5rem; 
+}
+  
+
 body {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -411,347 +430,294 @@ p {
   text-wrap: pretty;
 }
 
-/** START H1  */
+
+
+
 
 h1 {
+  font-size: var(--h1-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 6rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
-
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h1 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H1  */
-/** START H2  */
 
 h2 {
+  font-size: var(--h2-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
-
-@media (max-width: 1024px) {
-  h2 {
-    font-size: 4.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  h2 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  h2 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h2 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H2  */
-/** START H3  */
 
 h3 {
+  font-size: var(--h3-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 4.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
 
-@media (max-width: 1024px) {
-  h3 {
-    font-size: 4.5rem;
-  }
+h3 {
+  font-size: var(--h3-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+  color: #000;
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-wrap: pretty;
+  scrollbar-width: none;
+  display: contents;
 }
-
-@media (max-width: 768px) {
-  h3 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  h3 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h3 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H3  */
-/** START H3  */
 
 h4 {
+  font-size: var(--h4-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 4rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
-
-@media (max-width: 1024px) {
-  h4 {
-    font-size: 3.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  h4 {
-    font-size: 3rem;
-    text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  h4 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h4 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H4  */
-/** START H4  */
 
 h5 {
+  font-size: var(--h5-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 3.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
-
-@media (max-width: 1024px) {
-  h5 {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  h5 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h5 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H5  */
-/** START H6  */
 
 h6 {
+  font-size: var(--h6-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
 
-@media (max-width: 1024px) {
-  h6 {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  h6 {
-    font-size: 1rem;
-    text-align: center;
-  }
-}
-
-h6 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H6  */
-/** START H7  */
-
-h7 {
+.h7 {
+  font-size: var(--h7-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
-  font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
 
-@media (max-width: 768px) {
-  h7 {
-    font-size: 2rem;
-    text-align: center;
-  }
-}
-
-h7 a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
-}
-
-/** END H7  */
-/** START H8  */
-
-h8 {
+.h8 {
+  font-size: var(--h8-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
-  font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
-
-/** END H8  */
 
 .hotelname,
 hotelname {
+  font-size: var(--h7-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 4rem;
   text-rendering: optimizeLegibility;
-  /**  line-height: 1; */
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
-}
-
-@media (max-width: 1024px) {
-  hotelname {
-    font-size: 3rem !important;
-  }
-}
-
-@media (max-width: 768px) {
-  hotelname {
-    font-size: 2rem !important;
-  }
-}
-
-@media (max-width: 768px) {
-  hotelname {
-    font-size: 1rem !important;
-  }
-}
-
-.hotelname a:hover,
-hotelname a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
 }
 
 .foldername,
 foldername {
+  font-size: var(--h8-size);
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
-  font-size: 1rem;
-  line-height: 95%;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  line-height: 1;
   text-wrap: pretty;
   scrollbar-width: none;
-  line-height: 20vh;
   display: contents;
 }
 
-.foldername a:hover foldername a:hover {
-  border-bottom: 1px solid rgba(26, 26, 26, 0.3);
-  transition: border-color 0.15s ease-out, color 0.15s ease-out;
+@media (max-width: 1024px) {
+  :root {
+    --vh-factor: 1.5; /* Adjust line-height for tablets */
+  }
+
+  h1 {
+    font-size: calc(var(--h1-size) * var(--font-scale-tablet));
+  }
+
+  h2 {
+    font-size: calc(var(--h2-size) * var(--font-scale-tablet));
+  }
+
+  h3 {
+    font-size: calc(var(--h3-size) * var(--font-scale-tablet));
+  }
+
+  h4 {
+    font-size: calc(var(--h4-size) * var(--font-scale-tablet));
+  }
+
+  h5 {
+    font-size: calc(var(--h5-size) * var(--font-scale-tablet));
+  }
+
+  h6 {
+    font-size: calc(var(--h6-size) * var(--font-scale-tablet));
+  }
+
+  .h7 {
+    font-size: calc(var(--h7-size) * var(--font-scale-tablet));
+  }
+
+  .h8 {
+    font-size: calc(var(--h8-size) * var(--font-scale-tablet));
+  }
+
+  .hotelname,
+  hotelname {
+    font-size: calc(var(--h4-size) * var(--font-scale-tablet));
+  }
+
+  .foldername,
+  foldername {
+    font-size: calc(var(--h6-size) * var(--font-scale-tablet));
+  }
 }
+
+@media (max-width: 768px) {
+  :root {
+    --vh-factor: 1; /* Adjust line-height for large mobile devices */
+  }
+
+  h1 {
+    font-size: calc(var(--h1-size) * var(--font-scale-mobile-large));
+  }
+
+  h2 {
+    font-size: calc(var(--h2-size) * var(--font-scale-mobile-large));
+  }
+
+  h3 {
+    font-size: calc(var(--h3-size) * var(--font-scale-mobile-large));
+  }
+
+  h4 {
+    font-size: calc(var(--h4-size) * var(--font-scale-mobile-large));
+  }
+
+  h5 {
+    font-size: calc(var(--h5-size) * var(--font-scale-mobile-large));
+  }
+
+  h6 {
+    font-size: calc(var(--h6-size) * var(--font-scale-mobile-large));
+  }
+
+  .h7 {
+    font-size: calc(var(--h7-size) * var(--font-scale-mobile-large));
+  }
+
+  .h8 {
+    font-size: calc(var(--h7-size) * var(--font-scale-mobile-large));
+  }
+
+  .hotelname,
+  hotelname {
+    font-size: calc(var(--h4-size) * var(--font-scale-mobile-large));
+  }
+
+  .foldername,
+  foldername {
+    font-size: calc(var(--h6-size) * var(--font-scale-mobile-large));
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: calc(var(--h1-size) * var(--font-scale-mobile-small));
+  }
+
+  h2 {
+    font-size: calc(var(--h2-size) * var(--font-scale-mobile-small));
+  }
+
+  h3 {
+    font-size: calc(var(--h3-size) * var(--font-scale-mobile-small));
+  }
+
+  h4 {
+    font-size: calc(var(--h4-size) * var(--font-scale-mobile-small));
+  }
+
+  h5 {
+    font-size: calc(var(--h5-size) * var(--font-scale-mobile-small));
+  }
+
+  h6 {
+    font-size: calc(var(--h6-size) * var(--font-scale-mobile-small));
+  }
+
+  .h7 {
+    font-size: calc(var(--h7-size) * var(--font-scale-mobile-small));
+  }
+
+  .h8 {
+    font-size: calc(var(--h8-size) * var(--font-scale-mobile-small));
+  }
+
+  .hotelname,
+  hotelname {
+    font-size: calc(var(--h4-size) * var(--font-scale-mobile-small));
+  }
+
+  .foldername,
+  foldername {
+    font-size: calc(var(--h6-size) * var(--font-scale-mobile-small));
+  }
+}
+
 
 a {
   color: #000;
@@ -810,6 +776,14 @@ a:visited {
   text-align: center;
 }
 
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
 .center {
   display: flex;
   text-align: center;
@@ -817,20 +791,27 @@ a:visited {
   justify-content: center;
 }
 
-top,
-top-left {
-  top: 0;
-  position: absolute;
+.left {
+  display: flex;
+  text-align: left;
+  align-content: left;
+  justify-content: left;
 }
 
-top-right {
-  top: 0;
-  position: absolute;
-  right: 0;
+.right {
+  display: flex;
+  text-align: right;
+  align-content: right;
+  justify-content: right;
 }
 
+margin-top-none {
+  padding-top: 0rem;
+}
+
+.margin-top-s,
 margin-top-s {
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
 }
 
 margin-top-m {
@@ -849,8 +830,13 @@ margin-top-xxl {
   padding-top: 4rem;
 }
 
+margin-bottom-none {
+  padding-bottom: 0rem;
+}
+
+.margin-bottom-s,
 margin-bottom-s {
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
 }
 
 margin-bottom-m {
@@ -869,6 +855,18 @@ margin-bottom-xxl {
   padding-bottom: 4rem;
 }
 
+top,
+top-left {
+  top: 0;
+  position: absolute;
+}
+
+top-right {
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+
 .bottom,
 .bottom-left,
 .bar {
@@ -883,6 +881,7 @@ margin-bottom-xxl {
   right: 0;
 }
 
+.message,
 message {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -893,6 +892,7 @@ message {
   text-transform: uppercase;
 }
 
+.message-bold,
 message.bold {
   font-weight: 600;
 }
@@ -917,19 +917,7 @@ message.bold {
   display: inline-block;
 }
 
-.bottom,
-.bottom-left,
-.bar {
-  bottom: 0;
-  position: absolute;
-}
 
-.bottom-right,
-.bar-right {
-  bottom: 0;
-  position: absolute;
-  right: 0;
-}
 
 message {
   color: #000;
@@ -1407,8 +1395,9 @@ textarea {
   resize: vertical;
 }
 
+space,
 .space {
-  height: 30px;
+  height: 2rem;
 }
 
 .line {
