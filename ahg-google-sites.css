@@ -786,8 +786,12 @@ a:visited {
   display: block;
 }
 
-.lowercase {
+.titlecase {
   text-transform: unset;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 .middle {
