@@ -412,8 +412,10 @@ h1 {
   text-transform: uppercase;
   font-size: 5rem;
   text-rendering: optimizeLegibility;
-  line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 @media (max-width:1024px) {
@@ -442,7 +444,9 @@ h2 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
-  scrollbar-width: none
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 @media (max-width:1024px) {
@@ -471,7 +475,9 @@ h3 {
   text-rendering: optimizeLegibility;
   line-height: 3rem;
   text-wrap: pretty;
-  scrollbar-width: none
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 @media (max-width:1024px) {
@@ -500,7 +506,9 @@ h4 {
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
   text-wrap: pretty;
-  scrollbar-width: none
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 @media (max-width:1024px) {
@@ -529,6 +537,9 @@ h5 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 @media (max-width:1024px) {
@@ -557,6 +568,9 @@ h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 h6 a:hover {
@@ -574,6 +588,9 @@ h7 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 h8 {
@@ -584,6 +601,9 @@ h8 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   text-wrap: pretty;
+  scrollbar-width: none;
+  line-height: 20vh;
+  display: contents;
 }
 
 .hotelname,
