@@ -417,7 +417,7 @@ h1 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 6rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -429,13 +429,13 @@ h1 {
 
 @media (max-width: 1024px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
   }
 }
@@ -459,7 +459,7 @@ h2 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -471,13 +471,13 @@ h2 {
 
 @media (max-width: 1024px) {
   h2 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 }
 
 @media (max-width: 768px) {
   h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
   }
 }
@@ -501,7 +501,7 @@ h3 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 4.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -513,13 +513,13 @@ h3 {
 
 @media (max-width: 1024px) {
   h3 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
 }
 
 @media (max-width: 768px) {
   h3 {
-    font-size: 2rem;
+    font-size: 3.5rem;
     text-align: center;
   }
 }
@@ -543,7 +543,7 @@ h4 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -555,13 +555,13 @@ h4 {
 
 @media (max-width: 1024px) {
   h4 {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 768px) {
   h4 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
   }
 }
@@ -585,7 +585,7 @@ h5 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -597,7 +597,7 @@ h5 {
 
 @media (max-width: 1024px) {
   h5 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -620,7 +620,7 @@ h6 {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -630,6 +630,11 @@ h6 {
   display: contents;
 }
 
+@media (max-width: 1024px) {
+  h6 {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 768px) {
   h6 {
     font-size: 1rem;
@@ -648,8 +653,8 @@ h6 a:hover {
 h7 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
@@ -661,7 +666,7 @@ h7 {
 
 @media (max-width: 768px) {
   h7 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -677,8 +682,8 @@ h7 a:hover {
 h8 {
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   /**  line-height: 1; */
