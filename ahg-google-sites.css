@@ -438,26 +438,21 @@
 
 :root {
   --vh-factor: 2;
-  /* DEFAULT LINE-HEIGHT FACTOR FOR DESKTOP */
-  --font-scale-tablet: 0.85;
-  /* SCALE FOR TABLETS */
-  --font-scale-mobile-large: 0.7;
-  /* SCALE FOR LARGE MOBILE DEVICES */
-  --font-scale-mobile-small: 0.5;
-  /* SCALE FOR SMALL MOBILE DEVICES */
-  --padding-scale-factor: 1;
-  /* DEFAULT SCALE */
 
-
+  /* Font Sizes */
   --h1-size: 6rem;
   --h2-size: 5rem;
   --h3-size: 4.5rem;
   --h4-size: 4rem;
   --h5-size: 3.5rem;
   --h6-size: 3rem;
-
   --h7-size: 2.5rem;
   --h8-size: 1.5rem;
+
+  /* Custom Element Sizes */
+  --hotelname-size: 2rem;
+  --foldername-size: 2rem;
+  --message-size: 2rem;
 
   --padding-scale-factor: 1;
   /* DEFAULT SCALE */
@@ -513,329 +508,107 @@ p {
 }
 
 
-
-
-
-h1 {
-  font-size: var(--h1-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
+/* General Heading Styles */
+h1, h2, h3, h4, h5, h6 {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  color: #000;
+  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   text-wrap: pretty;
   scrollbar-width: none;
   display: contents;
 }
 
-h2 {
-  font-size: var(--h2-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-}
+/* Specific Font Sizes */
+h1 { font-size: var(--h1-size); }
+h2 { font-size: var(--h2-size); }
+h3 { font-size: var(--h3-size); }
+h4 { font-size: var(--h4-size); }
+h5 { font-size: var(--h5-size); }
+h6 { font-size: var(--h6-size); }
 
-h3 {
-  font-size: var(--h3-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-
-}
-
-h3 {
-  font-size: var(--h3-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-}
-
-h4 {
-  font-size: var(--h4-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-}
-
-h5 {
-  font-size: var(--h5-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-  margin: 0;
-  padding: 0;
-}
-
-h6 {
-  font-size: var(--h6-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-}
-
-.h7 {
-  font-size: var(--h7-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
+/* Custom Classes */
+.h7, .h8 {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
 }
+.h7 { font-size: var(--h7-size); }
+.h8 { font-size: var(--h8-size); }
 
-.h8 {
-  font-size: var(--h8-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
-}
-
-.hotelname,
-hotelname {
-  font-size: var(--h7-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
+.hotelname {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
 }
-
-.foldername,
-foldername {
-  font-size: var(--h8-size);
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  color: #000;
+.foldername, .message {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  text-wrap: pretty;
-  scrollbar-width: none;
-  display: contents;
 }
+.hotelname { font-size: var(--hotelname-size); }
+.foldername { font-size: var(--foldername-size); }
+.message { font-size: var(--message-size); }
 
+/* Utility Classes */
+.titlecase { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.bold { font-weight: 600; }
+
+/* Responsive Adjustments */
 @media (max-width: 1024px) {
-  :root {
-    --vh-factor: 1.5;
-    /* ADJUST LINE-HEIGHT FOR TABLETS */
-  }
-
-  h1 {
-    font-size: calc(var(--h1-size) * var(--font-scale-tablet));
+  :root { --vh-factor: 1.5; --font-scale: 0.85; }
+  h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
     line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   }
-
-  h2 {
-    font-size: calc(var(--h2-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h3 {
-    font-size: calc(var(--h3-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h4 {
-    font-size: calc(var(--h4-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h5 {
-    font-size: calc(var(--h5-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h6 {
-    font-size: calc(var(--h6-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h7 {
-    font-size: calc(var(--h7-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h8 {
-    font-size: calc(var(--h8-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .hotelname,
-  hotelname {
-    font-size: calc(var(--h4-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .foldername,
-  foldername {
-    font-size: calc(var(--h6-size) * var(--font-scale-tablet));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h3-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h4-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h5-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h6-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h7-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h8-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--hotelname-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--foldername-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--message-size) * var(--font-scale)); }
 }
 
 @media (max-width: 768px) {
-  :root {
-    --vh-factor: 1;
-    /* ADJUST LINE-HEIGHT FOR LARGE MOBILE DEVICES */
-  }
-
-  h1 {
-    font-size: calc(var(--h1-size) * var(--font-scale-mobile-large));
+  :root { --vh-factor: 1; --font-scale: 0.7; }
+  h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
     line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   }
-
-  h2 {
-    font-size: calc(var(--h2-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h3 {
-    font-size: calc(var(--h3-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h4 {
-    font-size: calc(var(--h4-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h5 {
-    font-size: calc(var(--h5-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h6 {
-    font-size: calc(var(--h6-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h7 {
-    font-size: calc(var(--h7-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h8 {
-    font-size: calc(var(--h7-size) * var(--font-scale-mobile-large));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .hotelname,
-  hotelname {
-    font-size: calc(var(--h4-size) * var(--font-scale-mobile-large));
-  }
-
-  .foldername,
-  foldername {
-    font-size: calc(var(--h6-size) * var(--font-scale-mobile-large));
-  }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h3-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h4-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h5-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h6-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h7-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h8-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--hotelname-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--foldername-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--message-size) * var(--font-scale)); }
 }
 
 @media (max-width: 500px) {
-  :root {
-    --vh-factor: 1;
-    /* ADJUST LINE-HEIGHT FOR SMALL MOBILE DEVICES */
-  }
-
-  h1 {
-    font-size: calc(var(--h1-size) * var(--font-scale-mobile-small));
+  :root { --vh-factor: 1; --font-scale: 0.5; }
+  h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
     line-height: calc(var(--vh-factor) * 1vh + 1.5em);
   }
-
-  h2 {
-    font-size: calc(var(--h2-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h3 {
-    font-size: calc(var(--h3-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h4 {
-    font-size: calc(var(--h4-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h5 {
-    font-size: calc(var(--h5-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  h6 {
-    font-size: calc(var(--h6-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h7 {
-    font-size: calc(var(--h7-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .h8 {
-    font-size: calc(var(--h8-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .hotelname,
-  hotelname {
-    font-size: calc(var(--h4-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
-
-  .foldername,
-  foldername {
-    font-size: calc(var(--h6-size) * var(--font-scale-mobile-small));
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
-  }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h3-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h4-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h5-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h6-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h7-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h8-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--hotelname-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--foldername-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--message-size) * var(--font-scale)); }
 }
 
 
