@@ -1,0 +1,116 @@
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    AHG |   PADDINGM CSS
+|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-padding.css
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+/*
+|    AHG |   LINK THE STYLE SHEET
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-padding.css">
+
+*/
+
+
+:root {
+    --vh-factor: 2;
+    --h1-size: 6rem;
+    --h2-size: 5rem;
+    --h3-size: 4.5rem;
+    --h4-size: 4rem;
+    --h5-size: 3.5rem;
+    --h6-size: 3rem;
+    --h7-size: 2.5rem;
+    --h8-size: 1.5rem;
+    --hotelname-size: 3rem;
+    --foldername-size: 2rem;
+    --message-size: 2rem;
+}
+
+/* General Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #000;
+    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+    text-wrap: pretty;
+    scrollbar-width: none;
+    display: contents;
+  }
+
+  /* Specific Font Sizes */
+h1 { font-size: var(--h1-size); }
+h2 { font-size: var(--h2-size); }
+h3 { font-size: var(--h3-size); }
+h4 { font-size: var(--h4-size); }
+h5 { font-size: var(--h5-size); }
+h6 { font-size: var(--h6-size); }
+
+
+/* Custom Classes */
+.h7 {
+    font-size: var(--h7-size);
+    font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+.h8 {
+  font-size: var(--h8-size);
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+  /* Utility Classes */
+.titlecase { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.bold { font-weight: 600; }
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  :root { --vh-factor: 1.5; --font-scale: 0.85; }
+  h1, h2, h3, h4, h5, h6 { line-height: calc(var(--vh-factor) * 1vh + 1.5em); }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--h2-size) * var(--font-scale)); }
+}
+
+@media (max-width: 768px) {
+  :root { --vh-factor: 1; --font-scale: 0.7; }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--h2-size) * var(--font-scale)); }
+}
+  
+@media (max-width: 500px) {
+  :root { --vh-factor: 1; --font-scale: 0.5; }
+  h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
+  h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h3 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h4 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h5 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  h6 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h7 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .h8 { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .hotelname { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .foldername { font-size: calc(var(--h2-size) * var(--font-scale)); }
+  .message { font-size: calc(var(--h2-size) * var(--font-scale)); }
+}
