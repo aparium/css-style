@@ -515,10 +515,25 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   color: #000;
-  line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+  line-height: calc(var(--vh-factor) * 1vh + .9em);
   text-wrap: pretty;
   scrollbar-width: none;
   display: contents;
+}
+
+.headline-container {
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+  width: 100%";
+}
+
+.headline-wrapper {
+  width: "100%";
+  height: "100%";
+  position: absolute;
+  top: 0;
+  left: 0"
 }
 
 /* Specific Font Sizes */
@@ -560,7 +575,7 @@ h6 { font-size: var(--h6-size); }
 @media (max-width: 1024px) {
   :root { --vh-factor: 1.5; --font-scale: 0.85; }
   h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+    line-height: calc(var(--vh-factor) * 1vh + .9em);
   }
   h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
   h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
@@ -578,7 +593,7 @@ h6 { font-size: var(--h6-size); }
 @media (max-width: 768px) {
   :root { --vh-factor: 1; --font-scale: 0.7; }
   h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+    line-height: calc(var(--vh-factor) *  1vh + .9em);
   }
   h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
   h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
@@ -594,9 +609,9 @@ h6 { font-size: var(--h6-size); }
 }
 
 @media (max-width: 500px) {
-  :root { --vh-factor: 1; --font-scale: 0.5; }
+  :root { --vh-factor: 1; --font-scale: 0.4; }
   h1, h2, h3, h4, h5, h6, .h7, .h8, .hotelname, .foldername, .message {
-    line-height: calc(var(--vh-factor) * 1vh + 1.5em);
+    line-height: calc(var(--vh-factor) * 1vh + .9em);
   }
   h1 { font-size: calc(var(--h1-size) * var(--font-scale)); }
   h2 { font-size: calc(var(--h2-size) * var(--font-scale)); }
@@ -1552,3 +1567,52 @@ space,
 }
 
 /** End Padding All */
+
+
+<style>
+    .iframe-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    }
+
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>h1 Embed</title>
+  <link rel="stylesheet" type="text/css"     href="https://cdn.jsdelivr.net/gh/aparium/css-style/ahg-google-sites.css">
+  <meta charset="UTF-8">
+  <base target="_blank">
+</head>
+
+
+
+<body style="overflow: hidden;">
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+  <div class=" width:"100%" height:"100%" position:absolute; top:0; left: 0">
+
+
+<h1>
+h1 Headline Headline
+</h1>
+  
+  </div>
+</div>
+</html>
+</body>
+</html>
