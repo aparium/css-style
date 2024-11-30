@@ -532,9 +532,24 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   display: flex; 
-  justify-content: left; 
-  align-items: center; 
-  text-align: left;
+}
+
+.headline-wrapper.left {
+  justify-content: flex-start; /* Align content to the left */
+  align-items: center; /* Vertically center */
+  text-align: left; /* Text aligns to the left */
+}
+
+.headline-wrapper.right {
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Vertically center */
+  text-align: right; /* Text aligns to the right */
+}
+
+.headline-wrapper.center {
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  text-align: center; /* Text aligns to the center */
 }
 
 /* Specific Font Sizes */
@@ -1106,23 +1121,25 @@ input[type="week"],
 select[multiple],
 select[size],
 textarea {
-  background: #transparent;
+  background: transparent;
   border: 1px solid #000;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  border-radius: 0; /* Modern browsers support this */
+  box-sizing: border-box; /* No need for vendor prefixes */
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 0.25rem 0rem;
-  outline: 0;
+  margin: 0.25rem 0; /* Simplified units */
   padding: 1rem 1.25rem;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0;
+  outline: 0; /* Consider custom focus styles for accessibility */
+}
+
+/* Optional Focus Styles for Accessibility */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #000; /* Replace with desired color */
+  outline-offset: 2px;
 }
 
 input[type="date"],
@@ -1181,29 +1198,24 @@ select[size] {
   padding: 0;
 }
 
-select[multiple]:disabled select[size]: disabled {
+select[multiple]:disabled,
+select[size]:disabled {
   background: #fff;
   opacity: 1;
 }
 
 .form-select {
-  background: #transparent;
+  background: transparent;
   border: 1px solid #000;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  border-radius: 0; /* No need for vendor prefixes */
+  box-sizing: border-box; /* Modern browsers support this directly */
   color: #000;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 0.25rem 0rem;
-  outline: 0;
+  margin: 0.25rem 0; /* Simplified units */
   padding: 1rem 1.25rem;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0;
+  outline: 0; /* Consider alternatives to avoid accessibility issues */
 }
 
 textarea {
@@ -1233,7 +1245,7 @@ space,
 
 .d-flex {
   padding-top: 1rem;
-  padding-botttom: 1rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -1401,27 +1413,27 @@ space,
 /** Margin All */
 
 .margin-all-none {
-  margin-all: var(--margin-all-none);
+  margin: var(--margin-all-none);
 }
 
 .margin-all-s {
-  margin-all: var(--margin-all-s);
+  margin: var(--margin-all-s);
 }
 
 .margin-all-m {
-  margin-all: var(--margin-all-m);
+  margin: var(--margin-all-m);
 }
 
 .margin-all-l {
-  margin-all: var(--margin-all-l);
+  margin: var(--margin-all-l);
 }
 
 .margin-all-xl {
-  margin-all: var(--margin-all-xl);
+  margin: var(--margin-all-xl);
 }
 
 .margin-all-xxl {
-  margin-all: var(--margin-all-xxl);
+  margin: var(--margin-all-xxl);
 }
 
 /** End margin All */
@@ -1544,76 +1556,48 @@ space,
 /** Padding All */
 
 .padding-all-none {
-  padding-all: var(--padding-all-none);
+  padding: var(--padding-all-none);
 }
 
 .padding-all-s {
-  padding-all: var(--padding-all-s);
+  padding: var(--padding-all-s);
 }
 
 .padding-all-m {
-  padding-all: var(--padding-all-m);
+  padding: var(--padding-all-m);
 }
 
 .padding-all-l {
-  padding-all: var(--padding-all-l);
+  padding: var(--padding-all-l);
 }
 
 .padding-all-xl {
-  padding-all: var(--padding-all-xl);
+  padding: var(--padding-all-xl);
 }
 
 .padding-all-xxl {
-  padding-all: var(--padding-all-xxl);
+  padding: var(--padding-all-xxl);
 }
 
 /** End Padding All */
 
 
-<style>
-    .iframe-container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    }
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
 
-    /* Then style the iframe to fit in the container div with full height and width */
-    .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-</style>
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>h1 Embed</title>
-  <link rel="stylesheet" type="text/css"     href="https://cdn.jsdelivr.net/gh/aparium/css-style/ahg-google-sites.css">
-  <meta charset="UTF-8">
-  <base target="_blank">
-</head>
-
-
-
-<body style="overflow: hidden;">
-<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-  <div class=" width:"100%" height:"100%" position:absolute; top:0; left: 0">
-
-
-<h1>
-h1 Headline Headline
-</h1>
-  
-  </div>
-</div>
-</html>
-</body>
-</html>
