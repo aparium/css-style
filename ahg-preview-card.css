@@ -1,0 +1,120 @@
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    AHG |   GOOGLE SITES CUSTOM CSS
+|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-google-sites.css
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+/*
+|    AHG |   LINK THE STYLE SHEET
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-preview-card.css">
+
+*/
+
+@font-face {
+  font-display: swap;
+  font-family: "Freight Big";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Freight Big";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Freight Big";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf") format("truetype");
+}
+
+   
+.preview-card {
+  display: flex;
+  border: 3px solid #000;
+  border-radius: 0;
+  overflow: hidden;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1)
+}
+.preview-image {
+  width: 400px;
+  height: auto;
+  object-fit: cover
+}
+.preview-info {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+.preview-title {
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 .5rem;
+  color: #000;
+  padding: 2rem 1.5rem 0 1.5rem
+}
+.preview-description {
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: .5rem .5rem;
+  color: #000;
+  padding: 0 1.5rem .5rem 1.5rem
+}
+.preview-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+.preview-link {
+  background-color: #000;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1;
+  margin: calc(var(--margin-l) * var(--margin-scale-factor));
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out
+}
+.preview-link:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+.preview-link:active {
+  border: 3px solid #fff;
+  color: #000;
+  filter: brightness(100%);
+  text-decoration: none
+}

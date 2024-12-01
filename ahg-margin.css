@@ -1,0 +1,285 @@
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    AHG |   marginM CSS
+|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-margin.css
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+/*
+|    AHG |   LINK THE STYLE SHEET
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-margin.css">
+
+*/
+
+
+:root {
+  /* DEFAULT SCALE */
+  --margin-scale-factor: 1;
+  --margin-none: 0rem;
+  --margin-s: 0.5rem;
+  --margin-m: 1rem;
+  --margin-l: 2rem;
+  --margin-xl: 4rem;
+  --margin-xxl: 8rem;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    /* SCALE FOR TABLETS */
+    --margin-scale-factor: 0.85;
+
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* SCALE FOR LARGE MOBILE DEVICES */
+    --margin-scale-factor: 0.75;
+
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    /* SCALE FOR SMALL MOBILE DEVICES */
+    --margin-scale-factor: 0.50;
+
+  }
+}
+
+.margin-all-none,
+.margin-top-none,
+.margin-bottom-none,
+.margin-left-none,
+.margin-right-none,
+.margin-all-none {
+  margin: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-all-s,
+.margin-top-s,
+.margin-bottom-s,
+.margin-left-s,
+.margin-right-s,
+.margin-all-s {
+  margin: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-all-m,
+.margin-top-m,
+.margin-bottom-m,
+.margin-left-m,
+.margin-right-m,
+.margin-all-m {
+  margin: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-all-l,
+.margin-top-l,
+.margin-bottom-l,
+.margin-left-l,
+.margin-right-l,
+.margin-all-l {
+  margin: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-all-xl,
+.margin-top-xl,
+.margin-bottom-xl,
+.margin-left-xl,
+.margin-right-xl,
+.margin-all-xl {
+  margin: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-all-xxl,
+.margin-top-xxl,
+.margin-bottom-xxl,
+.margin-left-xxl,
+.margin-right-xxl,
+.margin-all-xxl {
+  margin: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+:root {
+  --margin-scale-factor: 1;
+  /* Default scale */
+
+  /* Base margin values */
+  --margin-none: 0rem;
+  --margin-s: 0.5rem;
+  --margin-m: 1rem;
+  --margin-l: 2rem;
+  --margin-xl: 4rem;
+  --margin-xxl: 8rem;
+}
+
+/* ADJUST margin SCALE FACTOR FOR SMALLER SCREENS */
+
+@media (max-width: 1024px) {
+  :root {
+    --margin-scale-factor: 0.85;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --margin-scale-factor: 0.75;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --margin-scale-factor: 0.5;
+  }
+}
+
+/* GENERAL margin UTILITY CLASSES */
+.margin-all-none {
+  margin: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-all-s {
+  margin: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-all-m {
+  margin: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-all-l {
+  margin: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-all-xl {
+  margin: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-all-xxl {
+  margin: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+/* END GENERAL margin UTILITY CLASSES */
+
+/* DIRECTION-SPECIFIC margin UTILITY CLASSES */
+.margin-top-none {
+  margin-top: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-top-s {
+  margin-top: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-top-m {
+  margin-top: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-top-l {
+  margin-top: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-top-xl {
+  margin-top: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-top-xxl {
+  margin-top: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+.margin-top-none {
+  margin-top: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-top-s {
+  margin-top: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-top-m {
+  margin-top: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-top-l {
+  margin-top: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-top-xl {
+  margin-top: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-top-xxl {
+  margin-top: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+.margin-bottom-none {
+  margin-bottom: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-bottom-s {
+  margin-bottom: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-bottom-m {
+  margin-bottom: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-bottom-l {
+  margin-bottom: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-bottom-xl {
+  margin-bottom: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-bottom-xxl {
+  margin-bottom: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+.margin-left-none {
+  margin-left: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-left-s {
+  margin-left: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-left-m {
+  margin-left: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-left-l {
+  margin-left: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-left-xl {
+  margin-left: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-left-xxl {
+  margin-left: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+.margin-right-none {
+  margin-right: calc(var(--margin-none) * var(--margin-scale-factor));
+}
+
+.margin-right-s {
+  margin-right: calc(var(--margin-s) * var(--margin-scale-factor));
+}
+
+.margin-right-m {
+  margin-right: calc(var(--margin-m) * var(--margin-scale-factor));
+}
+
+.margin-right-l {
+  margin-right: calc(var(--margin-l) * var(--margin-scale-factor));
+}
+
+.margin-right-xl {
+  margin-right: calc(var(--margin-xl) * var(--margin-scale-factor));
+}
+
+.margin-right-xxl {
+  margin-right: calc(var(--margin-xxl) * var(--margin-scale-factor));
+}
+
+/* END DIRECTION-SPECIFIC margin UTILITY CLASSES */
