@@ -1,16 +1,3 @@
-/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-|    AHG |   APARIUM
-|    AHG |   GOOGLE SITES CUSTOM CSS
-|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-google-sites.css
-|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
-
-/*
-|    AHG |   LINK THE STYLE SHEET
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-thumbnail-preview">
-
-*/
-
 @font-face {
   font-display: swap;
   font-family: "Freight Sans";
@@ -18,9 +5,8 @@
   font-stretch: normal;
   font-weight: 400;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
-  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype")
 }
-
 @font-face {
   font-display: swap;
   font-family: "Freight Sans";
@@ -28,38 +14,37 @@
   font-stretch: normal;
   font-weight: 700;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
-  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype")
 }
-
-/* Style for the thumbnail container */
+:root {
+  --vh-factor: 2;
+  --thumbnail-header-size: 2.5rem;
+  --thumbnail-text-size: 1.5rem
+}
 .thumbnail-container {
   position: relative;
-  width: 100%; /* Set the size of the thumbnail */
+  width: 100%;
   text-align: center;
   cursor: pointer;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif!important;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important
 }
-
 .thumbnail {
-  position: relative;
+  position: relative
 }
-
 .thumbnail-image {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 0px;
-  transition: transform 0.3s ease;
+  border-radius: 0;
+  transition: transform .3s ease
 }
-
-/* Hidden information box */
 .thumbnail-info {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.819);
+  background-color: rgba(0,0,0,.819);
   color: #fff;
   opacity: 0;
   display: flex;
@@ -68,49 +53,90 @@
   align-items: center;
   padding: 10px;
   box-sizing: border-box;
-  border-radius: 8px;
-  transition: opacity 0.3s ease;
+  border-radius: 0;
+  transition: opacity .3s ease
 }
-
-/* Show the info box on hover */
 .thumbnail-container:hover .thumbnail-info {
-  opacity: 1;
+  opacity: 1
 }
-
 .thumbnail-container:hover .thumbnail-image {
-  transform: scale(1.05); /* Slight zoom effect on the image */
+  transform: scale(1.05)
 }
-
 .thumbnail-info h3 {
   margin: 0 0 10px;
-  font-size: 16px;
+  font-size: 16px
 }
-
 .thumbnail-info p {
   margin: 0;
-
-  text-align: center;
+  text-align: center
 }
-
 .thumbnail-header {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif!important;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
   font-weight: 700!important;
   text-transform: uppercase!important;
   text-rendering: optimizeLegibility;
-  color: white;
-  font-size: 2rem!important;
+  color: #fff;
+  font-size: var(--thumbnail-header-size);
   line-height: calc(var(--vh-factor) * 1vh + .9em);
   text-wrap: pretty;
   scrollbar-width: none;
   display: block
 }
-
 .thumbnail-text {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   text-wrap: pretty;
   margin: 0;
   padding: .5rem 0;
-  color: white!important;
-  font-size: 1.5rem!important;
+  color: #fff!important;
+  font-size: var(--thumbnail-text-size);
+  line-height: calc(var(--vh-factor) * 1vh + .9em)
+}
+@media (max-width:1024px) {
+  :root {
+    --vh-factor: 1.5;
+    --font-scale: 0.85
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+}
+@media (max-width:768px) {
+  :root {
+    --vh-factor: 1;
+    --font-scale: 0.7
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) *  1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+}
+@media (max-width:500px) {
+  :root {
+    --vh-factor: 1;
+    --font-scale: 0.4
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
 }
