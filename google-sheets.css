@@ -471,7 +471,6 @@
     --margin-l: 2rem;
     --margin-xl: 4rem;
     --margin-xxl: 8rem;
-  
   }
   
   @media (max-width: 1024px) {
@@ -1282,9 +1281,16 @@
     resize: vertical;
   }
   
-  space,
-  .space {
+  .space-s {
     height: 2rem;
+  }
+    
+  .space-m {
+    height: 4rem;
+  }
+    
+  .space-l {
+    height: 6rem;
   }
   
   .line {
