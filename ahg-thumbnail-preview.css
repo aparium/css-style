@@ -19,13 +19,20 @@
 :root {
   --vh-factor: 2;
   --thumbnail-header-size: 2.5rem;
-  --thumbnail-text-size: 1.5rem
+  --thumbnail-text-size: 1.5rem;
+  --margin-scale-factor: 1;
+  --margin-m: 1rem;
+  --margin-l: 2rem;
+  --padding-scale-factor: 1;
+  --padding-m: 1rem;
+  --padding-l: 2rem
 }
 .thumbnail-container {
   position: relative;
   width: 100%;
   text-align: center;
   cursor: pointer;
+  opacity: 1;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important
 }
 .thumbnail {
@@ -51,7 +58,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: calc(var(--padding-l) * var(--padding-scale-factor));
   box-sizing: border-box;
   border-radius: 0;
   transition: opacity .3s ease
@@ -71,31 +78,34 @@
   text-align: center
 }
 .thumbnail-header {
+  color: #fff;
+  display: block;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
   font-weight: 700!important;
-  text-transform: uppercase!important;
-  text-rendering: optimizeLegibility;
-  color: #fff;
   font-size: var(--thumbnail-header-size);
   line-height: calc(var(--vh-factor) * 1vh + .9em);
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase!important;
   text-wrap: pretty;
   scrollbar-width: none;
-  display: block
 }
 .thumbnail-text {
+  color: #fff!important;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size: var(--thumbnail-text-size);
   font-weight: 400;
-  text-wrap: pretty;
+  line-height: calc(var(--vh-factor) * 1vh + .9em);
   margin: 0;
   padding: .5rem 0;
-  color: #fff!important;
-  font-size: var(--thumbnail-text-size);
-  line-height: calc(var(--vh-factor) * 1vh + .9em)
+  text-wrap: pretty;
 }
 @media (max-width:1024px) {
   :root {
     --vh-factor: 1.5;
-    --font-scale: 0.85
+    --font-scale: 0.85;
+    --padding-scale-factor: 0.85;
+    --margin-scale-factor: 0.85
   }
   .thumbnail-header,
   .thumbnail-text {
@@ -107,11 +117,16 @@
   .thumbnail-text {
     font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
   }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
 }
 @media (max-width:768px) {
   :root {
     --vh-factor: 1;
-    --font-scale: 0.7
+    --font-scale: 0.7;
+    --padding-scale-factor: 0.75;
+    --margin-scale-factor: 0.75
   }
   .thumbnail-header,
   .thumbnail-text {
@@ -123,11 +138,16 @@
   .thumbnail-text {
     font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
   }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
 }
 @media (max-width:500px) {
   :root {
     --vh-factor: 1;
-    --font-scale: 0.4
+    --font-scale: 0.4;
+    --padding-scale-factor: 0.50;
+    --margin-scale-factor: 0.50
   }
   .thumbnail-header,
   .thumbnail-text {
@@ -138,5 +158,8 @@
   }
   .thumbnail-text {
     font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
   }
 }

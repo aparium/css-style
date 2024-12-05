@@ -970,7 +970,7 @@ textarea {
   font-weight: 600;
   color: #787878
 }
-.post-body-container a[href]:not([href^="mailto:"]):not([href^="https://blogger.googleusercontent.com/img/a/"]):not(:has(img)) {
+.post-body-container a[href]:not([href^="mailto:"]):not([href^="https://blogger.googleusercontent.com/img/a/"]):not(:has(img)):not(.preview-link) {
   background-color: #000;
   border-radius: 0;
   border: 3px solid #000;
@@ -991,7 +991,7 @@ textarea {
   -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
   -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
   -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out
+  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
 }
 .post-body-container ol.auto-feed-list li,
 .post-body-container ul.auto-feed-list li {
@@ -1378,7 +1378,6 @@ textarea:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   text-align: center
 }
 .preview-link {

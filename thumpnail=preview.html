@@ -1,98 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Headline Embed</title>
-      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-thumbnail-preview" />
-    <meta charset="UTF-8" />
-    <base target="_blank" />
-  </head>
+
 
 <style>
-/* Style for the thumbnail container */
+@font-face {
+  font-display: swap;
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype")
+}
+@font-face {
+  font-display: swap;
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype")
+}
+:root {
+  --vh-factor: 2;
+  --thumbnail-header-size: 2.5rem;
+  --thumbnail-text-size: 1.5rem;
+  --margin-scale-factor: 1;
+  --margin-m: 1rem;
+  --margin-l: 2rem;
+  --padding-scale-factor: 1;
+  --padding-m: 1rem;
+  --padding-l: 2rem
+}
 .thumbnail-container {
   position: relative;
-  width: 100%; /* Set the size of the thumbnail */
+  width: 100%;
   text-align: center;
   cursor: pointer;
-  font-family: Arial, sans-serif;
+  opacity: 1;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important
 }
-
 .thumbnail {
-  position: relative;
+  position: relative
 }
-
 .thumbnail-image {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 0px;
-  transition: transform 0.3s ease;
+  border-radius: 0;
+  transition: transform .3s ease
 }
-
-/* Hidden information box */
 .thumbnail-info {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.819);
+  background-color: rgba(0,0,0,.819);
   color: #fff;
   opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: calc(var(--padding-l) * var(--padding-scale-factor));
   box-sizing: border-box;
-  border-radius: 8px;
-  transition: opacity 0.3s ease;
+  border-radius: 0;
+  transition: opacity .3s ease
 }
-
-/* Show the info box on hover */
 .thumbnail-container:hover .thumbnail-info {
-  opacity: 1;
+  opacity: 1
 }
-
 .thumbnail-container:hover .thumbnail-image {
-  transform: scale(1.05); /* Slight zoom effect on the image */
+  transform: scale(1.05)
 }
-
 .thumbnail-info h3 {
   margin: 0 0 10px;
-  font-size: 16px;
+  font-size: 16px
 }
-
 .thumbnail-info p {
   margin: 0;
-
-  text-align: center;
+  text-align: center
 }
-
 .thumbnail-header {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif!important;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
   font-weight: 700!important;
   text-transform: uppercase!important;
   text-rendering: optimizeLegibility;
-  color: white;
-  font-size: 2rem!important;
+  color: #fff;
+  font-size: var(--thumbnail-header-size);
   line-height: calc(var(--vh-factor) * 1vh + .9em);
   text-wrap: pretty;
   scrollbar-width: none;
   display: block
 }
-
 .thumbnail-text {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   text-wrap: pretty;
   margin: 0;
   padding: .5rem 0;
-  color: white!important;
-  font-size: 1.5rem!important;
+  color: #fff!important;
+  font-size: var(--thumbnail-text-size);
+  line-height: calc(var(--vh-factor) * 1vh + .9em)
 }
-
+@media (max-width:1024px) {
+  :root {
+    --vh-factor: 1.5;
+    --font-scale: 0.85;
+    --padding-scale-factor: 0.85;
+    --margin-scale-factor: 0.85
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
+@media (max-width:768px) {
+  :root {
+    --vh-factor: 1;
+    --font-scale: 0.7;
+    --padding-scale-factor: 0.75;
+    --margin-scale-factor: 0.75
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) *  1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
+@media (max-width:500px) {
+  :root {
+    --vh-factor: 1;
+    --font-scale: 0.4;
+    --padding-scale-factor: 0.50;
+    --margin-scale-factor: 0.50
+  }
+  .thumbnail-header,
+  .thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em)
+  }
+  .thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale))
+  }
+  .thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale))
+  }
+  .thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
 
 </style>
 
@@ -103,7 +178,7 @@
     <div class="thumbnail">
       <img src="https://res.cloudinary.com/drdgkdg7m/image/upload/v1731072907/rate-loading-instructions_jgddco.jpg" alt="Thumbnail" class="thumbnail-image">
       <div class="thumbnail-info">
-        <h3 class="thumbnail-header"white>RATE LOADING INSTRUCTIONS</h3>
+        <h1 class="thumbnail-header">RATE LOADING INSTRUCTIONS</h1>
         <p class="thumbnail-text">Get the latest production report for your property.﻿
 </p>
       </div>

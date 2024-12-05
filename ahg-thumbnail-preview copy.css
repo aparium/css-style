@@ -1,0 +1,181 @@
+@font-face {
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+:root {
+  --vh-factor: 2;
+  --thumbnail-header-size: 2.5rem;
+  --thumbnail-text-size: 1.5rem;
+  --margin-scale-factor: 1;
+  --margin-m: 1rem;
+  --margin-l: 2rem;
+  --padding-scale-factor: 1;
+  --padding-m: 1rem;
+  --padding-l: 2rem;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail-container {
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
+  text-align: center;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+  transform: scale(1.05);
+}
+
+.thumbnail-container:hover .thumbnail-info {
+  opacity: 1;
+}
+
+.thumbnail-header {
+  text-rendering: optimizeLegibility;
+  scrollbar-width: none;
+  display: block;
+  margin: 0;
+  font-size: var(--thumbnail-header-size);
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
+  font-weight: 700!important;
+  line-height: calc(var(--vh-factor) * 1vh + .9em);
+  color: #fff;
+  text-transform: uppercase!important;
+  text-wrap: pretty;
+}
+
+.thumbnail-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform .3s ease;
+  border-radius: 0;
+}
+
+.thumbnail-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .3s ease;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: rgba(0,0,0,.819);
+  padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.thumbnail-info h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.thumbnail-info p {
+  margin: 0;
+  text-align: center;
+}
+
+.thumbnail-text {
+  margin: 0;
+  padding: .5rem 0;
+  font-size: var(--thumbnail-text-size);
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  line-height: calc(var(--vh-factor) * 1vh + .9em);
+  color: #fff!important;
+  text-wrap: pretty;
+}
+
+@media (max-width:1024px) {
+}
+:root {
+    --vh-factor: 1.5;
+    --font-scale: 0.85;
+    --padding-scale-factor: 0.85;
+    --margin-scale-factor: 0.85;
+  }
+  .thumbnail-header,
+.thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em);
+  }
+.thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale));
+  }
+.thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale));
+  }
+.thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
+
+@media (max-width:768px) {
+}
+:root {
+    --vh-factor: 1;
+    --font-scale: 0.7;
+    --padding-scale-factor: 0.75;
+    --margin-scale-factor: 0.75;
+  }
+  .thumbnail-header,
+.thumbnail-text {
+    line-height: calc(var(--vh-factor) *  1vh + .9em);
+  }
+.thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale));
+  }
+.thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale));
+  }
+.thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
+
+@media (max-width:500px) {
+}
+:root {
+    --vh-factor: 1;
+    --font-scale: 0.4;
+    --padding-scale-factor: 0.50;
+    --margin-scale-factor: 0.50;
+  }
+  .thumbnail-header,
+.thumbnail-text {
+    line-height: calc(var(--vh-factor) * 1vh + .9em);
+  }
+.thumbnail-header {
+    font-size: calc(var(--thumbnail-header-size) * var(--font-scale));
+  }
+.thumbnail-text {
+    font-size: calc(var(--thumbnail-text-size) * var(--font-scale));
+  }
+.thumbnail-info {
+    padding: calc(var(--padding-l) * var(--padding-scale-factor));
+  }
+}
