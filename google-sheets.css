@@ -477,6 +477,7 @@
   @media (max-width: 1024px) {
     :root {
       --padding-scale-factor: 0.85;
+      --margin-scale-factor: 0.85;
       /* SCALE FOR TABLETS */
     }
   }
@@ -484,6 +485,7 @@
   @media (max-width: 768px) {
     :root {
       --padding-scale-factor: 0.75;
+      --margin-scale-factor: 0.75;
       /* SCALE FOR LARGE MOBILE DEVICES */
     }
   }
@@ -491,9 +493,11 @@
   @media (max-width: 500px) {
     :root {
       --padding-scale-factor: 0.50;
+      --margin-scale-factor: 0.50;
       /* SCALE FOR SMALL MOBILE DEVICES */
     }
   }
+
   
   body {
     font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
