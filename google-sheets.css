@@ -509,7 +509,6 @@
   p {
     font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
-    white-space: pre-wrap;
     text-wrap: pretty;
     margin: 0;
     padding: 0;
