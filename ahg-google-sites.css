@@ -743,8 +743,7 @@ message {
   text-transform: uppercase;
 }
 
-.message-bold,
-message.bold {
+.message-bold {
   font-weight: 600;
 }
 
@@ -764,10 +763,11 @@ message.bold {
 
 .secondary {
   color: #e8e828;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  display: inline-block;
 }
 
+.white{
+  color: #FFFF;
+}
 
 
 message {

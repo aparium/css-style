@@ -1,0 +1,498 @@
+{
+  "name": "hotel_information_schema",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "STR_HOTEL_NAME": {
+        "type": "string",
+        "description": "Hotel name as reported by Smith Travel Research."
+      },
+      "HOTEL_NAME": {
+        "type": "string",
+        "description": "The hotel’s name as reported by Smith Travel Research."
+      },
+      "LOCATION": {
+        "type": "string",
+        "description": "The hotel’s location formatted as 'City, State.'"
+      },
+      "HOTEL_STREET_ADDRESS": {
+        "type": "string",
+        "description": "The full street address of the hotel."
+      },
+      "HOTEL_CITY_STATE_ZIP": {
+        "type": "string",
+        "description": "The city, state, and ZIP code of the hotel."
+      },
+      "HOTEL_NEAREST_MAJOR_MARKET": {
+        "type": "string",
+        "description": "The nearest major market, e.g., 'Seattle Metro.'"
+      },
+      "STR_ID": {
+        "type": "string",
+        "description": "The hotel’s ID provided by Smith Travel Research."
+      },
+      "RECOMMENDED_SET": {
+        "type": "string",
+        "description": "A recommended competitive set for the hotel."
+      },
+      "ROOMS": {
+        "type": "integer",
+        "description": "Total number of rooms in the hotel."
+      },
+      "ROOM_SIZE": {
+        "type": "integer",
+        "description": "Average standard room size in square feet."
+      },
+      "SUITE_SIZE": {
+        "type": "integer",
+        "description": "Average suite size in square feet."
+      },
+      "MEETINGS_SPACE": {
+        "type": "integer",
+        "description": "Total meeting space size in square feet."
+      },
+      "RESORT_FEE": {
+        "type": "number",
+        "description": "Amount charged as a resort fee."
+      },
+      "RESORT_FEE_FREQUENCY": {
+        "type": "string",
+        "description": "Frequency of the resort fee (e.g., 'Per Stay,' 'Daily')."
+      },
+      "RESORT_FEE_INCLUSION": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Services or amenities included in the resort fee (e.g., Wi-Fi, parking)."
+      },
+      "PETS_ALLOWED": {
+        "type": "string",
+        "enum": ["Yes", "No"],
+        "description": "Whether pets are allowed ('Yes' or 'No')."
+      },
+      "PET_FREE": {
+        "type": "string",
+        "description": "If the hotel offers free pet accommodations."
+      },
+      "PET_FEE_FREQUENCY": {
+        "type": "string",
+        "description": "Frequency of pet fee charges (e.g., 'Per Stay,' 'Daily')."
+      },
+      "PET_FEE_INCLUSION": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Items or amenities included in the pet fee (e.g., bowls, treats)."
+      }
+    },
+    "required": [
+      "STR_HOTEL_NAME",
+      "HOTEL_NAME",
+      "LOCATION",
+      "HOTEL_STREET_ADDRESS",
+      "HOTEL_CITY_STATE_ZIP",
+      "HOTEL_NEAREST_MAJOR_MARKET",
+      "STR_ID",
+      "RECOMMENDED_SET",
+      "ROOMS",
+      "ROOM_SIZE",
+      "SUITE_SIZE",
+      "MEETINGS_SPACE",
+      "RESORT_FEE",
+      "RESORT_FEE_FREQUENCY",
+      "RESORT_FEE_INCLUSION",
+      "PETS_ALLOWED",
+      "PET_FREE",
+      "PET_FEE_FREQUENCY",
+      "PET_FEE_INCLUSION"
+    ],
+    "additionalProperties": false
+  }
+},
+      "TOP_10_HOTEL_AMENITIES": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "maxItems": 10,
+        "description": "Top 10 general amenities ranked by guest feedback."
+      },
+      "TOP_10_ROOM_AMENITIES": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "maxItems": 10,
+        "description": "Top 10 room amenities ranked by guest feedback."
+      },
+      "TOP_5_POSITIVE": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "maxItems": 5,
+        "description": "Top five aspects praised in guest reviews."
+      },
+      "TOP_5_NEGATIVE": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "maxItems": 5,
+        "description": "Top five areas where guests expressed dissatisfaction."
+      },
+      "AVERAGE_TIMEFRAME": {
+        "type": "string",
+        "description": "Typical timeframe for analyzed reviews."
+      },
+      "OVERALL_SEDIMENT": {
+        "type": "object",
+        "properties": {
+          "POSITIVE": {
+            "type": "string",
+            "description": "Summary of positive feedback in the past six months."
+          },
+          "NEGATIVE": {
+            "type": "string",
+            "description": "Summary of negative feedback in the past six months."
+          }
+        }
+      },
+      "RECOMMENDATIONS": {
+        "type": "object",
+        "properties": {
+          "STRENGTHS": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "description": "Top three strengths the hotel should maintain."
+          },
+          "IMPROVEMENTS": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "description": "Top three critical issues the hotel should address."
+          }
+        }
+      },
+      "PRICEPOINTS": {
+        "type": "object",
+        "properties": {
+          "HIGH_SEASON": {
+            "type": "object",
+            "properties": {
+              "DATE_RANGE": {
+                "type": "string",
+                "description": "Date range for the high season."
+              },
+              "AVERAGE_PRICE": {
+                "type": "number",
+                "description": "Average high season price point."
+              }
+            }
+          },
+          "LOW_SEASON": {
+            "type": "object",
+            "properties": {
+              "DATE_RANGE": {
+                "type": "string",
+                "description": "Date range for the low season."
+              },
+              "AVERAGE_PRICE": {
+                "type": "number",
+                "description": "Average low season price point."
+              }
+            }
+          },
+          "SHOULDER_SEASON": {
+            "type": "object",
+            "properties": {
+              "DATE_RANGE": {
+                "type": "string",
+                "description": "Date range or months considered as shoulder season."
+              }
+            }
+          }
+        }
+      },
+      "FOOD_AND_BEVERAGE": {
+        "type": "object",
+        "properties": {
+          "TOTAL_OUTLETS": {
+            "type": "integer",
+            "description": "Number of food and beverage outlets."
+          },
+          "OUTLET_DETAILS": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Details about each outlet, including name and type."
+          }
+        }
+      },
+      "FACILITIES": {
+        "type": "object",
+        "properties": {
+          "ONSITE_RESTAURANT": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "BAR_LOUNGE": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "ROOFTOP_BAR": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "GIFT_SHOP_MARKET": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "COFFEE_SHOP": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "SPA": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "POOL": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "FIRE_PITS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "CAR_CHARGING_STATIONS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "BUSINESS_CENTER": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "FITNESS_CENTER_24_HOURS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "FITNESS_CENTER_LIMITED_HOURS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "LAUNDRY_FACILITIES": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "MEETING_ROOMS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          }
+        },
+        "required": [
+          "ONSITE_RESTAURANT",
+          "BAR_LOUNGE",
+          "ROOFTOP_BAR",
+          "GIFT_SHOP_MARKET",
+          "COFFEE_SHOP",
+          "SPA",
+          "POOL",
+          "FIRE_PITS",
+          "CAR_CHARGING_STATIONS",
+          "BUSINESS_CENTER",
+          "FITNESS_CENTER_24_HOURS",
+          "FITNESS_CENTER_LIMITED_HOURS",
+          "LAUNDRY_FACILITIES",
+          "MEETING_ROOMS"
+        ]
+      },
+      "ROOM_AMENITIES": {
+        "type": "object",
+        "properties": {
+          "AIR_CONDITIONING": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "SHOWER_TUB_COMBINATION": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "SEPARATE_BATHTUB_AND_SHOWER": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "COFFEE_TEA_MAKER": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "BLACKOUT_CURTAINS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "BATHROBES": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "SLIPPERS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "MICROWAVE": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "PILLOWTOP_MATTRESS": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          },
+          "ERGONOMIC_CHAIR": {
+            "type": "string",
+            "enum": [
+              "Yes",
+              "No",
+              "Information Unavailable"
+            ],
+            "default": "Information Unavailable"
+          }
+        },
+        "required": [
+          "AIR_CONDITIONING",
+          "SHOWER_TUB_COMBINATION",
+          "SEPARATE_BATHTUB_AND_SHOWER",
+          "COFFEE_TEA_MAKER",
+          "BLACKOUT_CURTAINS",
+          "BATHROBES",
+          "SLIPPERS",
+          "MICROWAVE",
+          "PILLOWTOP_MATTRESS",
+          "ERGONOMIC_CHAIR"
+        ]
+      }
+    },
+    "required": []
+  }
+}

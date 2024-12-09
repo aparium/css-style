@@ -1,185 +1,247 @@
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Big';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
-}
-.freight-big-light {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 300;
-  font-style: normal
-}
-.freight-big-regular {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 400;
-  font-style: normal
-}
-.freight-big-mediumn {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 500;
-  font-style: normal
-}
-.freight-big-semibold {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 600;
-  font-style: normal
-}
-.freight-big-bold {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 700;
-  font-style: normal
-}
-.freight-big-black {
-  font-family: "Freight Big",sans-serif;
-  font-weight: 900;
-  font-style: normal
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 100;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 600;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-stretch: normal;
-  font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot');
-  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf') format('truetype'),
-}
-.freight-sans-thin {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 100;
-  font-style: normal
-}
-.freight-sans-light {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 300;
-  font-style: normal
-}
-.freight-sans-regular {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 400;
-  font-style: normal
-}
-.freight-sans-mediumn {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 500;
-  font-style: normal
-}
-.freight-sans-semibold {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 600;
-  font-style: normal
-}
-.freight-sans-bold {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 700;
-  font-style: normal
-}
-.freight-sans-black {
-  font-family: "Freight Sans",sans-serif;
-  font-weight: 900;
-  font-style: normal
-}
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    AHG |   GOOGLE SITES CUSTOM CSS
+|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-google-sites.css
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+/*
+|    AHG |   LINK THE STYLE SHEET
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-google-sites.css">
+
+*/
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/* APH |  APARIUM BRAND FONTS                                                                                  */
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
+|    AHG | Freight-Big                  
+   mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+
+
+   @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Big";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 900;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf") format("truetype");
+  }
+  
+  .freight-big-light {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .freight-big-regular {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .freight-big-mediumn {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .freight-big-semibold {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .freight-big-bold {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .freight-big-black {
+    font-family: "Freight Big", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
+  |    AHG | Freight-Sans                  
+     mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 100;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 900;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot");
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf") format("truetype");
+  }
+  
+  .freight-sans-thin {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .freight-sans-light {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .freight-sans-regular {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .freight-sans-mediumn {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .freight-sans-semibold {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .freight-sans-bold {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .freight-sans-black {
+    font-family: "Freight Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+  
+  /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
+  |    AHG | CUSTOM CSS                  
+     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
 :root {
   --h1-size: 4rem;
   --h2-size: 3rem;
@@ -188,6 +250,9 @@
   --h5-size: 1.10rem;
   --h7-size: 1.05rem;
   --h8-size: 1rem;
+  --hotelname-size: 2rem;
+  --foldername-size: 2rem;
+  --message-size: 2rem;
   --padding-scale-factor: 1;
   --padding-none: 0rem;
   --padding-s: 0.5rem;
@@ -323,18 +388,77 @@ h5 {
 h6 {
   font-size: var(--h6-size)
 }
-.titlecase {
-  text-transform: capitalize
+
+
+.headline-container {
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+  width: 100%;
 }
-.uppercase {
-  text-transform: uppercase
+
+.headline-wrapper {
+  display: flex;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
-.lowercase {
-  text-transform: lowercase
+
+.headline-wrapper.left {
+  align-items: center; /* Vertically center */
+  justify-content: flex-start; /* Align content to the left */
+  text-align: left; /* Text aligns to the left */
 }
-.bold {
-  font-weight: 600
+
+.headline-wrapper.right {
+  align-items: center; 
+  justify-content: flex-end; 
+  text-align: right;
 }
+
+.headline-wrapper.center {
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  text-align: center; /* Text aligns to the center */
+}
+
+.headline-flex-wrapper {
+  align-items: center; 
+  display: flex; 
+  height: 100%;
+  justify-content: center; 
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+/* Custom Classes */
+.h7, .h8 {
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+.h7 { font-size: var(--h7-size); }
+.h8 { font-size: var(--h8-size); }
+
+.hotelname {
+  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+.foldername, .message {
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hotelname { font-size: var(--hotelname-size); }
+.foldername { font-size: var(--foldername-size); }
+.message { font-size: var(--message-size); }
+
+/* Utility Classes */
+.titlecase { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.bold { font-weight: 600; }
 .blog-name h1,
 .blog-name h1 a {
   color: #000;
@@ -1119,19 +1243,31 @@ widget.Attribution .blogger {
   padding: 30px 30px 0 0!important;
   font-size: 1rem!important
 }
-.FeaturedPost h3 {
+
+
+
+.FeaturedPost {
+  margin-bottom: 56px;
+  background: #e6e6e6;
+  padding: 1rem 0px 3rem 0px;
+}
+
+
+.FeaturedPost h3.title {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
   font-weight: 600;
   letter-spacing: .1em;
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 30px 30px 0 0!important;
+  padding: 30px 0 0 0!important;
   font-size: 1.5rem!important;
   display: grid;
   align-content: center;
   justify-items: stretch
 }
+
+
 .heroPost {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1142,27 +1278,9 @@ widget.Attribution .blogger {
   flex-wrap: wrap;
   flex-direction: row
 }
+
 .heroPost.noimage .big-post-title {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  max-width: 900px!important;
-  width: auto!important
-}
-.heroPost .big-post-text {
-  background-color: #e6e6e6;
-  box-sizing: border-box;
-  color: #000;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-width: 0;
-  padding: 5px 100px 0 0
-}
-.heroPost .big-post-title {
-  background-color: #e6e6e6;
+
   box-sizing: border-box;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
@@ -1170,11 +1288,42 @@ widget.Attribution .blogger {
   flex: 1 1 auto;
   max-width: 1048px;
   min-width: 0;
-  padding-top: 0;
-  padding-bottom: 74px;
-  padding-right: 76px;
-  padding-left: 136px
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 136px;
+  padding-left: 136px;
+
 }
+.heroPost.noimage .big-post-title {
+
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 1048px;
+  min-width: 0;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-right: 136px;
+  padding-left: 136px;
+}
+
+.heroPost .big-post-text {
+
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-right: 136px;
+  padding-left: 136px;
+}
+
 .left-aligned-image {
   display: block;
   margin: 0;
@@ -1339,80 +1488,81 @@ textarea:focus {
   text-decoration: none;
   letter-spacing: .1em
 }
-.preview-card {
-  display: flex;
-  border: 3px solid #000;
-  border-radius: 0;
-  overflow: hidden;
-  max-width: 800px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,.1)
+
+.post-body-container .preview-card {
+  display: flex!important;
+  border: 3px solid #000!important;
+  border-radius: 0!important;
+  overflow: hidden!important;
+  max-width: 800px!important;
+  background-color: #fff!important;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1)!important;
 }
-.preview-image {
-  width: 400px;
-  height: auto;
-  object-fit: cover
+.post-body-container .preview-image {
+  width: 400px!important;
+  height: auto!important;
+  object-fit: cover!important;
 }
-.preview-info {
-  font-size: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
+.post-body-container .preview-info {
+  font-size: 1rem!important;
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: space-between!important;
 }
-.preview-title {
-  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
-  font-size: 2rem;
-  font-weight: 800;
-  margin: 0 .5rem;
-  color: #000;
-  padding: 2rem 1.5rem 0 1.5rem
+.post-body-container .preview-title {
+  font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif!important;
+  font-size: 2rem!important;
+  font-weight: 800!important;
+  margin: 0 .5rem!important;
+  color: #000!important;
+  padding: 2rem 1.5rem 0 1.5rem!important;
 }
-.preview-description {
+.post-body-container .preview-description {
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
-  font-size: 1rem;
-  margin: .5rem .5rem;
-  color: #000;
-  padding: 0 1.5rem .5rem 1.5rem
+  font-size: 1rem!important;
+  margin: .5rem .5rem!important;
+  color: #000!important;
+  padding: 0 1.5rem .5rem 1.5rem!important;
 }
-.preview-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center
+.post-body-container .preview-center {
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
 }
-.preview-link {
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-weight: 600;
-  letter-spacing: .1em;
-  line-height: 1;
-  margin: calc(var(--margin-l) * var(--margin-scale-factor));
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out
+.post-body-container .preview-link {
+  background-color: #000!important;
+  border-radius: 0!important;
+  border: 3px solid #000!important;
+  color: #fff!important;
+  cursor: pointer!important;
+  display: inline-block!important;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif!important;
+  font-weight: 600!important;
+  letter-spacing: .1em!important;
+  line-height: 1!important;
+  margin: calc(var(--margin-l) * var(--margin-scale-factor))!important;
+  padding: 1rem 1.75rem!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  text-transform: uppercase!important;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out!important;
 }
-.preview-link:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #fff;
-  color: #000;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  transform-origin: 50%;
-  text-decoration: none;
+.post-body-container .preview-link:hover {
+  -webkit-backface-visibility: visible!important;
+  backface-visibility: visible!important;
+  background-color: #fff!important;
+  color: #000!important;
+  border: 3px solid #000!important;
+  filter: brightness(110%)!important;
+  transform-origin: 50%!important;
+  text-decoration: none!important;
 }
-.preview-link:active {
-  border: 3px solid #fff;
-  color: #000;
-  filter: brightness(100%);
-  text-decoration: none
+.post-body-container .preview-link:active {
+  border: 3px solid #fff!important;
+  color: #000!important;
+  filter: brightness(100%)!important;
+  text-decoration: none!important;
 }
 
 .margin-all-none,
@@ -1589,4 +1739,35 @@ textarea:focus {
 }
 .margin-right-xxl {
   margin-right: calc(var(--margin-xxl) * var(--margin-scale-factor))
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+thead {
+  background-color: #C8C8C8; 
+}
+th, td {
+  text-align: center;
+  padding: 12px;
+}
+th {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+td, th {
+  border: 1px solid #dddddd;
+}
+td p {
+  margin: 0;
 }

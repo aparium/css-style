@@ -1,0 +1,23 @@
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    // --- Part 1: Remove unwanted attributes from all elements ---
+    const allElements = document.querySelectorAll('*');
+    const attributesToRemove = ['style', 'face'];
+
+    allElements.forEach((el) => {
+      attributesToRemove.forEach((attr) => el.removeAttribute(attr));
+    });
+
+    document.querySelectorAll('span:not([class]):not([id])').forEach((span) => {
+      span.replaceWith(...span.childNodes);
+    });
+  
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Select the input element using an appropriate selector
+  const searchInput = document.querySelector('.search-input input'); // Assuming the input is inside an element with class "search-input"
+  
+  // Update the placeholder attribute
+  searchInput.setAttribute('placeholder', 'Search All Updates');
+});
+</script>
