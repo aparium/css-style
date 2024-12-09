@@ -706,13 +706,13 @@ a:visited {
 }
 
 
-top,
-top-left {
+.top,
+.top-left {
   top: 0;
   position: absolute;
 }
 
-top-right {
+.top-right {
   top: 0;
   position: absolute;
   right: 0;
@@ -1664,7 +1664,7 @@ space,
   align-items: center;
   padding: 10px;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 0px;
   transition: opacity 0.3s ease;
 }
 
@@ -1684,7 +1684,6 @@ space,
 
 .thumbnail-info p {
   margin: 0;
-
   text-align: center;
 }
 
@@ -1708,5 +1707,5 @@ space,
   margin: 0;
   padding: .5rem 0;
   color: white!important;
-  font-size: 1.5rem!important;
+  font-size: 2rem!important;
 }
