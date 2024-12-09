@@ -595,7 +595,7 @@ h6 { font-size: var(--h6-size); }
 }
 .foldername, .message {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .hotelname { font-size: var(--hotelname-size); }
@@ -732,8 +732,7 @@ top-right {
   right: 0;
 }
 
-.message,
-message {
+.message {
   color: #000;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2rem;
@@ -744,7 +743,7 @@ message {
 }
 
 .message-bold {
-  font-weight: 600;
+  font-weight: 600!important;
 }
 
 .current {
@@ -753,55 +752,25 @@ message {
 }
 
 .error {
-  color: #f02;
+  color: #FF0022!important;
 }
 
 .gray,
 .grey {
-  color: #828282;
+  color: #828282!important;
 }
 
 .secondary {
-  color: #e8e828;
+  color: #e8e828!important;
 }
 
 .white{
-  color: #FFFFFF;
-}
-
-
-message {
-  color: #000;
-  font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 100%;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-message.bold {
-  font-weight: 600;
+  color: #FFFFFF!important;
 }
 
 .current {
   color: #000;
   font-weight: 700;
-}
-
-.error {
-  color: #f02;
-}
-
-.gray,
-.grey {
-  color: #828282;
-}
-
-.secondary {
-  color: #e8e828;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  display: inline-block;
 }
 
 .red-highlighter{
