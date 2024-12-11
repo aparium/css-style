@@ -521,8 +521,7 @@ hotelname a:hover {
   transition: border-color .15s ease-out,color .15s ease-out;
 }
 
-.foldername
-foldername {
+.foldername {
   color: #000;
   font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
   font-weight: 700;
@@ -532,8 +531,8 @@ foldername {
   line-height: 1
 }
 
-.foldername a:hover
-foldername a:hover {
+.foldername a:hover,
+a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out;
 }
@@ -773,8 +772,7 @@ button.outline {
   text-decoration: none;
 }
 
-.small,
-small {
+.small {
   border: 3px solid #000;
   width: 6rem;
   font-size: .75rem;
@@ -785,8 +783,7 @@ small {
   padding: .5rem 1rem
 }
 
-.small.outline,
-small.outine {
+.small.outline {
   border: 3px solid #000;
   width: 6rem;
   font-size: .75rem;
