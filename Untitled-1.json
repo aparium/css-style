@@ -110,8 +110,7 @@
       "PET_FEE_INCLUSION"
     ],
     "additionalProperties": false
-  }
-},
+  },
       "TOP_10_HOTEL_AMENITIES": {
         "type": "array",
         "items": {
@@ -496,3 +495,4 @@
     "required": []
   }
 }
+

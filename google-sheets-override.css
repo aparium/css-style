@@ -1,0 +1,20 @@
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    AHG |   GOOGLE SITES CUSTOM CSS
+|    AHG |   https://raw.githubusercontent.com/aparium/fonts/main/ahg-google-sites.css
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+/*
+|    AHG |   LINK THE STYLE SHEET
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/google-sheets-override.css">
+
+*/
+
+
+
+
+.modal-dialog-title.modal-dialog-title-draggable span:first-child {
+  font-size: 8;
+  font-family: freight-sans,'Helvetica Neue',Arial,sans-serif;
+}

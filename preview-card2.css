@@ -1,4 +1,43 @@
+[role="button"][aria-label="publish"],
+[role="button"] {
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+  background-color: #000;
+  border-radius: 0;
+  border: 3px solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1;
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s;
+  transition: color 170ms ease-in-out,background-color 170ms ease-in-out
+}
 
+[role="button"][aria-label="publish"]:hover,
+[role="button"]:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none
+}
+
+[role="button"][aria-label="publish"]:active,
+[role="button"]:active {
+  border: 3px solid #fff;
+  color: #000;
+  filter: brightness(100%);
+  text-decoration: none
+}
 
 
 
