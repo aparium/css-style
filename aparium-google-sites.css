@@ -515,8 +515,7 @@ hotelname {
   }
 }
 
-.hotelname a:hover,
-hotelname a:hover {
+.hotelname a:hover {
   border-bottom: 1px solid rgba(26,26,26,.3);
   transition: border-color .15s ease-out,color .15s ease-out;
 }
@@ -584,11 +583,17 @@ a:visited {
   justify-content: center
 }
 
-.center{
+.center {
   display: flex;
   text-align: center;
   align-content: center;
   justify-content: center
+}
+.text-bottom-left {
+  display: flex;
+  text-align: left;
+  align-content: flex-end;
+  justify-content: flex-start;
 }
 
 .top,
@@ -602,13 +607,12 @@ a:visited {
   right: 0
 }
 .bottom,
-.bottom-left,
 .bar {
   bottom: 0;
   position: absolute
 }
 
-.bottom-right,
+.right,
 .bar-right {
   bottom: 0;
   position: absolute;
@@ -647,7 +651,7 @@ margin-bottom-xxl {
 }
 
 
-message {
+.message {
   color: #000;
   font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
   font-size: 2rem;
@@ -657,7 +661,7 @@ message {
   text-transform: uppercase
 }
 
-message.bold {
+.message.bold {
   font-weight: 600;
 }
 
