@@ -961,112 +961,20 @@ a:visited {
   padding-top: .3rem;
   padding-bottom: .3rem;
   }
-  
-.button.outline,
-button.outline {
-  /* Smooth transition on color and background color */
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /* Centering and button styling */
-  background-color: #fff;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #000;
-  cursor: pointer;
-  display: inline-block;
-  /*width: 10rem;*/
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.33rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.2s;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-}
 
-/* Hover state for .button */
-.button.outline:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #000;
-  color: #fff;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  transform-origin: 50%;
-  text-decoration: none;
-}
 
-/* Active state for .button */
-.button.outline:active {
-  border: 3px solid #000;
-  color: #fff;
-  filter: brightness(110%);
-  text-decoration: none;
-}
 
-.button.outline.white,
-button.outline.white {
-  /*Smoothtransitiononcolorandbackgroundcolor*/
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /*Centeringandbuttonstyling*/
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #fff;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  /*width: 10rem;*/
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  /*Updatedfrom100%toensurebettercompatibility*/
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.2s;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-}
-
-/* Hover state for .button */
-.button.outline.white:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #fff;
-  color: #000;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  transform-origin: 50%;
-  text-decoration: none;
-}
-
-/* Active state for .button */
-.button.outline.white:active {
-  border: 3px solid #000;
-  color: #000;
-  filter: brightness(110%);
-  text-decoration: none;
-}
 
 /* Base button style */
-button,
-.button {
+.button,
+button {
   /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 
   /* Centering and button styling */
   background-color: #000;
   border-radius: 0;
-  border: 3px solid #000;
+  border: 2px solid #000;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -1081,7 +989,11 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.2s;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
 }
 
 /* Hover state for .button .outline */
@@ -1091,7 +1003,7 @@ button:hover,
   backface-visibility: visible;
   background-color: #fff;
   color: #000;
-  border: 3px solid #000;
+  border: 2px solid #000;
   filter: brightness(110%);
   transform-origin: 50%;
   text-decoration: none;
@@ -1100,14 +1012,120 @@ button:hover,
 /* Active state for .button .outline */
 button:active,
 .button:active {
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   color: #000;
   filter: brightness(100%);
   text-decoration: none;
 }
 
-.small,
-small {
+/* Active state for .button */
+.button-outline {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  /* Centering and button styling */
+  background-color: transparent;
+  border-radius: 0;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  /*width: 10rem; */
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+}
+
+/* Hover state for .button */
+.button-outline:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  filter: brightness(110%);
+  transform-origin: 50%;
+  text-decoration: none;
+}
+
+/* Active state for .button */
+.button-outline:active {
+  border: 2px solid #000;
+  color: #fff;
+  filter: brightness(110%);
+  text-decoration: none;
+}
+.button-outline-white {
+  /* Smooth transition on color and background color */
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  /* Centering and button styling */
+  background-color: transparent;
+  border-radius: 0;
+  border: 2px solid #fff;
+  color: #FFF;
+  display: inline-block;
+  /*width: 10rem; */
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  /* Updated from 100% to ensure better compatibility */
+  padding: 1rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+}
+
+/* Active state for .button */
+.button-outline-white:active  {
+  background-color: #FFF;
+  border: 2px solid #000;
+  color: #000;
+}
+
+/* Hover state for .button */
+.button-outline-white:hover  {
+  background-color: #FFF;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.arrow::after {
+  content: '➔';
+  color: #000;
+  border-left: 2px solid #000;
+  padding-left: 30px;
+  margin: 0px 0px 0px 30px
+}
+
+.arrow-white::after {
+  content: '➔';
+  color: #FFF; /* Set the default color of the arrow */
+  border-left: 2px solid #FFF; /* Set the default border color of the arrow */
+  padding-left: 30px;
+  margin: 0px 0px 0px 30px;
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out; /* Add smooth transition for color and border color */
+}
+
+.button .outline .small,
+button .outline .small {
   width: 6rem;
   font-size: 0.75rem;
   font-style: normal;
@@ -1117,10 +1135,8 @@ small {
   padding: 0.5rem 1rem;
 }
 
-.small.outline,
-small.outine,
-.small.outline.white,
-small.outine.white {
+.button .outline .white .small
+button .outline .white .small {
   width: 6rem;
   font-size: 0.75rem;
   font-style: normal;
