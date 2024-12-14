@@ -980,29 +980,105 @@ a:visited {
   padding-top: .3rem;
   padding-bottom: .3rem;
   }
-
-
-
-
-/* Base button style */
+  #headline-responsive-container,
+#button-responsive-container {
+  height: 10rem; 
+}
+@media (max-width: 1024px) {
+  #headline-responsive-container,
+  #button-responsive-container {
+    height: 6rem; 
+  }
+}
+@media (max-width: 768px) {
+  #headline-responsive-container,
+  #button-responsive-container {
+    height: 4rem; 
+  }
+}
+.headline-container-center,
+.button-container-center {
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
+}
+.headline-container-left-center,
+.button-container-left-center {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start; 
+  overflow: hidden; 
+}
+.headline-container-left-top,
+.button-container-left-top {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  overflow: hidden; 
+}
+.headline-container-left-bottom,
+.button-container-left-bottom {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: flex-start; 
+  overflow: hidden; 
+}
+.headline-container-right-center,
+.button-container-right-center {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
+  overflow: hidden; 
+}
+.headline-container-right-top,
+.button-container-right-top {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: flex-end; 
+  overflow: hidden; 
+}
+.headline-container-right-bottom,
+.button-container-right-bottom {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: flex-end;
+  overflow: hidden; 
+}
 .button,
 button {
-  /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-
-  /* Centering and button styling */
   background-color: #000;
   border-radius: 0;
   border: 2px solid #000;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  /*width: 10rem; */
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
@@ -1014,8 +1090,6 @@ button {
   -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
 }
-
-/* Hover state for .button .outline */
 button:hover,
 .button:hover {
   -webkit-backface-visibility: visible;
@@ -1027,8 +1101,6 @@ button:hover,
   transform-origin: 50%;
   text-decoration: none;
 }
-
-/* Active state for .button .outline */
 button:active,
 .button:active {
   border: 2px solid #fff;
@@ -1036,24 +1108,18 @@ button:active,
   filter: brightness(100%);
   text-decoration: none;
 }
-
-/* Active state for .button */
 .button-outline {
-  /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /* Centering and button styling */
   background-color: transparent;
   border-radius: 0;
   border: 2px solid #000;
   color: #000;
   cursor: pointer;
   display: inline-block;
-  /*width: 10rem; */
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
@@ -1065,8 +1131,6 @@ button:active,
   -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
 }
-
-/* Hover state for .button */
 .button-outline:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
@@ -1077,8 +1141,6 @@ button:active,
   transform-origin: 50%;
   text-decoration: none;
 }
-
-/* Active state for .button */
 .button-outline:active {
   border: 2px solid #000;
   color: #fff;
@@ -1086,20 +1148,16 @@ button:active,
   text-decoration: none;
 }
 .button-outline-white {
-  /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /* Centering and button styling */
   background-color: transparent;
   border-radius: 0;
   border: 2px solid #fff;
   color: #FFF;
   display: inline-block;
-  /*width: 10rem; */
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
@@ -1111,21 +1169,16 @@ button:active,
   -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
 }
-
-/* Active state for .button */
 .button-outline-white:active  {
   background-color: #FFF;
   border: 2px solid #000;
   color: #000;
 }
-
-/* Hover state for .button */
 .button-outline-white:hover  {
   background-color: #FFF;
   border: 2px solid #000;
   color: #000;
 }
-
 .arrow::after {
   content: '➔';
   color: #000;
@@ -1133,16 +1186,14 @@ button:active,
   padding-left: 30px;
   margin: 0px 0px 0px 30px
 }
-
 .arrow-white::after {
   content: '➔';
-  color: #FFF; /* Set the default color of the arrow */
-  border-left: 2px solid #FFF; /* Set the default border color of the arrow */
+  color: #FFF;
+  border-left: 2px solid #FFF; 
   padding-left: 30px;
   margin: 0px 0px 0px 30px;
-  transition: color 170ms ease-in-out, border-color 170ms ease-in-out; /* Add smooth transition for color and border color */
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
-
 .button .outline .small,
 button .outline .small {
   width: 6rem;
@@ -1153,7 +1204,6 @@ button .outline .small {
   line-height: 100%;
   padding: 0.5rem 1rem;
 }
-
 .button .outline .white .small
 button .outline .white .small {
   width: 6rem;
@@ -1164,7 +1214,6 @@ button .outline .white .small {
   line-height: 100%;
   padding: 0.5rem 1rem;
 }
-
 .link {
   border: none;
   border-color: transparent;
@@ -1179,21 +1228,18 @@ button .outline .white .small {
   text-decoration: none;
   transition: all 0.2s;
 }
-
 .link:hover {
   border: none;
   border-color: transparent;
   color: #682848;
   font-weight: 500;
 }
-
 .link:active {
   border: none;
   border-color: transparent;
   color: #682848;
   filter: brightness(120%);
 }
-
 .link-save {
   border-color: transparent;
   border: none;
@@ -1208,7 +1254,6 @@ button .outline .white .small {
   text-decoration: none;
   transition: all 0.2s;
 }
-
 .form-group action+select,
 .form-group action+textarea .form-group reset+input,
 .form-group label+input,
@@ -1218,16 +1263,12 @@ button .outline .white .small {
 .form-group reset+textarea {
   display: block;
 }
-
 fieldset {
   border: 1px solid #ebebeb;
   margin: 0;
 }
-
 input:is([type="button"], [type="submit"], [type="reset"]):active {
-  /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /* Centering and button styling */
   background-color: #000;
   border-radius: 0;
   border: 3px solid #000;
@@ -1239,7 +1280,6 @@ input:is([type="button"], [type="submit"], [type="reset"]):active {
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
@@ -1250,9 +1290,7 @@ input:is([type="button"], [type="submit"], [type="reset"]):active {
 
 input[type="file"]::file-selector-button:active,
 button:active {
-  /* Smooth transition on color and background color */
   transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  /* Centering and button styling */
   background-color: #000;
   border-radius: 0;
   border: 3px solid #000;
@@ -1264,7 +1302,6 @@ button:active {
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 1;
-  /* Updated from 100% to ensure better compatibility */
   padding: 1rem 1.75rem;
   text-align: center;
   text-decoration: none;
