@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: pretty;
   scrollbar-width: none;
   display: contents;
-  letter-spacing: 0.1em;
+  letter-spacing: -.01em;
 }
 /* General Heading Styles */
 .s1, .s2, .s3, .s4, .s5, .s6 {
@@ -648,6 +648,7 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: pretty;
   scrollbar-width: none;
   display: contents;
+  letter-spacing: 0em;
   letter-spacing: normal;
 }
 p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6  {
@@ -780,7 +781,7 @@ h6 { font-size: var(--h6-size); }
 .hotelname {
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-    letter-spacing: 0.1em;
+  letter-spacing: -.01em;
 }
 .foldername, .message {
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
