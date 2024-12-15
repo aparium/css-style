@@ -630,6 +630,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: calc(var(--vh-factor) * 1vh + 0.9em);
   scrollbar-width: none;
   text-rendering: optimizeLegibility;
+  text-transform: capitalize;
   text-wrap: pretty;
 }
 .h7, .h8 {
@@ -640,6 +641,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: calc(var(--vh-factor) * 1vh + 0.9em);
   scrollbar-width: none;
   text-rendering: optimizeLegibility;
+
   text-wrap: pretty;
 }
 p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6 {
@@ -649,6 +651,19 @@ p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6 {
   hyphens: auto !important;         /* Standard */
   overflow-wrap: break-word;        /* Forces word breaks in unsupported cases */
   word-break: break-word;           /* Fallback for legacy browsers */
+}
+/* Utility Classes */
+.titlecase {
+  text-transform: capitalize !important;
+}
+.uppercase {
+  text-transform: uppercase !important;
+}
+.lowercase {
+  text-transform: lowercase !important;
+}
+.bold {
+  font-weight: 600 !important;
 }
 .headline-container {
   padding-bottom: 56.25%;
@@ -739,6 +754,7 @@ h6 {font-size: var(--h6-size);}
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
   letter-spacing: -0.01em;
+  text-transform: capitalize;
 }
 .foldername,
 .message {
@@ -755,19 +771,6 @@ h6 {font-size: var(--h6-size);}
 }
 .message {
   font-size: var(--message-size);
-}
-/* Utility Classes */
-.titlecase {
-  text-transform: capitalize !important;
-}
-.uppercase {
-  text-transform: uppercase !important;
-}
-.lowercase {
-  text-transform: lowercase !important;
-}
-.bold {
-  font-weight: 600 !important;
 }
 @media (max-width: 1024px) {
   :root {
@@ -1056,7 +1059,7 @@ button-outline-small-white {
 button, 
 .button-outline, 
 .button-outline-white {
-  padding: 1rem 1.75rem;
+  padding: 3% 6%;
   font-size: 1rem;
 }
 .button-small, 
@@ -1065,10 +1068,9 @@ button-small,
 button-outline-small, 
 .button-outline-small-white, 
 button-outline-small-white {
-  padding: 0.5rem 1rem;
+  padding: 2% 3%;
   font-size: 0.75rem;
-  width: 6rem;
-  max-width: 6rem;
+  border: 2px solid #000;
 }
 /* =========================================
    OUTLINE BUTTON STYLES
@@ -1131,21 +1133,26 @@ button:active,
 .arrow::after, 
 .arrow-white::after {
   content: "➔";
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   padding-left: 25px;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 .arrow-small::after, 
 .arrow-small-white::after {
   content: "➔";
   font-size: 0.45rem;
   padding-left: 10px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .arrow-small::after, 
 .arrow::after {
   color: #000;
   border-left: 2px solid #000;
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
 
 .arrow-small-white::after,
