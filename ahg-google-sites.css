@@ -546,13 +546,13 @@
   --h7-size: 2.5rem;
   --h8-size: 1.5rem;
   --s1-size: 3em;
-  --s2-size: 5rem;
-  --s3-size: 2.6em;
-  --s4-size: 4rem;
-  --s5-size: 3.5rem;
-  --s6-size: 3rem;
-  --s7-size: 2.5rem;
-  --s8-size: 1.5rem;
+  --s2-size: 2.5em;
+  --s3-size: 2.0em;
+  --s4-size: 1.75em;
+  --s5-size: 1.5em;
+  --s6-size: 1.25em;
+  --s7-size: 1em;
+  --s8-size: .75em;
   /* Custom Element Sizes */
   --hotelname-size: 4rem;
   --foldername-size: 2rem;
