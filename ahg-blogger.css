@@ -791,231 +791,238 @@ a:visited {
   padding-top: .3rem;
   padding-bottom: .3rem
 }
+#headline-responsive-container,
 #button-responsive-container {
-  height: 10rem; 
+  height: 8rem;
 }
 @media (max-width: 1024px) {
+  #headline-responsive-container,
   #button-responsive-container {
-    height: 6rem; 
+    height: 6rem;
   }
 }
 @media (max-width: 768px) {
+  #headline-responsive-container,
   #button-responsive-container {
-    height: 4rem; 
+    height: 4rem;
   }
 }
+.headline-container-center,
 .button-container-center {
   height: 100%;
-  margin: 0; 
+  margin: 0;
   padding: 0;
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  overflow: hidden; 
-}
-.button-container-left-center {
-  height: 100%; 
-  margin: 0; 
-  padding: 0;
-  display: flex; 
+  display: flex !important;
   align-items: center;
-  justify-content: flex-start; 
-  overflow: hidden; 
+  justify-content: center;
+  overflow: hidden;
 }
+.headline-container-left-center,
+.button-container-left-center {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.headline-container-left-top,
 .button-container-left-top {
-  height: 100%; 
-  margin: 0; 
+  height: 100%;
+  margin: 0;
   padding: 0;
-  display: flex; 
-  align-items: flex-start; 
-  justify-content: flex-start; 
-  overflow: hidden; 
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
 }
+.headline-container-left-bottom,
 .button-container-left-bottom {
-  height: 100%; 
-  margin: 0; 
+  height: 100%;
+  margin: 0;
   padding: 0;
-  display: flex; 
-  align-items: flex-end; 
-  justify-content: flex-start; 
-  overflow: hidden; 
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
 }
+.headline-container-right-center,
 .button-container-right-center {
-  height: 100%; 
-  margin: 0; 
+  height: 100%;
+  margin: 0;
   padding: 0;
-  display: flex; 
-  align-items: center; 
-  justify-content: flex-end; 
-  overflow: hidden; 
-}
-.button-container-right-top {
-  height: 100%; 
-  margin: 0; 
-  padding: 0;
-  display: flex; 
-  align-items: flex-start; 
-  justify-content: flex-end; 
-  overflow: hidden; 
-}
-.button-container-right-bottom {
-  height: 100%; 
-  margin: 0; 
-  padding: 0;
-  display: flex; 
-  align-items: flex-end; 
+  display: flex !important;
+  align-items: center;
   justify-content: flex-end;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.button-outline,
-button-outline {
+.headline-container-right-top,
+.button-container-right-top {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.headline-container-right-bottom,
+.button-container-right-bottom {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+/* =========================================
+   BASE BUTTON STYLES
+========================================= */
+.button, 
+button, 
+.button-small, 
+button-small, 
+.button-outline, 
+.button-outline-white, 
+.button-outline-small, 
+button-outline-small, 
+.button-outline-small-white, 
+button-outline-small-white {
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  background-color: #000;
+  border-radius: 0;
+  border: 2px solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+}
+/* =========================================
+   BUTTON-SPECIFIC SIZES
+========================================= */
+.button, 
+button, 
+.button-outline, 
+.button-outline-white {
+  padding: 3% 6%;
+  font-size: 1rem;
+}
+.button-small, 
+button-small, 
+.button-outline-small, 
+button-outline-small, 
+.button-outline-small-white, 
+button-outline-small-white {
+  padding: 2% 3%;
+  font-size: 0.75rem;
+  border: 2px solid #000;
+}
+/* =========================================
+   OUTLINE BUTTON STYLES
+========================================= */
+.button-outline, 
+.button-outline-small, 
+.button-outline-small-white {
   background-color: transparent;
-  border-radius: 0;
-  border: 3px solid #000;
   color: #000;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-size: 1.33rem;
-  font-weight: 600;
-  letter-spacing: .1em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out
 }
-.button-outline:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-  background-color: #000;
+
+.button-outline-white, 
+.button-outline-small-white {
+  border-color: #fff;
   color: #fff;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  transform-origin: 50%;
-  text-decoration: none
 }
-.button-outline:active {
-  border: 3px solid #000;
-  color: #fff;
-  filter: brightness(110%);
-  text-decoration: none
-}
-.button.outline.white,
-button.outline.white {
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #fff;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-weight: 600;
-  letter-spacing: .1em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out
-}
-.button-outline:hover {
+/* =========================================
+   HOVER STATES
+========================================= */
+button:hover, 
+.button:hover, 
+.button-outline:hover, 
+.button-small:hover, 
+.button-outline-small:hover, 
+.button-outline-white:hover, 
+.button-outline-small-white:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: #fff;
   color: #000;
-  border: 3px solid #000;
+  border: 2px solid #000;
   filter: brightness(110%);
   transform-origin: 50%;
-  text-decoration: none
 }
-.button.outline.white:active {
-  border: 3px solid #000;
+/* =========================================
+   ACTIVE STATES
+========================================= */
+button:active, 
+.button:active, 
+.button-outline:active, 
+.button-small:active, 
+.button-outline-small:active, 
+.button-outline-white:active, 
+.button-outline-small-white:active {
+  border-color: #000;
   color: #000;
-  filter: brightness(110%);
-  text-decoration: none
+  filter: brightness(100%);
 }
-.button,
-.preview-link,
-button {
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
-  background-color: transparent;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
-  font-weight: 600;
-  letter-spacing: .1em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .2s;
-  transition: color 170ms ease-in-out,background-color 170ms ease-in-out
-}
-.button:hover,
-.preview-link:hover,
-button:hover {
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+
+.button-outline-white:active, 
+.button-outline-small-white:active {
   background-color: #fff;
+  border-color: #000;
   color: #000;
-  border: 3px solid #000;
-  filter: brightness(110%);
-  transform-origin: 50%;
-  text-decoration: none
 }
-.button:active,
-.preview-link:active,
-button:active {
-  border: 3px solid #fff;
-  color: #000
+/* =========================================
+   ARROW STYLES
+========================================= */
+
+.arrow::after, 
+.arrow-white::after {
+  content: '➞';
+  font-size: 0.75rem;
+  padding-left: 25px;
+  margin-left: 25px;
 }
+.arrow-small::after, 
+.arrow-small-white::after {
+  content: '➞';
+  font-size: 0.45rem;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.arrow-small::after, 
 .arrow::after {
-  content: '➔';
   color: #000;
   border-left: 2px solid #000;
-  padding-left: 30px;
-  margin: 0 0 0 30px
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
+
+.arrow-small-white::after,
 .arrow-white::after {
-  content: '➔';
   color: #fff;
   border-left: 2px solid #fff;
-  padding-left: 30px;
-  margin: 0 0 0 30px;
-  transition: color 170ms ease-in-out,border-color 170ms ease-in-out
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
-.button .outline .small,
-button .outline .small {
-  width: 6rem;
-  font-size: .75rem;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 100%;
-  padding: .5rem 1rem
-}
-.button .outline .white .small button .outline .white .small {
-  width: 6rem;
-  font-size: .75rem;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 100%;
-  padding: .5rem 1rem
-}
+/* =========================================
+   FLAT STYLES
+======================================== */
 .flat-button {
   backface-visibility: visible!important;
   background-color: transparent!important;
@@ -1042,6 +1049,9 @@ button .outline .small {
   color: #fff!important;
   text-decoration: none!important
 }
+/* =========================================
+   LINK STYLES
+======================================== */
 .link {
   border: none;
   border-color: transparent;
