@@ -2006,7 +2006,10 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   /* 9 */
   /* 10 */
+  text-decoration: none;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2015,16 +2018,18 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button a:hover,
+.uk-button a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button:not(:disabled) {
   cursor: pointer;
@@ -2080,7 +2085,9 @@ select.uk-form-width-xsmall {
   background-color: #000;
   color: #fff;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2089,16 +2096,18 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-primary a:hover,
+.uk-button-primary a {
+  text-decoration: none;
+  color: unset;
 }
 /* Hover */
 .uk-button-primary:hover {
@@ -2124,7 +2133,9 @@ select.uk-form-width-xsmall {
   background-color: #fff;
   color: #000;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2133,16 +2144,18 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-secondary a:hover,
+.uk-button-secondary a {
+  text-decoration: none;
+  color: unset;
 }
 /* Hover */
 .uk-button-secondary:hover {
@@ -2170,7 +2183,9 @@ select.uk-form-width-xsmall {
   background-color: #ff0022;
   color: #fff;
   border: 2px solid #ff0022;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2179,16 +2194,18 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-danger a:hover,
+.uk-button-danger a {
+  text-decoration: none;
+  color: unset;
 }
 /* Hover */
 .uk-button-danger:hover {
@@ -2218,7 +2235,9 @@ select.uk-form-width-xsmall {
   background-color: #c8c8c8;
   color: #787878;
   border: 2px solid #c8c8c8;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2227,16 +2246,24 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-default:disabled a:hover,
+.uk-button-primary:disabled a:hover,
+.uk-button-secondary:disabled a:hover,
+.uk-button-danger:disabled a:hover,
+.uk-button-default:disabled a,
+.uk-button-primary:disabled a,
+.uk-button-secondary:disabled a,
+.uk-button-danger:disabled a {
+  text-decoration: none;
+  color: unset;
 }
 /* Size modifiers
  ========================================================================== */
@@ -2245,7 +2272,9 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   padding: 0.5em 1.25em;
   font-size: 0.75rem;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2254,22 +2283,26 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-small a:hover,
+.uk-button-small a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button-large {
   padding: 0 3.5em;
   line-height: 1.5;
   font-size: 1.25rem;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -2278,16 +2311,18 @@ select.uk-form-width-xsmall {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-large a:hover,
+.uk-button-large a {
+  text-decoration: none;
+  color: unset;
 }
 /* Text modifiers
  ========================================================================== */
@@ -16227,16 +16262,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.hook-button a:hover,
+.hook-button a {
+  text-decoration: none;
+  color: unset;
 }
 .hook-button-arrow-dark::after {
   content: "➔";
@@ -16245,7 +16282,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .hook-button-arrow-dark::after {
   content: "➔";
@@ -16254,7 +16291,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .hook-button-arrow-dark-hover {
   color: #fff;
@@ -16271,7 +16308,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .hook-button-arrow-gray::after {
   content: "➔";
@@ -16280,7 +16317,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .hook-button-arrow-gray-hover {
   color: #aaaaaa;
@@ -16297,7 +16334,7 @@ template {
   color: #fff;
   border-left: 2px solid #fff;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .hook-button-arrow-light::after {
   content: "➔";
@@ -16306,9 +16343,9 @@ template {
   color: #fff;
   border-left: 2px solid #fff;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
-.hook-button-arrow-light {
+.hook-button-arrow-light-hover {
   color: #000;
   border-color: #000;
 }
@@ -16337,7 +16374,9 @@ template {
   background-color: #000;
   color: #fff;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16346,16 +16385,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button a:hover,
+.uk-button a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button:not(:disabled) {
   cursor: pointer;
@@ -16385,7 +16426,9 @@ template {
   background-color: #000;
   color: #fff;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16394,16 +16437,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-default a:hover,
+.uk-button-default a {
+  text-decoration: none;
+  color: unset;
 }
 /* Hover */
 .uk-button-default:hover {
@@ -16426,7 +16471,9 @@ template {
   background-color: #fff;
   color: #000;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16435,16 +16482,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-secondary a:hover,
+.uk-button-secondary a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button-secondary:hover {
   background-color: #000;
@@ -16461,10 +16510,20 @@ template {
  * Outline
  // ========================================================================*/
 .uk-button-outline {
+  padding: 0;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: #000;
   color: #fff;
   border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16473,26 +16532,30 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-outline a:hover,
+.uk-button-outline a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button-outline:hover {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
   border: 2px solid #000;
 }
 .uk-button-outline:active,
 .uk-button-outline.uk-active {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
   border: 2px solid #000;
 }
 /*
@@ -16503,7 +16566,9 @@ template {
   background-color: #ff0022;
   color: #fff;
   border: 2px solid #ff0022;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16512,16 +16577,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-danger a:hover,
+.uk-button-danger a {
+  text-decoration: none;
+  color: unset;
 }
 /* Hover */
 .uk-button-danger:hover {
@@ -16546,7 +16613,9 @@ template {
   background-color: #c8c8c8;
   color: #787878;
   border: 2px solid #c8c8c8;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16555,16 +16624,24 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-default:disabled a:hover,
+.uk-button-primary:disabled a:hover,
+.uk-button-secondary:disabled a:hover,
+.uk-button-danger:disabled a:hover,
+.uk-button-default:disabled a,
+.uk-button-primary:disabled a,
+.uk-button-secondary:disabled a,
+.uk-button-danger:disabled a {
+  text-decoration: none;
+  color: unset;
 }
 /* Size modifiers
  ========================================================================== */
@@ -16573,7 +16650,9 @@ template {
   line-height: 1.5;
   padding: 0.5em 1.25em;
   font-size: 0.75rem;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16582,22 +16661,26 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-small a:hover,
+.uk-button-small a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-button-large {
   padding: 0 3.5em;
   line-height: 1.5;
   font-size: 1.25rem;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16606,16 +16689,18 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.uk-button-large a:hover,
+.uk-button-large a {
+  text-decoration: none;
+  color: unset;
 }
 /* Text modifiers
  ========================================================================== */
@@ -16798,12 +16883,20 @@ template {
 }
 .uk-arrow-button-outline {
   position: relative;
-  color: #000;
-  border-color: #000;
+  padding: 0;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: #000;
   color: #fff;
   border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16812,16 +16905,13 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 .uk-arrow-button-outline::after {
   content: "➔";
@@ -16830,12 +16920,17 @@ template {
   color: #fff;
   border-left: 2px solid #fff;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
+}
+.uk-arrow-button-outline a:hover,
+.uk-arrow-button-outline a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-arrow-button-outline:hover {
-  border-color: #000;
   background-color: #fff;
   color: #000;
+  text-decoration: none;
   border: 2px solid #000;
 }
 .uk-arrow-button-outline:hover::after {
@@ -16845,12 +16940,12 @@ template {
   color: #fff;
   border-left: 2px solid #fff;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-outline:active {
-  border-color: #000;
   background-color: #fff;
   color: #000;
+  text-decoration: none;
   border: 2px solid #000;
 }
 .uk-arrow-button-outline:active::after {
@@ -16860,7 +16955,7 @@ template {
   color: #fff;
   border-left: 2px solid #fff;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-secondary {
   position: relative;
@@ -16868,7 +16963,9 @@ template {
   background-color: #fff;
   color: #000;
   border: 2px solid #000;
+  text-transform: uppercase;
   transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
   border-radius: 0;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
@@ -16877,16 +16974,13 @@ template {
   letter-spacing: 0.1em;
   padding: 1em 2.5em;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s opacity linear;
+  transition: all 0.7s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-appearance: none;
-  transition-property: color, background-color, border-color;
-  -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
-  -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 .uk-arrow-button-secondary::after {
   content: "➔";
@@ -16895,7 +16989,12 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
+}
+.uk-arrow-button-secondary a:hover,
+.uk-arrow-button-secondary a {
+  text-decoration: none;
+  color: unset;
 }
 .uk-arrow-button-secondary:hover {
   border-color: #fff;
@@ -16910,8 +17009,6 @@ template {
   border: 2px solid #000;
 }
 .uk-arrow-button-text {
-  text-transform: uppercase;
-  font-weight: 700;
   position: relative;
   border-width: 0px;
   border-color: transparent;
@@ -16925,7 +17022,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-text::before {
   content: "";
@@ -16944,10 +17041,6 @@ template {
   right: 100%;
   border-bottom: 1px solid currentColor;
   transition: right 0.3s ease-out;
-}
-.uk-arrow-button-text:hover {
-  filter: brightness(110%);
-  text-decoration: none;
 }
 .uk-arrow-button-text:hover::after {
   content: "➔";
@@ -16956,16 +17049,11 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
-}
-.uk-arrow-button-text:hover .hook-button-text-hover {
-  text-decoration: none;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-text:active {
   color: #aaaaaa;
   border-color: #aaaaaa;
-  filter: brightness(120%);
-  text-decoration: none;
 }
 .uk-arrow-button-text-large {
   font-size: 1.5rem;
@@ -16984,7 +17072,7 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-text-large::before {
   content: "";
@@ -17003,10 +17091,6 @@ template {
   right: 100%;
   border-bottom: 1px solid currentColor;
   transition: right 0.3s ease-out;
-}
-.uk-arrow-button-text-large:hover {
-  filter: brightness(110%);
-  text-decoration: none;
 }
 .uk-arrow-button-text-large:hover::after {
   content: "➔";
@@ -17015,16 +17099,11 @@ template {
   color: #000;
   border-left: 2px solid #000;
   margin-left: 25px;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
-}
-.uk-arrow-button-text-large:hover .hook-button-text-hover {
-  text-decoration: none;
+  transition: all 0.7s ease-in-out;
 }
 .uk-arrow-button-text-large:active {
   color: #aaaaaa;
   border-color: #aaaaaa;
-  filter: brightness(120%);
-  text-decoration: none;
 }
 /* ========================================================================
    Component: Card
