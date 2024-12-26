@@ -16957,6 +16957,86 @@ template {
   margin-left: 25px;
   transition: all 0.7s ease-in-out;
 }
+.uk-arrow-button-outline-large {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
+  border-radius: 0;
+  font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 1em 2.5em;
+  text-align: center;
+  transition: all 0.7s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  padding: unset;
+  font-size: unset;
+  font-size: 1.15rem;
+  padding: 2rem 4rem 2rem 4rem;
+}
+.uk-arrow-button-outline-large::after {
+  content: "➔";
+  font-size: 0.75rem;
+  padding-left: 25px;
+  color: #fff;
+  border-left: 2px solid #fff;
+  margin-left: 25px;
+  transition: all 0.7s ease-in-out;
+}
+.uk-arrow-button-outline-large a:hover,
+.uk-arrow-button-outline-large a {
+  text-decoration: none;
+  color: unset;
+}
+.uk-arrow-button-outline-large:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+}
+.uk-arrow-button-outline-large:hover::after {
+  content: "➔";
+  font-size: 0.75rem;
+  padding-left: 25px;
+  color: #fff;
+  border-left: 2px solid #fff;
+  margin-left: 25px;
+  transition: all 0.7s ease-in-out;
+}
+.uk-arrow-button-outline-large:active {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+}
+.uk-arrow-button-outline-large:active::after {
+  content: "➔";
+  font-size: 0.75rem;
+  padding-left: 25px;
+  color: #fff;
+  border-left: 2px solid #fff;
+  margin-left: 25px;
+  transition: all 0.7s ease-in-out;
+}
 .uk-arrow-button-secondary {
   position: relative;
   border: 2px solid transparent;
@@ -17064,6 +17144,10 @@ template {
   border-color: transparent;
   background: transparent;
   color: #000;
+  padding: unset;
+  font-size: unset;
+  font-size: 1.15rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 .uk-arrow-button-text-large::after {
   content: "➔";
