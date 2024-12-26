@@ -14,7 +14,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: transparent;
+  background: #fff;
   color: #000;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
@@ -427,7 +427,7 @@ pre {
   padding: 10px;
   border: 1px solid #a9a9a9;
   border-radius: 3px;
-  background: transparent;
+  background: #fff;
 }
 pre code {
   font-family: Consolas, monaco, monospace;
@@ -1516,7 +1516,7 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 10px;
-  background: transparent;
+  background: #fff;
   color: #000;
   border: 1px solid #a9a9a9;
   transition: 0.2s ease-in-out;
@@ -2592,7 +2592,7 @@ select.uk-form-width-xsmall {
  */
 .uk-section-default {
   --uk-inverse: dark;
-  background: transparent;
+  background: #fff;
 }
 /*
  * Muted
@@ -2854,7 +2854,7 @@ select.uk-form-width-xsmall {
  */
 .uk-tile-default {
   --uk-inverse: dark;
-  background-color: transparent;
+  background-color: #fff;
 }
 /*
  * Muted
@@ -3450,7 +3450,7 @@ select.uk-form-width-xsmall {
  */
 .uk-overlay-default {
   --uk-inverse: dark;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 /*
  * Primary
@@ -3738,12 +3738,12 @@ select.uk-form-width-xsmall {
   height: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  background: transparent;
+  background: #fff;
   border: 1px solid #a9a9a9;
 }
 /* Focus */
 .uk-search-navbar .uk-search-input:focus {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fcfcfc;
   border-color: #fff;
 }
 /*
@@ -4083,7 +4083,7 @@ select.uk-form-width-xsmall {
   /* 3 */
   max-width: 100% !important;
   /* 4 */
-  background: transparent;
+  background: #fff;
   /* 5 */
   opacity: 0;
   transform: translateY(-100px);
@@ -4218,7 +4218,7 @@ select.uk-form-width-xsmall {
   top: 0;
   right: 0;
   padding: 10px;
-  background: transparent;
+  background: #fff;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
@@ -5994,7 +5994,7 @@ ul.uk-nav-sub {
   width: 200px;
   /* 2 */
   padding: 25px;
-  background: transparent;
+  background: #fff;
   color: #000;
   box-shadow: none;
 }
@@ -8371,7 +8371,7 @@ iframe[data-uk-cover] {
 /* Color
  ========================================================================== */
 .uk-background-default {
-  background-color: transparent;
+  background-color: #fff;
 }
 .uk-background-muted {
   background-color: #E6E6E6;
@@ -15780,7 +15780,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: transparent;
+  background: #fff;
   color: #000;
   font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
@@ -16194,7 +16194,7 @@ pre {
   padding: 10px;
   border: 1px solid #a9a9a9;
   border-radius: 3px;
-  background: transparent;
+  background: #fff;
 }
 pre code {
   font-family: Consolas, monaco, monospace;
@@ -17188,13 +17188,6 @@ template {
 .uk-arrow-button-text-large:active {
   color: #aaaaaa;
   border-color: #aaaaaa;
-}
-html,
-em,
-ins,
-mark,
-pre {
-  background: unset;
 }
 /* ========================================================================
    Component: Card
