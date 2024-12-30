@@ -1120,8 +1120,8 @@ button:hover,
 .button-outline-small-white:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   border: 2px solid #000;
   filter: brightness(110%);
   transform-origin: 50%;
