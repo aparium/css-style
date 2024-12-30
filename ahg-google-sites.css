@@ -1097,16 +1097,15 @@ button-outline-small-white {
    OUTLINE BUTTON STYLES
 ========================================= */
 .button-outline, 
-.button-outline-small, 
-.button-outline-small-white {
+.button-outline-small {
   background-color: transparent;
   color: #000;
 }
 
 .button-outline-white, 
 .button-outline-small-white {
-  border-color: #fff;
-  color: #fff;
+  border-color: #fff!important;
+  color: #fff!important;
 }
 /* =========================================
    HOVER STATES
@@ -1115,9 +1114,7 @@ button:hover,
 .button:hover, 
 .button-outline:hover, 
 .button-small:hover, 
-.button-outline-small:hover, 
-.button-outline-white:hover, 
-.button-outline-small-white:hover {
+.button-outline-small:hover {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   background-color: #000;
@@ -1126,6 +1123,19 @@ button:hover,
   filter: brightness(110%);
   transform-origin: 50%;
 }
+
+.button-outline-white:hover, 
+.button-outline-small-white:hover {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  filter: brightness(110%);
+  transform-origin: 50%;
+}
+
+
 /* =========================================
    ACTIVE STATES
 ========================================= */
@@ -1137,14 +1147,14 @@ button:active,
 .button-outline-white:active, 
 .button-outline-small-white:active {
   border-color: #000;
-  color: #000;
+  color: #fff;
   filter: brightness(100%);
 }
 
 .button-outline-white:active, 
 .button-outline-small-white:active {
   background-color: #fff;
-  border-color: #000;
+  border-color: #fff;
   color: #000;
 }
 /* =========================================
