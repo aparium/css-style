@@ -975,7 +975,7 @@ a:visited {
 }
 .headline-container-center,
 .button-container-center {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -985,7 +985,7 @@ a:visited {
 }
 .headline-container-left-center,
 .button-container-left-center {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -995,7 +995,7 @@ a:visited {
 }
 .headline-container-left-top,
 .button-container-left-top {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -1005,7 +1005,7 @@ a:visited {
 }
 .headline-container-left-bottom,
 .button-container-left-bottom {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -1015,7 +1015,7 @@ a:visited {
 }
 .headline-container-right-center,
 .button-container-right-center {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -1025,7 +1025,7 @@ a:visited {
 }
 .headline-container-right-top,
 .button-container-right-top {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
@@ -1035,7 +1035,7 @@ a:visited {
 }
 .headline-container-right-bottom,
 .button-container-right-bottom {
-  height: 100%;
+  height: 100vh; 
   margin: 0;
   padding: 0;
   display: flex !important;
