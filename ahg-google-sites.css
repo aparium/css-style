@@ -538,7 +538,7 @@
 :root {
   --vh-factor: 2;
   /* Font Sizes */
-  --h1-size: 3em;
+  --h1-size: 6em;
   --h2-size: 5rem;
   --h3-size: 2.6em;
   --h4-size: 4rem;
@@ -979,8 +979,8 @@ a:visited {
   margin: 0;
   padding: 0;
   display: flex !important;
-  align-items: center;
-  justify-content: center;
+  align-items: center!important;
+  justify-content: center!important;
   overflow: hidden;
 }
 .headline-container-left-center,
