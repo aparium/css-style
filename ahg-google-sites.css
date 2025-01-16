@@ -25,99 +25,99 @@
    mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-light.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Big";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf") format("truetype");
 }
 
 .freight-big-light {
   font-family: "Freight Big", sans-serif;
-  font-weight: 300;
   font-style: normal;
+  font-weight: 300;
 }
 
 .freight-big-regular {
   font-family: "Freight Big", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 .freight-big-mediumn {
   font-family: "Freight Big", sans-serif;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .freight-big-semibold {
   font-family: "Freight Big", sans-serif;
-  font-weight: 600;
   font-style: normal;
+  font-weight: 600;
 }
 
 .freight-big-bold {
   font-family: "Freight Big", sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
 }
 
 .freight-big-black {
   font-family: "Freight Big", sans-serif;
-  font-weight: 900;
   font-style: normal;
+  font-weight: 900;
 }
 
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
@@ -125,115 +125,115 @@
    mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 100;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-thin.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Sans";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-black.ttf") format("truetype");
 }
 
 .freight-text-thin {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 100;
   font-style: normal;
+  font-weight: 100;
 }
 
 .freight-text-light {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 300;
   font-style: normal;
+  font-weight: 300;
 }
 
 .freight-text-regular {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 .freight-text-mediumn {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .freight-text-semibold {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 600;
   font-style: normal;
+  font-weight: 600;
 }
 
 .freight-text-bold {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
 }
 
 .freight-text-black {
   font-family: "Freight Sans", sans-serif;
-  font-weight: 900;
   font-style: normal;
+  font-weight: 900;
 }
 
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
@@ -241,99 +241,99 @@
    mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-light.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-light.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-light.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-light.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-light.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-book.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-book.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-book.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-book.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-book.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-medium.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-medium.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-semibold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-semibold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-semibold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-semibold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-semibold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-bold.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-bold.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-bold.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Freight Text";
-  font-style: normal;
   font-stretch: normal;
+  font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-black.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-black.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-black.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-black.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-text/freight-text-black.ttf") format("truetype");
 }
 
 .freight-text-light {
   font-family: "Freight Text", sans-serif;
-  font-weight: 300;
   font-style: normal;
+  font-weight: 300;
 }
 
 .freight-text-regular {
   font-family: "Freight Text", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 .freight-text-mediumn {
   font-family: "Freight Text", sans-serif;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .freight-text-semibold {
   font-family: "Freight Text", sans-serif;
-  font-weight: 600;
   font-style: normal;
+  font-weight: 600;
 }
 
 .freight-text-bold {
   font-family: "Freight Text", sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
 }
 
 .freight-text-black {
   font-family: "Freight Text", sans-serif;
-  font-weight: 900;
   font-style: normal;
+  font-weight: 900;
 }
 
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
@@ -341,94 +341,94 @@
    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-regular.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-500.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-600.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-700.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-800.svg#PlayfairDisplay") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/playfair-display-900.svg#PlayfairDisplay") format("svg");
 }
 
 .playfair-display-regular {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 .playfair-display-mediumn {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .playfair-display-semibold {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 600;
   font-style: normal;
+  font-weight: 600;
 }
 
 .playfair-display-bold {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
 }
 
 .playfair-display-extrabold {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 800;
   font-style: normal;
+  font-weight: 800;
 }
 
 .playfair-display-black {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 800;
   font-style: normal;
+  font-weight: 800;
 }
 
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
@@ -436,60 +436,60 @@
    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-700.svg#OpenSans") format("svg");
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot");
   src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.ttf") format("truetype"),
     url("https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-800.svg#OpenSans") format("svg");
@@ -497,38 +497,38 @@
 
 .open-sans-light {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
   font-style: normal;
+  font-weight: 300;
 }
 
 .open-sans-regular {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 .open-sans-mediumn {
   font-family: "Open Sans", sans-serif;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .open-sans-semibold {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
   font-style: normal;
+  font-weight: 600;
 }
 
 .open-sans-bold {
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
 }
 
 .open-sans-extrabold {
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;
   font-style: normal;
+  font-weight: 800;
 }
 
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
@@ -603,55 +603,55 @@ body::-webkit-scrollbar {
   display: none;
 }
 p {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  margin: 0;
   padding: 0;
+  margin: 0;
   text-wrap: pretty;
   white-space: pre-wrap;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
 }
 /* General Heading Styles */
 h1, h2, h3, h4, h5, h6 {
+  line-height: calc(var(--vh-factor) * 1vh + 0.9em);
   color: #000;
+  text-transform: uppercase;
+  text-wrap: pretty;
+  letter-spacing: -0.01em !important;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  letter-spacing: -0.01em !important;
-  line-height: calc(var(--vh-factor) * 1vh + 0.9em);
-  scrollbar-width: none;
-  text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  text-wrap: pretty;
+  scrollbar-width: none;
 }
 /* General Heading Styles */
 .s1, .s2, .s3, .s4, .s5, .s6 {
-  color: #000;
-  font-family: "Freight Text", "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 400;
-  letter-spacing: 0em;
   line-height: calc(var(--vh-factor) * 1vh + 0.9em);
-  scrollbar-width: none;
-  text-rendering: optimizeLegibility;
+  color: #000;
   text-transform: capitalize !important;
   text-wrap: pretty;
+  letter-spacing: 0em;
+  font-family: "Freight Text", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  scrollbar-width: none;
 }
 .h7, .h8 {
-  color: #000;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0em;
   line-height: calc(var(--vh-factor) * 1vh + 0.9em);
-  scrollbar-width: none;
-  text-rendering: optimizeLegibility;
+  color: #000;
 
   text-wrap: pretty;
+  letter-spacing: 0em;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  scrollbar-width: none;
 }
 p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6 {
   -webkit-hyphens: auto !important; /* Chrome, Safari */
   -moz-hyphens: manual !important;  /* Firefox (supports manual) */
   -ms-hyphens: auto !important;     /* Old IE/Edge */
   hyphens: auto !important;         /* Standard */
-  overflow-wrap: break-word;        /* Forces word breaks in unsupported cases */
   word-break: break-word;           /* Fallback for legacy browsers */
+  overflow-wrap: break-word;        /* Forces word breaks in unsupported cases */
 }
 /* Utility Classes */
 .titlecase {
@@ -668,18 +668,18 @@ p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6 {
 }
 
 /* General container for the headline */
-.headline-container {
-  padding-bottom: 56.25%; 
+.headline-container { 
   position: relative;
   display: block;
   width: 100%;
+  padding-bottom: 56.25%;
 }
 
 /* Flex-based wrapper to position content */
 .headline-wrapper {
   display: flex;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .headline-wrapper .bottom,
@@ -745,15 +745,15 @@ p, h1, h2, h3, h4, h5, h6, .h7, .h8, .s1, .s2, .s3, .s4, .s5, .s6 {
 
 /* Flex wrapper to center content */
 .headline-flex-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  text-align: center;
   position: absolute; /* This may be optional depending on your use case */
-  left: 0;
   top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 /* Specific Font Sizes */
@@ -772,17 +772,17 @@ h6 {font-size: var(--h6-size);}
 .s5 {font-size: var(--s5-size);}
 .s6 {font-size: var(--s6-size);}
 .hotelname {
+  text-transform: capitalize;
+  letter-spacing: -0.01em;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 500;
-  letter-spacing: -0.01em;
-  text-transform: capitalize;
 }
 .foldername,
 .message {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
 }
 .hotelname {
   font-size: var(--hotelname-size);
@@ -876,28 +876,28 @@ a:hover {
 a:visited {
   color: #000;
   cursor: pointer;
-  text-decoration: none !important;
-  transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none !important;
 }
 .modal-dialog-title-text {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
   line-height: 100%;
   text-align: center;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 10px;
+  font-weight: 400;
 }
 .message {
+  line-height: 100%;
   color: #000;
+  text-align: left;
+  text-transform: uppercase;
   font-family: "Freight Big", "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2rem;
   font-weight: 500;
-  line-height: 100%;
-  text-align: left;
-  text-transform: uppercase;
 }
 .message-bold {
   font-weight: 600 !important;
@@ -924,38 +924,38 @@ a:visited {
   font-weight: 700;
 }
 .red-highlighter {
-  background-color: #ff0022;
-  border-radius: 0;
-  border-width: 10px;
-  color: white;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline-block;
-  font-size: 1.05rem;
-  font-weight: 700;
   line-height: 100%;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  border-width: 10px;
+  border-radius: 0;
+  color: white;
+  background-color: #ff0022;
   text-align: left;
   text-transform: uppercase;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
 }
 .yellow-highlighter {
-  background-color: #e8e828;
-  border-radius: 0;
-  border-width: 10px;
-  color: #000;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   display: inline-block;
-  font-size: 1.05rem;
-  font-weight: 700;
   line-height: 100%;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  border-width: 10px;
+  border-radius: 0;
+  color: #000;
+  background-color: #e8e828;
   text-align: left;
   text-transform: uppercase;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
 }
 #headline-responsive-container,
 #button-responsive-container {
@@ -975,73 +975,80 @@ a:visited {
 }
 .headline-container-center,
 .button-container-center {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: center!important;
   justify-content: center!important;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: center;
 }
 .headline-container-left-center,
 .button-container-left-center {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: center;
   justify-content: flex-start;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: left;  
 }
 .headline-container-left-top,
 .button-container-left-top {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: flex-start;
   justify-content: flex-start;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: left; 
 }
 .headline-container-left-bottom,
 .button-container-left-bottom {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: flex-end;
   justify-content: flex-start;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: left; 
 }
 .headline-container-right-center,
 .button-container-right-center {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: center;
   justify-content: flex-end;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: right; 
 }
 .headline-container-right-top,
 .button-container-right-top {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: flex-start;
   justify-content: flex-end;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: right; 
 }
 .headline-container-right-bottom,
 .button-container-right-bottom {
-  height: 100vh; 
-  margin: 0;
-  padding: 0;
   display: flex !important;
+  overflow: hidden;
   align-items: flex-end;
   justify-content: flex-end;
-  overflow: hidden;
+  height: 100vh;
+  padding: 0; 
+  margin: 0;
+  text-align: right; 
 }
 /* =========================================
    BASE BUTTON STYLES
@@ -1056,22 +1063,22 @@ button-small,
 button-outline-small, 
 .button-outline-small-white, 
 button-outline-small-white {
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
-  background-color: #000;
-  border-radius: 0;
-  border: 2px solid #000;
-  color: #fff;
-  cursor: pointer;
   display: inline-block;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 0;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
   -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
   -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
 }
 /* =========================================
    BUTTON-SPECIFIC SIZES
@@ -1090,16 +1097,16 @@ button-outline-small,
 .button-outline-small-white, 
 button-outline-small-white {
   padding: 2% 3%;
-  font-size: 0.75rem;
   border: 2px solid #000;
+  font-size: 0.75rem;
 }
 /* =========================================
    OUTLINE BUTTON STYLES
 ========================================= */
 .button-outline, 
 .button-outline-small {
-  background-color: transparent;
   color: #000;
+  background-color: transparent;
 }
 
 .button-outline-white, 
@@ -1115,24 +1122,24 @@ button:hover,
 .button-outline:hover, 
 .button-small:hover, 
 .button-outline-small:hover {
+  border: 2px solid #000;
+  color: #fff;
+  background-color: #000;
+  transform-origin: 50%;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  background-color: #000;
-  color: #fff;
-  border: 2px solid #000;
   filter: brightness(110%);
-  transform-origin: 50%;
 }
 
 .button-outline-white:hover, 
 .button-outline-small-white:hover {
+  border: 2px solid #fff;
+  color: #000;
+  background-color: #fff;
+  transform-origin: 50%;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #fff;
   filter: brightness(110%);
-  transform-origin: 50%;
 }
 
 
@@ -1153,9 +1160,9 @@ button:active,
 
 .button-outline-white:active, 
 .button-outline-small-white:active {
-  background-color: #fff;
   border-color: #fff;
   color: #000;
+  background-color: #fff;
 }
 /* =========================================
    ARROW STYLES
@@ -1163,55 +1170,55 @@ button:active,
 
 .arrow::after, 
 .arrow-white::after {
-  content: "➔";
-  font-size: 0.75rem;
   padding-left: 25px;
   margin-left: 25px;
+  content: "➔";
+  font-size: 0.75rem;
 }
 .arrow-small::after, 
 .arrow-small-white::after {
-  content: "→";
-  font-size: 0.45rem;
   padding-left: 10px;
   margin-left: 10px;
+  content: "→";
+  font-size: 0.45rem;
 }
 .arrow-small::after, 
 .arrow::after {
-  color: #000;
   border-left: 2px solid #000;
-  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  color: #000;
   -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
 
 .arrow-small-white::after,
 .arrow-white::after {
-  color: #fff;
   border-left: 2px solid #fff;
-  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  color: #fff;
   -webkit-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -moz-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -ms-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
   -o-transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+  transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
 /* =========================================
    LINK STYLES
 ======================================== */
 .link {
+  line-height: 100%;
   border: none;
   border-color: transparent;
   color: #000;
   cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  text-transform: uppercase;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-weight: 500;
-  line-height: 100%;
-  text-align: left;
-  text-transform: uppercase;
   text-decoration: none;
-  transition: all 0.2s;
 }
 .link:hover {
   border: none;
@@ -1226,18 +1233,18 @@ button:active,
   filter: brightness(120%);
 }
 .link-save {
-  border-color: transparent;
+  line-height: 100%;
   border: none;
+  border-color: transparent;
   border-color: transparent;
   color: #682848;
   cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.33rem;
   font-weight: 700;
-  line-height: 100%;
-  text-align: left;
   text-decoration: none;
-  transition: all 0.2s;
 }
 .form-group action + select,
 .form-group action + textarea .form-group reset + input,
@@ -1249,79 +1256,79 @@ button:active,
   display: block;
 }
 fieldset {
-  border: 1px solid #ebebeb;
   margin: 0;
+  border: 1px solid #ebebeb;
 }
 input:is([type="button"], [type="submit"], [type="reset"]):active {
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #fff;
-  cursor: pointer;
   display: inline-block;
+  line-height: 1;
+  padding: 1rem 1.75rem;
+  border: 3px solid #000;
+  border-radius: 0;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  transition: all 0.2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.2s;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 }
 input[type="file"]::file-selector-button:active,
 button:active {
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-  background-color: #000;
-  border-radius: 0;
-  border: 3px solid #000;
-  color: #fff;
-  cursor: pointer;
   display: inline-block;
+  line-height: 1;
+  padding: 1rem 1.75rem;
+  border: 3px solid #000;
+  border-radius: 0;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  transition: all 0.2s;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.2s;
-  transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
 }
 input[type="action"],
 select[multiple],
 select[size],
 textarea {
-  border-radius: 0;
   box-sizing: border-box;
-  color: #fff;
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 0.5rem;
-  font-weight: 700;
-  margin: 0;
-  outline: 0;
   padding: 5px 15px;
+  margin: 0;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0;
   -ms-border-radius: 0px;
   -o-border-radius: 0;
-}
-input[type="action"] {
+  border-radius: 0;
+  outline: 0;
   color: #fff;
-  cursor: pointer;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.5rem;
   font-weight: 700;
+}
+input[type="action"] {
   line-height: 100%;
   padding: 5px 15px;
-  text-align: left;
-  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
   transition: all 0.2s;
+  text-align: left;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 input[type="action"]:focus,
 input[type="action"]:hover,
@@ -1330,11 +1337,11 @@ input[type="reset"]:hover,
 select[multiple]:focus,
 select[size]:focus,
 textarea:hover {
+  color: #000;
+  background-color: transparent;
+  transform-origin: 50%;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  background-color: transparent;
-  color: #000;
-  transform-origin: 50%;
 }
 input[type="date"],
 input[type="datetime-local"],
@@ -1352,17 +1359,17 @@ input[type="week"],
 select[multiple],
 select[size],
 textarea {
-  background: transparent;
+  box-sizing: border-box;
+  padding: 1rem 1.25rem;
+  margin: 0.25rem 0;
   border: 1px solid #000;
   border-radius: 0;
-  box-sizing: border-box;
+  outline: 0;
   color: #000;
+  background: transparent;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 0.25rem 0;
-  padding: 1rem 1.25rem;
-  outline: 0;
 }
 input:focus,
 textarea:focus,
@@ -1425,21 +1432,21 @@ select[size] {
 }
 select[multiple]:disabled,
 select[size]:disabled {
-  background: #fff;
   opacity: 1;
+  background: #fff;
 }
-.form-select {
-  background: transparent;
+.form-select { 
+  box-sizing: border-box; 
+  padding: 1rem 1.25rem;
+  margin: 0.25rem 0;
   border: 1px solid #000;
-  border-radius: 0; 
-  box-sizing: border-box;
+  border-radius: 0;
+  outline: 0;
   color: #000;
+  background: transparent;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin: 0.25rem 0; 
-  padding: 1rem 1.25rem;
-  outline: 0;
 }
 textarea {
   resize: vertical;
@@ -1454,11 +1461,11 @@ textarea {
   color: #ffffff;
 }
 .typebot-container {
+  color: #000000;
+  text-wrap: pretty;
+  white-space: pre-wrap;
   font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-  color: #000000;
-  white-space: pre-wrap;
-  text-wrap: pretty;
 }
 .block {
   display: block;
@@ -1700,17 +1707,17 @@ textarea {
 .responsive-iframe {
   position: absolute;
   top: 0;
-  left: 0;
-  bottom: 0;
   right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
 .thumbnail-container {
   position: relative;
   width: 100%;
-  text-align: center;
   cursor: pointer;
+  text-align: center;
   font-family: Arial, sans-serif;
 }
 .thumbnail {
@@ -1727,18 +1734,18 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.819);
-  color: #fff;
-  opacity: 0;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 10px;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
+  padding: 10px;
   border-radius: 0px;
+  opacity: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.819);
   transition: opacity 0.3s ease;
 }
 .thumbnail-container:hover .thumbnail-info {
@@ -1756,23 +1763,23 @@ textarea {
   text-align: center;
 }
 .thumbnail-header {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  text-rendering: optimizeLegibility;
-  color: white;
-  font-size: 2rem !important;
-  line-height: calc(var(--vh-factor) * 1vh + 0.9em);
-  text-wrap: pretty;
-  scrollbar-width: none;
   display: block;
+  line-height: calc(var(--vh-factor) * 1vh + 0.9em);
+  color: white;
+  text-transform: uppercase !important;
+  text-wrap: pretty;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  text-rendering: optimizeLegibility;
+  scrollbar-width: none;
 }
 .thumbnail-text {
-  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  text-wrap: pretty;
-  margin: 0;
   padding: 0.5rem 0;
+  margin: 0;
   color: white !important;
+  text-wrap: pretty;
+  font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 2rem !important;
+  font-weight: 400;
 }
