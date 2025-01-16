@@ -17881,6 +17881,17 @@ template {
 .uk-tile-secondary:not(.uk-preserve-color) h6 {
   color: #fff;
 }
+/* Style modifiers
+ ========================================================================== */
+/*
+ * Default
+ */
+.uk-link-text-dark {
+  color: #000;
+}
+.uk-link-text-light {
+  color: #FFF;
+}
 .hook-navbar {
   white-space: nowrap;
 }
