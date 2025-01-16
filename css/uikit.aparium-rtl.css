@@ -16,8 +16,8 @@ html {
   /* 3 */
   background: #fff;
   color: #000;
-  font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
+  font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 /*
  * Remove the margin in all browsers.
@@ -258,8 +258,8 @@ h1,
 .uk-h1 {
   font-size: 2.23125rem;
   line-height: 1;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
   font-size: 4.4em;
   line-height: 1em;
   text-transform: uppercase;
@@ -272,8 +272,8 @@ h2,
 .uk-h2 {
   font-size: 1.7rem;
   line-height: 1;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
   font-size: 24px;
   line-height: 1em;
   text-transform: none;
@@ -287,8 +287,8 @@ h3,
   font-size: 1.5rem;
   line-height: 1;
   font-size: 2.6em;
-  letter-spacing: 0em;
   line-height: 1.1em;
+  letter-spacing: 0em;
   text-transform: none;
   color: #000000;
   font-family: "Freight Big", "DM Serif Display", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -15654,21 +15654,17 @@ iframe[data-uk-cover] {
  */
 html {
   /* 1 */
-  font-size: 14px;
-  line-height: 1.5;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: #fff;
-  color: #000;
-  font-family: "Freight Sans", "Poppins", "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
 }
 /*
  * Remove the margin in all browsers.
  */
 body {
   margin: 0;
+  text-wrap: pretty;
+  white-space: pre-wrap;
 }
 /* Links
  ========================================================================== */
@@ -15677,9 +15673,9 @@ body {
  */
 a,
 .uk-link {
+  cursor: pointer;
   color: #787878;
   text-decoration: none;
-  cursor: pointer;
 }
 a:hover,
 .uk-link:hover,
@@ -15714,12 +15710,12 @@ strong {
 :not(pre) > code,
 :not(pre) > kbd,
 :not(pre) > samp {
-  /* 1 */
-  font-family: Consolas, monaco, monospace;
-  /* 2 */
-  font-size: 0.875rem;
   /* 3 */
   color: #ff0022;
+  /* 2 */
+  font-size: 0.875rem;
+  /* 1 */
+  font-family: Consolas, monaco, monospace;
   white-space: nowrap;
   padding: 2px 6px;
   background: #E6E6E6;
@@ -15762,10 +15758,10 @@ small {
  */
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
   position: relative;
   vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
 }
 sup {
   top: -0.5em;
@@ -15795,12 +15791,12 @@ canvas,
 img,
 svg,
 video {
+  /* 3 */
+  box-sizing: border-box;
   /* 1 */
   max-width: 100%;
   /* 2 */
   height: auto;
-  /* 3 */
-  box-sizing: border-box;
 }
 /*
  * Deprecated: only needed for `img` elements with `uk-img`
@@ -15867,8 +15863,8 @@ h6,
 .uk-heading-2xlarge,
 .uk-heading-3xlarge {
   margin: 0 0 20px 0;
-  font-weight: 500;
   color: #787878;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000;
   font-family: "Freight Big", "DM Serif Display", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -15901,11 +15897,11 @@ h6,
  */
 h1,
 .uk-h1 {
-  font-size: 2em;
   margin: 0.67em 0;
+  font-size: 2em;
   line-height: 1;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 700;
   font-size: 4.4em;
   line-height: 1em;
   text-transform: uppercase;
@@ -15918,8 +15914,8 @@ h2,
 .uk-h2 {
   font-size: 1.7rem;
   line-height: 1;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
   font-size: 24px;
   line-height: 1em;
   text-transform: none;
@@ -15933,8 +15929,8 @@ h3,
   font-size: 1.5rem;
   line-height: 1;
   font-size: 2.6em;
-  letter-spacing: 0em;
   line-height: 1.1em;
+  letter-spacing: 0em;
   text-transform: none;
   color: #000000;
   font-family: "Freight Big", "DM Serif Display", "Playfair Display", Georgia, "Times New Roman", serif;
@@ -16011,14 +16007,14 @@ dd {
  */
 hr,
 .uk-hr {
-  /* 1 */
-  overflow: visible;
-  /* 2 */
-  text-align: inherit;
   /* 3 */
   margin: 0 0 20px 0;
   border: 0;
   border-top: 1px solid #a9a9a9;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+  text-align: inherit;
 }
 /* Add margin if adjacent element */
 * + hr,
@@ -16034,9 +16030,9 @@ address {
  ========================================================================== */
 blockquote {
   margin: 0 0 20px 0;
+  font-style: italic;
   font-size: 1.25rem;
   line-height: 1.5;
-  font-style: italic;
   color: #787878;
 }
 /* Add margin if adjacent element */
@@ -16064,12 +16060,12 @@ blockquote footer::before {
  * 1. Contain overflow in all browsers.
  */
 pre {
-  font: 0.875rem / 1.5 Consolas, monaco, monospace;
   color: #000;
+  font: 0.875rem / 1.5 Consolas, monaco, monospace;
   -moz-tab-size: 4;
-  tab-size: 4;
   /* 1 */
   overflow: auto;
+  tab-size: 4;
   padding: 10px;
   border: 1px solid #a9a9a9;
   border-radius: 3px;
@@ -16101,8 +16097,8 @@ pre code {
  */
 details,
 main {
-  /* 2 */
   display: block;
+  /* 2 */
 }
 /*
  * Add the correct display in all browsers.
