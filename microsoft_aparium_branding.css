@@ -1,0 +1,395 @@
+
+
+  @font-face {
+    font-family: "Freight Big";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2") format("woff");
+}
+
+  @font-face {
+    font-family: "Freight Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2") format("woff");
+}
+@font-face {
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url"https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2");
+}
+@font-face {
+  font-family: "Freight Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2") format("woff");
+}
+
+body
+{
+    font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+a,
+a:link
+{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a:focus
+{
+    text-decoration: underline;
+}
+
+a:focus:hover
+{
+    text-decoration: underline;
+}
+
+a:active
+{
+    /* Styles for links when the link is being clicked */
+}
+
+.ext-background-image
+{
+    /* Styles for the holder that contains the background image in the default lightbox template */  position: relative;
+  width: 80%;
+  max-width:212px;
+  height: 600px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.ext-background-overlay
+{
+    /* Styles to make changes to the background overlay that adds opacity to the background image */
+}
+
+.ext-header
+{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ext-header-logo
+{
+    display: block;
+    overflow: auto;
+    width: 100%;
+    width: 100%;
+    max-width:212px;
+    height: 150px;
+    background-image: url("https://res.cloudinary.com/drdgkdg7m/image/upload/c_pad,w_150/v1733359414/aparium-mark-light_q6pgqn.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.ext-middle
+{
+    /* Styles for the container in the default lightbox template that alligns the sign in box vertically to the middle and horizontally to the center */
+}
+
+.ext-vertical-split-main-section
+{
+    /* Styles for the container in the vertical split (ADFS) template that contains both a sign in box and a background */
+}
+
+.ext-vertical-split-background-image-container
+{
+    /* Styles for the background in the vertical split (ADFS) template */
+}
+
+.ext-sign-in-box
+{
+    /* Styles for the sign in box container */
+}
+
+.ext-banner-logo
+{
+    display: block;
+    overflow: auto;
+    width: 100%;
+    width: 100%;
+    max-width:212px;
+    height: 150px;
+    background-image: url("https://res.cloudinary.com/drdgkdg7m/image/upload/c_pad,w_300/v1723546986/270x60_300dpi_000_bgiww8.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.ext-title
+{
+    color: #000;
+    text-wrap: pretty;
+    letter-spacing: 0em;
+    font-family: "Freight Big","Playfair Display",Georgia,"Times New Roman",serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.ext-subtitle
+{
+    color: #000;
+    text-transform: uppercase;
+    text-wrap: pretty;
+    letter-spacing: .1em;
+    font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+.ext-header-description
+{
+    /* Styles for the header description displayed below the title for B2C tenants */
+}
+
+.ext-error
+{
+    color: #f02;
+}
+
+.ext-input.ext-text-box
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #828282;
+    background-color: #fff;
+
+}
+
+.ext-input.ext-text-box.ext-has-error
+{
+    border-width: 2px;
+    border-color:  #f02;
+    border-radius: 0;
+}
+
+.ext-input.ext-text-box:hover
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.ext-input.ext-text-box:focus
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.ext-input.ext-text-box:focus:hover
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.ext-password-reset-links-container
+{
+
+}
+
+.ext-button-field-container
+{
+    /* Styles for the buttons container. Helpful to center align or make full width */
+}
+.ext-button-item
+{
+    /* Styles for the button items */
+}
+
+.ext-button.ext-primary
+{
+      display: inline-block;
+      border-radius: 0;
+      outline: 2px solid #000;
+      color: #000;
+      background-color: transparent;
+      cursor: pointer;
+      -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+      transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+
+}
+
+.ext-button.ext-primary:hover
+{
+    outline: 2px solid #000;
+    color: #000;
+    background-color: #000;
+    transform-origin: 50%;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    filter: brightness(110%);
+}
+
+.ext-button.ext-primary:focus
+{
+    border-color: #000;
+    color: #fff;
+    background-color: #fff;
+}
+
+.ext-button.ext-primary:focus:hover
+{
+    border-color: #000;
+    color: #fff;
+    background-color: #fff;
+}
+
+.ext-button.ext-primary:active
+{
+    outline: 2px solid #000;
+    color: #fff;
+    background-color: #fff;
+}
+
+.ext-button.ext-secondary
+{
+      display: inline-block;
+      border-radius: 0;
+      outline: 2px solid #000;
+      background-color: #000;
+      cursor: pointer;
+      -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+
+      transition: color 170ms ease-in-out, background-color 170ms ease-in-out, all 0.2s;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Freight Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+
+}
+
+.ext-button.ext-secondary:hover
+{
+    outline: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    transform-origin: 50%;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    filter: brightness(110%);
+}
+
+.ext-button.ext-secondary:focus
+{
+    border: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    transform-origin: 50%;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    filter: brightness(110%);
+}
+
+.ext-button.ext-secondary:focus:hover
+{
+    border: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    transform-origin: 50%;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    filter: brightness(110%);
+}
+
+.ext-button.ext-secondary:active
+{
+    border-color: #000;
+    color: #000;
+    filter: brightness(100%);
+}
+
+.ext-boilerplate-text
+{
+    /* Styles for the custom message text at the bottom of the sign in box */
+}
+
+.ext-promoted-fed-cred-box
+{
+    /* Styles for sign-in options text box */
+}
+
+.ext-footer
+{
+    /* Styles for the footer at the bottom of the page */
+}
+
+.ext-footer.ext-has-background
+{
+    /* Styles for the footer at the bottom of the page */
+}
+
+.ext-footer-links
+{
+    display: inline-block;
+    width: 12rem;
+    line-height: 100%;
+    padding: .25rem 0;
+    border: none;
+    border-color: transparent;
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: "Freight Sans","Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.link:hover {
+    border: none;
+    border-color: transparent;
+    color: #828282;
+    font-weight: 300;
+  }
+  .link:active {
+    border: none;
+    border-color: transparent;
+    color: #828282;
+    font-weight: 300;
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%)  ;
+}
+.ext-footer-content.ext-footer-item
+{
+    /* Styles for the links in the footer at the bottom of the page */
+}
+
+.ext-footer-content.ext-footer-item.ext-debug-item
+{
+    /* Styles for the debug details ellipsis in the footer at the bottom of the page */
+}
+
+
