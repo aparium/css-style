@@ -1,0 +1,43 @@
+{
+  "@odata.type": "#microsoft.graph.organizationalBrandingProperties",
+  "id": " aparium-theme",
+  "backgroundColor": "#FFF",
+  "backgroundImage": "",
+  "backgroundImageRelativeUrl": "",
+  "bannerLogo": "Stream",
+  "bannerLogoRelativeUrl": "https://res.cloudinary.com/drdgkdg7m/image/upload/v1723546986/270x60_300dpi_000_bgiww8.png",
+  "cdnList": [
+    ""
+  ],
+  "signInPageText": "**Sign In. Let's transform hospitality, together.**  Aparium stands for hospitality done differently.",
+  "squareLogo": "https://res.cloudinary.com/drdgkdg7m/image/upload/v1733359384/aparium-mark-light_pj2a7l.png",
+  "squareLogoRelativeUrl": "",
+  "squareLogoDark": "https://res.cloudinary.com/drdgkdg7m/image/upload/v1733359385/aparium_mark_square_black_500px_zm0sem.jpg",
+  "squareLogoDarkRelativeUrl": "",
+  "usernameHintText": "Enter You're Aparium Email",
+  "contentCustomization": {
+    "@odata.type": "microsoft.graph.contentCustomization"
+  },  
+  "customAccountResetCredentialsUrl": "",
+  "customCannotAccessYourAccountText": "",
+  "customCannotAccessYourAccountUrl": "",
+  "customCSS": "https://cdn.jsdelivr.net/gh/aparium/css-style/microsoft_aparium_branding.css",
+  "customCSSRelativeUrl": "",
+  "customForgotMyPasswordText": "Need Help Signing In?",
+  "customPrivacyAndCookiesText": "Privacy + Cookies Policy",
+  "customPrivacyAndCookiesUrl": "https://www.aparium.com/privacy",
+  "customResetItNowText": "",
+  "customTermsOfUseText": "",
+  "customTermsOfUseUrl": "",
+  "favicon": "https://res.cloudinary.com/drdgkdg7m/image/upload/v1733359384/aparium_mark_circle_white_circle_iazwku.png",
+  "faviconRelativeUrl": "",
+  "headerBackgroundColor": "#FFF",
+  "headerLogo": "https://res.cloudinary.com/drdgkdg7m/image/upload/v1733359384/aparium-mark-light_pj2a7l.png",
+  "headerLogoRelativeUrl": "",
+  "loginPageLayoutConfiguration": {
+    "@odata.type": "microsoft.graph.loginPageLayoutConfiguration"
+  },
+  "loginPageTextVisibilitySettings": {
+    "@odata.type": "microsoft.graph.loginPageTextVisibilitySettings"
+  }
+}
